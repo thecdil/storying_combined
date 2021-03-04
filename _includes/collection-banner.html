@@ -1,48 +1,75 @@
-{% if page.layout == "home-infographic" and site.data.theme.featured-image %}
+{% if page.layout == "home-default" and site.data.theme.featured-image %}
 <style>
+    .backgrounds {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    z-index: -1;
+}
 #home-banner {
     background-image: url('{% include image/featured-image.html %}');
     background-size: cover;
+    width: 100%; 
+    height: 100%;
     background-repeat: no-repeat;
-    background-position: {{ site.data.theme.home-banner-image-position | default: 'top' }};
+    background-position: {{ site.data.theme.home-banner-image-position | default: 'center' }};
+   
 }
 #home-title-box {
     padding-top: {{ site.data.theme.home-title-y-padding | default: '5em' }};
     padding-bottom: {{ site.data.theme.home-title-y-padding | default: '5em' }};
 }
+.titleline{font-size:90px; }
+.titleandtag {position: fixed; bottom: 0%; width:100%}
+.cdil-top {
+    position: fixed;
+    top: 5px;
+    right: 5px !important;
+}
+.fake-image-map{z-index: 100;
+position: fixed;
+bottom: 0;
+right: 10%;
+height: 500px;
+width: 600px;
+a{height 100%;width: 100%;}}
 @media screen and (max-width: 576px) {
     #home-title-box {
         padding-top: 5em;
         padding-bottom: 5em; 
     }
+    .titleline{font-size:55px; position: fixed; top: 10%; left: 10%; }
+    .tagline{font-size:30px;position: fixed; bottom: 15px;    left: 10%; margin-right: 10px;}
+    .fake-image-map{
+        height: 800px;
+        width:100%;
+        left:50%;
+    }
 }
+
+
+
+
 </style>
+<div class="backgrounds">
 <div id="home-banner" class="container-fluid mb-0 p-0">
-    <div id="home-title-box">
-        <div class="title-card p-2 text-center">
-            <a class="d-none d-md-block" href="{{ site.organization-link }}" target="_blank" rel="noopener">
-                <img src="{{ site.organization-logo-nav | relative_url }}" alt="{{ site.organization-name }} home" >
-            </a>
-            <h1 class="display-4">{{ site.title }}</h1>
-            {% if site.tagline %}<p id="home-tagline">{{ site.tagline }}</p>{% endif %}
+    <div id="home-title-box" >
+        <div class=" pl-5
+        pb-2 w-100 col-12 text-dark titleandtag" >
+            <h1 class="display-4 titleline mb-0"  id="titleline"><a class="text-dark" title="error no caribou" href="error.html" >{{ site.title }}</a></h1>
+           <!--{% if site.tagline %}<p class="mb-0 h1 tagline">{{ site.tagline }}</p>{% endif %}--> 
         </div>
     </div>
-    {% unless site.data.theme.featured-image contains '/' %}<div class="text-right p-0 mt-0">
-        <small><a class="text-info featured-link" href="{{ '/items/' | relative_url | append: site.data.theme.featured-image | append: '.html' }}" title="{{ featuredItem.title | escape }}">Featured Image</a></small>
-    </div>{% endunless %}
+   <div class="fake-image-map">
+        <small><a class="text-info " href="error.html" title="error no caribou">
+            <svg class="chart" width="100%" height="100%" style="overflow: visible">
+         <rect x="0" y="0" width="100%" height="100%" fill="transparent"></rect></svg></a></small>
+    </div>
+</div>
 </div>
 {%- else -%}
-<div class="container">
-    <div class="row align-items-center">
-        <div id="title" class="col-md-9">
-            <h1><a class="text-dark font-weight-normal" href="{{ site.baseurl }}/" >{{ site.title }}</a></h1>	 
-            {% if site.tagline %}<p>{{ site.tagline }}</p>{% endif %}
-        </div>
-        <div class="col-md-3 d-none d-lg-block text-right">
-            <a class="btn btn-outline-light" href="{{ site.organization-link }}" target="_blank" rel="noopener">
-                <img class="img-fluid" src="{{ site.organization-logo-banner | relative_url }}" title="{{ site.organization-name }}" alt="{{ site.organization-name }} home" >
-            </a>
-        </div>
-    </div>
-</div>
+{% unless page.layout == 'item' %}{% include cdiltop.html %}{% endunless %}
+    
 {%- endif -%}

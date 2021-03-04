@@ -1,70 +1,32 @@
 ---
 title: About
-layout: about
+layout: para
 permalink: /about.html
 # Edit the markdown on in this file to describe your collection
-# Look in _includes/feature for options to easily add features to the page
 ---
 
-{% include feature/jumbotron.html %} 
+# About the Project
 
-{% include feature/nav-menu.html sections="About CollectionBuilder SA;About the About Page" %}
+{% include about/jumbotron.html %}{% include feature/marginnote.html id="dev" text="The site and project are currently being developed by Jack Kreddell, Christopher Lamb, and [the CDIL](https://cdil.lib.uidaho.edu/), with the full site expected to be released sometime in Spring 2021." %} 
 
-## About CollectionBuilder SA
+***Storying Extinction: Responding to the Loss of North Idaho’s Mountain Caribou*** is a multidisciplinary digital humanities project aimed at representing community response to the recent extirpation (2019) of mountain caribou from the South Selkirk mountains of North Idaho—the last caribou to inhabit the coterminous United States.
 
-This demo collection features items from the University of Idaho Library's [Digital Collections](https://www.lib.uidaho.edu/digital/), and is build using [CollectionBuilder-SA](https://github.com/CollectionBuilder/collectionbuilder-sa).
+The local extinction served as the exigence for a GIS-based deep map, or spatial narrative, which documents the interaction of human and more-than-human communities in North Idaho through geolocated oral histories{% include feature/marginnote-image.html id="oh2" image="Two-Mouth-Lakes-Encounter" text="Debbie Ackley Encounter at Two Mouth Lakes <br> 1 of 4 oral histories" width="50" %} of [caribou encounters]({{ 'browse.html#encounter' | relative_url }}), [game camera]({{ 'browse.html#game camera' | relative_url }}) footage of species currently inhabiting former caribou habitat, and various historical documents about caribou existence in the South Selkirks. 
 
-CollectionBuilder-SA is a "Stand Alone" template for creating digital collection and exhibit websites using Jekyll, given:
+The deep map intends to represent caribou absence by revealing what Thom Van Dooren and Deborah Bird Rose refer to as “the countless interwoven ēthea [styles or ways of life] that together comprise the foundation of our [shared] world.”{% include feature/sidenote.html id="dooreen_rose" text="[https://doi.org/10.1215/22011919-3527731](https://doi.org/10.1215/22011919-3527731)"%} It is grounded in a shared conviction with Van Dooren and Rose that storytelling is an ethical practice, and that the “stories we tell are powerful contributors to the becoming of our shared world” (264).{% include feature/sidenote.html id="dooreen_rose" text="[Section - 'Response: Becoming-Witness'](https://read.dukeupress.edu/environmental-humanities/article/8/1/77/61701/Lively-EthographyStorying-Animist-Worlds#725308)"%}
 
-- a CSV of collection metadata
-- a folder of images, PDFs, audio, or video files
-
-Driven by your collection metadata, the template generates engaging visualizations to browse and explore your objects.
-The resulting static site can be hosted on any basic web server.
-
-[CollectionBuilder](https://github.com/CollectionBuilder/) is an set of open source tools for creating digital collection and exhibit websites that are driven by metadata and powered by modern static web technology.
-See [Getting Started Docs](https://collectionbuilder.github.io/docs/introduction.html) for detailed information.
+It takes the moment of extirpation as a point of departure, as a “fissure” or “gesture,” from the world that calls on our response-ability. And it aims to create a sense of proximity and ethical entanglement with the more-than-human through a practice of spatially situated multispecies storytelling.
 
 
-{% include feature/item-figure.html objectid="demo_001" width="75" %} 
+## Future Development
 
+Currently, the map includes only a fraction of the data we collected between May and September of 2020: 
 
-## About the About Page
+- four [oral histories]({{ 'browse.html#encounter' | relative_url }}) (three from Idaho residents and one from BC) 
+- fourteen game camera images/videos from two locations ([Ball Creek Drainage]({{ 'browse.html#ball creek drainage' | relative_url }}) and [Little Snowy Top]({{ 'browse.html#little snowy top' | relative_url }})) in the Idaho Selkirks. 
+- and a photo of [a mural]({{ 'mapitem?id=caribou-mural-in-sandpoint' | relative_url }}) in Sandpoint, ID.
 
-We want to make About pages exciting, and easy to build. 
+These media are represented as colored nodes on a GIS satellite baselayer of Northern Idaho and surrounding areas. 
+Users can scroll forward or backward for a random selection of map items, or click “view map” to be taken back to the full baselayer where they can browse media from a bird’s eye view. 
 
-The CollectionBuilder about page features a narrowed column with its own (optional) menu, featured content, and some technical information. 
-
-To build one, a user writes in [Markdown](https://guides.github.com/features/mastering-markdown/) and includes  content from the site, as well as typical [Bootstrap](https://getbootstrap.com/) features like cards and modals, using code snippets like those detailed below. 
-
-(Each included file has several options, which are documented in the files themselves. I've given the content widths of 25% and 50% to save space, but you can feature the entire image or document.) 
-
-- Image --> `{% raw %}{% include feature/item-figure.html objectid="demo_001" width="25" %}{% endraw %}`
-
-{% include feature/item-figure.html objectid="demo_001" width="25" %}
-
-- PDF -- > `{% raw %}{% include feature/item-pdf-embed.html objectid="demo_002"  width="25" %}{% endraw %}`
-
-{% include feature/item-pdf-embed.html objectid="demo_002" width="25" %}
-
-- Video: `{% raw %}{% include feature/item-video-embed.html objectid="demo_004" %}{% endraw %}`
-
-{% include feature/item-video-embed.html objectid="demo_004" %}
-
-- Card -- > `{% raw %}{% include feature/card.html header="This is a Card" text="The card features an image from the collection as a cap" objectid="demo_004" width="25" centered=true %}{% endraw %}`
-
-{% include feature/card.html header="This is a Card" text="The card features an image from the collection as a cap" objectid="demo_004" width="25" centered=true %}
-
-- Buttons -- > `{% raw %}{% include feature/button.html text="Button Link to Somewhere" link="https://collectionbuilder.github.io/" color="success" %}{% endraw %}`
-
-{% include feature/button.html text="Button Link to Somewhere" link="https://collectionbuilder.github.io/" color="success" centered=true %}
-  
-- Alerts -- > `{% raw %}{% include feature/alert.html text="this is an *alert* that 'warns' a user" color="warning" align="center" %}{% endraw %}`
-
-{% include feature/alert.html text="This is an *alert* that 'warns' a user with centrally aligned text." color="warning" align="center"  %}
-
-- Modals -- > `{% raw %}{% include feature/modal.html button="This is a modal using a 'primary' colored button to invite clicking" title="when clicked:" text="A Modal will pop out a box with some more information" color="primary"  %}{% endraw %}`
-
-{% include feature/modal.html button="This is a modal using a 'primary' colored button to invite clicking" title="When clicked:" text="A Modal will pop out a box with some more information" color="primary"  %}
-
-We hope this makes it easier for site builders to develop the collection AND add interesting and engaging contextual information.  
+Eventually the map will be peppered with various nodes that will enable users to drop into the space and view its unfolding at a particular location and time, or to witness the retelling of a caribou encounter from the geographic location of its occurrence.

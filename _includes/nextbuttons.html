@@ -1,0 +1,9 @@
+{% assign page = site.data.pages | where_exp: 'item', 'item.url == page.url' %}
+
+<div id="item-nav">
+    <div class="d-none d-md-block">
+        <!-- {{page.title}}-->
+        <a id="back-button" href="{{page.prevlink | relative_url }}" alt="{{page.prevtitle}}" title="{{page.prevtitle}}" class="h2 previous btn btn-lg btn-outline-info text-info"  >&laquo;</a>
+        <a id="next-button" href="{{page.nextlink | relative_url }}" alt="{{page.nexttitle}}" title="{{page.nexttitle}}" class="h2 next btn btn-lg btn-outline-info text-info">&raquo;</a>
+    </div>
+</div>

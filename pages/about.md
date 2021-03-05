@@ -24,7 +24,7 @@ Currently, the map includes only a fraction of the data we collected between May
 
 - four [oral histories]({{ 'browse.html#encounter' | relative_url }}) (three from Idaho residents and one from BC) 
 - fourteen game camera images/videos from two locations ([Ball Creek Drainage]({{ 'browse.html#ball creek drainage' | relative_url }}) and [Little Snowy Top]({{ 'browse.html#little snowy top' | relative_url }})) in the Idaho Selkirks. 
-- and a photo of [a mural]({{ 'mapitem?id=caribou-mural-in-sandpoint' | relative_url }}) in Sandpoint, ID.
+- and a photo of [a mural]({{ 'mapitem.html?id=caribou-mural-in-sandpoint' | relative_url }}) in Sandpoint, ID.
 
 These media are represented as colored nodes on a GIS satellite baselayer of Northern Idaho and surrounding areas. 
 Users can scroll forward or backward for a random selection of map items, or click “view map” to be taken back to the full baselayer where they can browse media from a bird’s eye view. 

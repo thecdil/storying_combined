@@ -1,6 +1,6 @@
 <style>
 #jumbo-feature {
-    background-image: url('{% if site.data.theme.about-featured-image %}{%- unless site.data.theme.about-featured-image contains '/' -%}{% assign aboutFeaturedItem = site.data[site.metadata] | where: 'objectid', site.data.theme.about-featured-image | first %}{% unless aboutFeaturedItem.youtubeid %}{{ aboutFeaturedItem.filename | prepend: '/objects/' | relative_url }}{% else %}https://img.youtube.com/vi/{{ aboutFeaturedItem.youtubeid }}/maxresdefault.jpg{% endunless %}{% else %}{{ site.data.theme.about-featured-image | default: '/assets/img/collectionbuilder-logo.png' | absolute_url }}{% endunless %}{% else %}{% include image/featured-image.html %}{% endif %}');
+    background-image: url('{% if site.data.theme.about-featured-image %}{%- unless site.data.theme.about-featured-image contains '/' -%}{% assign aboutFeaturedItem = site.data[site.metadata] | where: 'objectid', site.data.theme.about-featured-image | first %}{% unless aboutFeaturedItem.youtubeid %}{{ aboutFeaturedItem.object_download | relative_url }}{% else %}https://img.youtube.com/vi/{{ aboutFeaturedItem.youtubeid }}/maxresdefault.jpg{% endunless %}{% else %}{{ site.data.theme.about-featured-image | default: '/assets/img/collectionbuilder-logo.png' | absolute_url }}{% endunless %}{% else %}{% include image/featured-image.html %}{% endif %}');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -9,10 +9,10 @@
 <div class="jumbotron feature px-0 border mb-1" id="jumbo-feature">
     <div id="home-title-box">
         <div class=" p-2 py-5 text-center">
-           <a href="/mapitem?id=caribou-mural-in-sandpoint" > </a>
+           <a href="/mapitem.html?id=caribou-mural-in-sandpoint" > </a>
         </div>
     </div>
 </div>
 <div class="col-12 text-right mt-0">
-    <a href="{{ '/mapitem?id=caribou-mural-in-sandpoint' | relative_url }}" ><span class="small">View Featured Image</span></a>
+    <a href="{{ '/mapitem.html?id=caribou-mural-in-sandpoint' | relative_url }}" ><span class="small">View Featured Image</span></a>
 </div>

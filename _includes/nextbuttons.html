@@ -1,9 +1,23 @@
-{% assign page = site.data.pages | where_exp: 'item', 'item.url == page.url' %}
+{% assign navpage = site.data.pages | where_exp: 'item', 'item.title == page.title' | first %}
 
 <div id="item-nav">
     <div class="d-none d-md-block">
-        <!-- {{page.title}}-->
-        <a id="back-button" href="{{page.prevlink | relative_url }}" alt="{{page.prevtitle}}" title="{{page.prevtitle}}" class="h2 previous btn btn-lg btn-outline-info text-info"  >&laquo;</a>
-        <a id="next-button" href="{{page.nextlink | relative_url }}" alt="{{page.nexttitle}}" title="{{page.nexttitle}}" class="h2 next btn btn-lg btn-outline-info text-info">&raquo;</a>
+        <!-- {{navpage.title}} {{page.title}}-->
+       {% if navpage.prevlink %} <a id="back-button" href="{{navpage.prevlink | relative_url }}" alt="{{navpage.prevtitle}}" title="{{navpage.prevtitle}}" class="h2 previous btn btn-lg btn-outline-info text-info"  >&laquo;</a>{%endif%}
+        <a id="next-button" href="{{navpage.nextlink | relative_url }}" alt="{{navpage.nexttitle}}" title="{{navpage.nexttitle}}" class="h2 next btn btn-lg btn-outline-info text-info">&raquo;</a>
     </div>
 </div>
+
+<script>
+     /* add back forward key press */
+        document.onkeydown = function(evt) {
+        evt = evt || window.event;
+        switch (evt.keyCode) {
+            case 37:
+            document.getElementById("back-button").click();
+                break;
+            case 39:
+            document.getElementById("next-button").click();
+                break;
+        }};
+</script>

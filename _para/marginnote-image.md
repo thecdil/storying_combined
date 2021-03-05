@@ -9,10 +9,10 @@ layout: para
 
 ### Example
 
-Habitasse platea dictumst quisque sagittis purus sit. Quam elementum pulvinar etiam non. Faucibus scelerisque eleifend donec pretium vulputate sapien. Accumsan tortor posuere ac ut consequat semper viverra. Fringilla ut morbi tincidunt augue. {% include feature/marginnote-image.html id="tellus-note" text="This is a margin note with an image!." image="Hoary-Marmot-Wrestle"%}
+Habitasse platea dictumst quisque sagittis purus sit. Quam elementum pulvinar etiam non. Faucibus scelerisque eleifend donec pretium vulputate sapien. Accumsan tortor posuere ac ut consequat semper viverra. Fringilla ut morbi tincidunt augue. {% include feature/marginnote-image.html id="tellus-note" text="This is a margin note with an image!." image="hoary-marmot-wrestle"%}
 
 ``` {% raw %} 
-{% include feature/marginnote-image.html id="tellus-note" text="This is a margin note with and image!." image="Hoary-Marmot-Wrestle"%}{% endraw %}```
+{% include feature/marginnote-image.html id="tellus-note" text="This is a margin note with and image!." image="hoary-marmot-wrestle"%}{% endraw %}```
 
 
 ### Options:

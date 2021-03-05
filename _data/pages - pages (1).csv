@@ -1,6 +1,6 @@
 title,absolutelink,relative_link,nexttitle,nextlink,prevtitle,prevlink
 Home,http://localhost:4000/,/,Err,/error.html,,
-Error,http://localhost:4000/error.html,/error.html,About,/about.html,Home,/
+Err,http://localhost:4000/error.html,/error.html,About,/about.html,Home,/
 About,http://localhost:4000/about.html,/about.html,Bull Elk Investigates,/mapitem.html?id=bull-elk-investigates,Err,/error.html
 Bull Elk Investigates,http://localhost:4000/mapitem.html?id=bull-elk-investigates,/mapitem.html?id=bull-elk-investigates,Bull Moose Shoulder Profile Bell and Wind,/mapitem.html?id=bull-moose-shoulder-profile-bell-and-wind,About,/about.html
 Bull Moose Shoulder Profile Bell and Wind,http://localhost:4000/mapitem.html?id=bull-moose-shoulder-profile-bell-and-wind,/mapitem.html?id=bull-moose-shoulder-profile-bell-and-wind,Cinnamon Bear Rubs 2.0,/mapitem.html?id=cinnamon-bear-rubs-2-0,Bull Elk Investigates,/mapitem.html?id=bull-elk-investigates

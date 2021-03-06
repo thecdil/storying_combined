@@ -37,22 +37,3 @@ layout: default
 
 
 
-<div class="container-fluid">
-    <div class="row">
-    <div class="col-6 justify-content-start" style="position: fixed; top:75%;left:10px;z-index:100;"> 
-        {% if prevurl %}<a class="btn btn-lg btn-outline-info" href="{{ prevurl }}" data-toggle="tooltip" data-placement="top"  title="Previous: {{ prevtitle }}" alt="Previous: {{ prevtitle }}" ><<</a>{% endif %}
-    </div>
-    <div class="col-6 justify-content-end text-right" style="position: fixed; top:75%;right:10px;z-index:100;">
-        {% if nexturl %}<a class="btn btn-lg btn-outline-info" href="{{ nexturl }}" alt="Next: {{ nexttitle }}" data-toggle="tooltip" data-placement="top" title="Next: {{ nexttitle }}">>></a>{% endif %}
-      
-    </div>
-</div>
-</div>
-
-<script>
-    /* post pagination keyboard shortcuts */
-    document.body.onkeyup = function(e){
-      if (e.keyCode == '37') { window.location = '{{ prevurl }}'; } // left arrow key
-      if (e.keyCode == '39') { window.location = '{{ nexturl }}'; } // right arrow key
-    };
-    </script>

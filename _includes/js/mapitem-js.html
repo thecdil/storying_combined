@@ -4,10 +4,8 @@
 <script>
 /* add item data */
 var items = { 
-        {%- for mapitem in site.data[site.metadata] -%}
-        {% assign navpage = site.data.pages | where_exp: 'item', 'item.objectid == mapitem.objectid' | first %}
-        {{ mapitem.objectid | jsonify }} : { {% for f in fields %}{% if mapitem[f.field] %}{{ f.field | escape | jsonify }}: {{ mapitem[f.field] | escape | jsonify }}, {% endif %}{% endfor %}{% if navpage.prevobjectid %} "prevobjectid": {{ navpage.prevobjectid | jsonify }},{% else %} "prevlink": {{ navpage.prevlink | jsonify }},{% endif %}{% if navpage.nextobjectid %} "nextobjectid": {{ navpage.nextobjectid | jsonify }}, {% else %} "nextlink": {{ navpage.nextlink | jsonify }},{% endif %}{% if mapitem.youtubeid %} "youtube": {{ mapitem.youtubeid | jsonify }}, {% endif %}"format": {{ mapitem.format | jsonify }},"image_small": {{ mapitem.image_small | jsonify }}, "filename": {{ mapitem.filename | jsonify }} }{% unless forloop.last %}, {% endunless %}
-        {% endfor %}
+        {%- for mapitem in site.data[site.metadata] -%}{% assign navpage = site.data.pages | where_exp: 'item', 'item.objectid == mapitem.objectid' | first %}
+        {{ mapitem.objectid | default: navpage.title | jsonify }} : { {% for f in fields %}{% if mapitem[f.field] %}{{ f.field | escape | jsonify }}: {{ mapitem[f.field] | escape | jsonify }}, {% endif %}{% endfor %}{% if navpage.prevobjectid %} "prevobjectid": {{ navpage.prevobjectid | jsonify }},{% else %} "prevlink": {{ navpage.prevlink | jsonify }},{% endif %}{% if navpage.nextobjectid %} "nextobjectid": {{ navpage.nextobjectid | jsonify }}, {% else %} "nextlink": {{ navpage.nextlink | jsonify }},{% endif %}{% if mapitem.youtubeid %} "youtube": {{ mapitem.youtubeid | jsonify }}, {% endif %}"image_small": {{ mapitem.image_small | jsonify }}, "latlong": "{{ mapitem.latitude }},{{ mapitem.longitude }}" , "filename": {{ mapitem.filename | jsonify }} }{% unless forloop.last %}, {% endunless %}{% endfor %}
     };
     /* get query id from URL */
     var queryString = window.location.search.substring(1).split("id=")[1];
@@ -96,7 +94,7 @@ var items = {
         {%- else -%}
         if (record[{{ f.field | escape | jsonify }}]) { fields += '<dt class="field">{{ f.display_name }}:</dt> <dd class="field-value">' + record[{{ f.field | escape | jsonify }}] + '</dd>'; }
         {% endif %}{% endfor %}
-        fields += '</dl>';
+        fields += '<dt class="field">Lat-Long:</dt> <dd class="field-value">' + record["latlong"] + '</dd></dl>';
         document.getElementById("item-metadata").innerHTML = fields;
 
         {% if site.data.theme.browse-buttons == true %}
@@ -115,8 +113,24 @@ var items = {
         } else {
             forward = itemKeys[current + 1];
         }
-        var backUrl = "newRecord('" + back + "');";
-        var forwardUrl = "newRecord('" + forward + "');";
+        if (record.prevobjectid && record.nextobjectid) {
+                var backUrl = "newRecord('" + back + "');";
+                var forwardUrl = "newRecord('" + forward + "');";
+            }
+            else if (record.prevlink && record.nextlink) {
+                var backUrl = "window.location.assign('" + record.prevlink +"')";
+                var forwardUrl = "window.location.assign('" + record.nextlink +"')";
+            }
+          else if (record.nextlink && record.prevobjectid ) {
+            var forwardUrl = "window.location.assign('" + record.nextlink +"')";
+                var backUrl = "newRecord('" + back + "');";
+               
+            }
+            else {
+                var forwardUrl = "newRecord('" + forward + "');";
+                var backUrl = "window.location.assign('" + record.prevlink +"')";
+            }
+        
         /* add side buttons to page */
         document.getElementById("back-button").setAttribute("onclick", backUrl);
         document.getElementById("next-button").setAttribute("onclick",forwardUrl);
@@ -129,10 +143,10 @@ var items = {
         evt = evt || window.event;
         switch (evt.keyCode) {
             case 37:
-            newRecord(back);
+            document.getElementById("back-button").click();
                 break;
             case 39:
-            newRecord(forward);
+            document.getElementById("next-button").click();
                 break;
         }};
         {%- endif -%}
@@ -258,8 +272,25 @@ function newRecord(nextRecord){
         } else {
             forward = itemKeys[current + 1];
         }
-        var newbackUrl = "newRecord('" + back + "');";
-        var newforwardUrl = "newRecord('" + forward + "');";
+      
+        if (record.prevobjectid && record.nextobjectid) {
+                var newbackUrl = "newRecord('" + back + "');";
+                var newforwardUrl = "newRecord('" + forward + "');";
+            }
+            else if (record.prevlink && record.nextlink) {
+                var newbackUrl = "window.location.assign('" + record.prevlink +"')";
+                var newforwardUrl = "window.location.assign('" + record.nextlink +"')";
+            }
+          else if (record.nextlink && record.prevobjectid ) {
+            var newforwardUrl = "window.location.assign('" + record.nextlink +"')";
+                var newbackUrl = "newRecord('" + back + "');";
+               
+            }
+            else {
+                var newforwardUrl = "newRecord('" + forward + "');";
+                var newbackUrl = "window.location.assign('" + record.prevlink +"')";
+            }
+        
         /* add side buttons to page */
         document.getElementById("back-button").setAttribute("onclick", newbackUrl);
         document.getElementById("next-button").setAttribute("onclick",newforwardUrl);
@@ -267,15 +298,15 @@ function newRecord(nextRecord){
         document.getElementById("prev-button").setAttribute("onclick",newbackUrl);
         document.getElementById("for-button").setAttribute("onclick",newforwardUrl);
 
-        /* add back forward key press */
-        document.onkeydown = function(evt) {
+         /* add back forward key press */
+         document.onkeydown = function(evt) {
         evt = evt || window.event;
         switch (evt.keyCode) {
             case 37:
-            newRecord(back);
+            document.getElementById("back-button").click();
                 break;
             case 39:
-            newRecord(forward);
+            document.getElementById("next-button").click();
                 break;
         }};
         {%- endif -%}
@@ -293,7 +324,7 @@ function newRecord(nextRecord){
 
 </script>
 {%- assign items = site.data[site.metadata] | where_exp: 'item','item.latitude' -%}
-{%- assign fields = site.data.config-map -%}
+{%- assign mapfields = site.data.config-map -%}
 <!-- load leaflet dependencies -->
 <script src="{{ '/assets/lib/leaflet/leaflet.js' | relative_url }}"></script>
 {% if site.data.theme.map-search == true %}<script src="{{ '/assets/lib/leaflet/fuse.min.js' | relative_url }}"></script>
@@ -324,7 +355,7 @@ function newRecord(nextRecord){
     {% for item in items %}
     { "type":"Feature", "geometry":{ "type":"Point", "coordinates":[{{ item.longitude | strip }},{{ item.latitude | strip }}] }, "properties":
     { "title": {{ item.title | escape | jsonify }}, 
-    {% for f in fields %}{{ f.field | escape | jsonify }}: {{ item[f.field] | escape | jsonify }},{% endfor %}{% if item.youtubeid %} "youtube": {{ item.youtubeid | jsonify }}, {% endif %}{% if item.image_thumb %} "image_thumb": {{ item.image_small | jsonify }}, {% endif %}"format": {{ item.format | jsonify }}, "filename": {{ item.filename | jsonify }}, "id": {{ item.objectid | jsonify }} } }{% unless forloop.last %}, {% endunless %}{% endfor %}
+    {% for f in mapfields %}{{ f.mapfields | escape | jsonify }}: {{ item[f.mapfields] | escape | jsonify }},{% endfor %}{% if item.youtubeid %} "youtube": {{ item.youtubeid | jsonify }}, {% endif %}{% if item.image_thumb %} "image_thumb": {{ item.image_small | jsonify }}, {% endif %}"format": {{ item.format | jsonify }}, "filename": {{ item.filename | jsonify }}, "id": {{ item.objectid | jsonify }} } }{% unless forloop.last %}, {% endunless %}{% endfor %}
     ]};
 
 

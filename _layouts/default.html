@@ -5,7 +5,6 @@
   </head>
   <body>
     <div id="skip-to-content"><a href="#maincontent">Skip to main content</a></div>
-    {% include icons-embed.html %}
     {% include collection-banner.html %}
     {% include collection-nav.html %}
     <main id="maincontent" role="main">
@@ -14,6 +13,6 @@
     {% include footer.html %}
     {% include foot.html %}
     {% include scroll-to-top.html %}
-    {% include nextbuttons.html %}
+{% unless page.url contains "mapitem.html" %}    {% include nextbuttons.html %} {% endunless %}
   </body>
 </html>

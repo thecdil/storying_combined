@@ -2,9 +2,9 @@
 
 <div id="item-nav">
     <div class="d-none d-md-block">
-        <!-- {{navpage.title}} {{page.title}}-->
-       {% if navpage.prevlink %} <a id="back-button" href="{{navpage.prevlink | relative_url }}" alt="{{navpage.prevtitle}}" title="{{navpage.prevtitle}}" class="h2 previous btn btn-lg btn-outline-info text-info"  >&laquo;</a>{%endif%}
-        <a id="next-button" href="{{navpage.nextlink | relative_url }}" alt="{{navpage.nexttitle}}" title="{{navpage.nexttitle}}" class="h2 next btn btn-lg btn-outline-info text-info">&raquo;</a>
+        <!-- {{navpage.prevtitle}} {{page.title}} {{navpage.title}}-->
+      <a id="back-button" href="{{navpage.prevlink | relative_url }}" alt="{{navpage.prevtitle}}" title="{{navpage.prevtitle}}" class="h2 previous btn btn-lg btn-outline-info text-info"  >&laquo;</a>
+        <a id="next-button"  href="{{navpage.nextlink | relative_url }}" alt="{{navpage.nexttitle}}" title="{{navpage.nexttitle}}" class="h2 next btn btn-lg btn-outline-info text-info">&raquo;</a>
     </div>
 </div>
 

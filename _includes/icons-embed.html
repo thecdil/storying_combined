@@ -1,0 +1,11 @@
+<svg class="d-none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+    {% assign icons = site.data.theme.icons %}
+    {% for i in icons %}
+    {% capture icon %}bs-icons/{{ i[1] }}.svg{%- endcapture -%}
+    {% capture markup %}{% include {{ icon }} %}{%- endcapture -%}
+    {% capture icon-id %}<symbol id="{{ i[1] }}"{% endcapture %}
+    {{ markup | replace: '<svg', icon-id | replace: '</svg>','</symbol>' | replace: 'width="16" height="16"','' | normalize_whitespace }}
+    {% endfor %}
+
+</svg>

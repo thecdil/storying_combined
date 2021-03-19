@@ -74,8 +74,6 @@ The snow is slick and soft beneath our feet as we make our way from camp toward 
 
 {% include feature/figure.html objectid="salmopriest-criticalhabitat-criticalhabitatridgelinesouth-imag0003" %}
 
-{% include feature/gallery.html filter="item.location contains 'Cedar Rub'" %}
-
 At the turn of the twentieth century, a man by the name of Billy Houston overwintered alone on Continental Mountain. He was protecting his claim on a silver-lead ore deposit that would later become the Continental Mine. It is said that this "ore body was exposed on the bare summit of the mountain for a length of about one thousand feet and from fifty to one hundred feet in width," with "some solid clean ore eight feet wide protruding several feet above the surface of the bare rock" (Klockmann 20). Houston, desperate as he was, survived almost exclusively off of caribou during his winter on Continental Mountain. He'd erected a tent made from caribou hides, ate caribou meat, and wore caribou skins. In his diary, A.K. Klockmann, a German immigrant and prospector, and the eventual principal developer of the legendary continental mine, describes encountering Billy for the first time off of Cedar Creek in the Priest Lake area. Klockmann, following rumors of Houston's find, had made several attempts to locate the man and the mine with no luck. Until one day, while camping at the foot of the mountain on Cedar Creek with his dog, Prince, and his companion, Pelke, Kockmann observed Houston emerging from the woods in an almost more than human form:
 
 {% include feature/figure-full-page.html objectid="Mule-Deer-Buck-SP"%}
@@ -103,7 +101,6 @@ For almost a century, this 14X14' wood frame cabin held windows that provided a 
 In the thirty years of its operation as a Forest Service fire lookout, and the fifty or so years following, the people who visited this windowed watch compiled a history that, cumulatively, would've told the story of extinction—the slow, almost silent, whimper of a world on its way out. Surely the sightings were fewer and fewer as the years progressed, and what was likely a typical occurrence in the early part of the century became, toward the end, an unexpected encounter.
 
 {% include feature/gallery.html filter="item.location contains 'Small'" %}
-
 
 As we prepare to make our way down the mountain and back to camp, we pause for a moment in the remains of the tower. The glass and nails and metal crunch beneath our boot soles as we investigate the wreckage. The first thing that comes to mind—something we've been thinking about since reading of the fire tower a few weeks earlier—is how neat it would've been to sleep there. Especially this time of year, when the weather is so mercurial and inhospitable. To sit in the cabin at dark, watching and listening to the beads of cold rain and wind as they tapped, ghostlike, at the giant windows, would've been something else.
 
@@ -155,6 +152,8 @@ As the coffee starts working we hear the sound of footfalls arising amidst the d
 
 Later in the day we make our way down into in the basin and place a camera in a clearing about a quarter mile below the ridge connecting Little and Big Snowy Top. We fill our water bottles at a steadily flowing spring just off the trail. Proximity to water, open space, and the greening plants, including Twisted Stalk—a primary summer food for Mountain Caribou—make it a prime location for hanging a trail cam.
 
+{% include feature/gallery.html filter="item.location contains 'SnowyTop South Basin'" %}
+
 We summit Snowy Top around noon, climbing on all fours up a steep slope without a trail. Though sunny and clear, the wind is strong and the grade of the mountain, which has few secure handholds, makes me nervous. I consider turning back but feel determined to summit the tallest peak in north Idaho, the backside of which flows down across the border into Canada. Though we wont be hanging any cameras up here, it feels like a necessary part of our project to reach the summit and gain a new perspective on the space we're attempting to map. On a peak that supported migrating caribou hooves not long ago.
 
 The view from the top provides a miles-deep gaze into Canada and the northern portion of the South Selkirks. We can almost see the rocky bottom of the Priest River from the summit. And we have a new vantage on the backside of Little Snowy Top, which now reveals a boulder field on its northwest slope—where I imagine a cougar sleeping in one of the many openings.
@@ -185,7 +184,7 @@ And this is precisely why storying extinction matters: to erase the ruins left i
 
 ----------------
 
-Clouds spill into the open blue above us as we make our way back to camp. The rain I was watching earlier is now approaching in earnest. Trees are sifting fog and the temps are dropping. When we arrive at our packs and our shelter we layer with the appropriate gear. I've got a gore-tex jacket and rain pants under a translucent five-dollar poncho. Michael a purple raincoat. Jack a rain jacket, water resistant pants, and a camouflage poncho that seems significantly more durable than mine. With the tarp now in a more protected space, room and plenty of fuel for a fire, adequate supplies, we feel prepared for whatever weather the mountains decide to throw our way.
+Clouds spill into the open blue above us as we make our way back to camp. The rain I was watching earlier is now approaching in earnest. Trees are sifting fog and the temps are dropping. When we arrive at our packs and our shelter we layer with the appropriate gear. I've got a gore-tex jacket and rain pants under a translucent five-dollar poncho. Michael a purple raincoat. Jack a rain jacket, water resistant pants, and a camouflage poncho that seems significantly more durable than mine. With the tarp now in a more protected space, room and plenty of fuel for a fire, adequate supplies, we feel prepared for whatever weather the mountains decide to throw our way.{% include feature/marginnote-image.html id="tellus-note" text="Storm on the ridgeline" image="salmopriest-criticalhabitat-littlesnowysaddlesouth-imag0025"%} 
 
 Jack and I head out to collect two game cameras from our first trip while Michael decides to stay back and do some writing. We'd come in on a different trail two weeks prior and camped roughly two miles south of where we are now, so we'll have at least four miles of hiking through snow and rain before settling in for the night.
 
@@ -206,6 +205,8 @@ At 5:30pm we decide our only option for staying warm is getting in our tents and
 I hear Michael's voice projecting toward the on-coming party. And I decide to unzip and poke my head out of the tent to join the conversation.
 
 "You're beautiful," I say, to the group of three—a muscular and tall man in short shorts with a thick brown mustache, wearing sneakers, led by a former marine with a side-arm and a cammo rain jacket draped over a large frame backpack. He's in a t-shirt. The rain is falling steadily. The two men are followed closely by a young woman. She's quiet, carrying hiking poles, a small daypack, also wearing sneakers. They are wet and, clearly, also underprepared.
+
+{% include feature/figure.html objectid="salmopriest-criticalhabitat-salmodivide535rim-imag0029" %}
 
 They tell us they're hiking the loop from the Salmo-Priest trailhead, that they started early in the morning, and that they're making their way back to the car tonight. I can't imagine anyone trying to hike out of here at this hour and in these conditions, especially with the inconsistent trail.
 

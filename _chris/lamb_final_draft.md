@@ -5,7 +5,7 @@ permalink: para/chris/tosleep.html
 map-on: true
 ---
 
-## To Sleep Beneath its Unhinged Doors
+# To Sleep Beneath its Unhinged Doors
 
 ### Dreams and Encounters in the Ruins of Caribou Country
 

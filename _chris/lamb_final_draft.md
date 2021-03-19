@@ -18,7 +18,7 @@ Directly in front me lies a patchwork of mostly dead but some living trees. A sh
 
 {% include feature/quote-medium.md text="A shot from Google earth would depict a skeletal forest draping over the ridge flowing west in the direction of my vision, spliced every so often by a vein of old growth timber." align="center" %}
 
-{% include feature/map.html mapid="first" filter="item.location contains '535 Outcropping'" zoom="16" latitude="48.950421" longitude="-117.016485" basemap="Esri_WorldImagery" %}
+{% include feature/map.html mapid="first" filter="item.location contains '535 Outcropping'" zoom="16" latitude="48.950421" longitude="-117.016485" basemap="Esri_WorldImagery" alight="right" %}
 
 But the recent wildfire has exposed this ridgeline and provided an expansive view of the [Salmo-Priest Wilderness](https://www.fs.usda.gov/recarea/colville/recarea/?recid=79330)—a 43,348-acre swath of what appears to be untouched forest that straddles the invisible border between northeastern Washington and northwestern Idaho and contains part of the South Selkirk mountain range.
 

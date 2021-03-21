@@ -203,7 +203,7 @@ At 5:30pm we decide our only option for staying warm is getting in our tents and
 
 I hear Michael's voice projecting toward the on-coming party. And I decide to unzip and poke my head out of the tent to join the conversation.
 
-"You're beautiful," I say, to the group of three—a muscular and tall man in short shorts with a thick brown mustache, wearing sneakers, led by a former marine with a side-arm and a cammo rain jacket draped over a large frame backpack. He's in a t-shirt. The rain is falling steadily. The two men are followed closely by a young woman. She's quiet, carrying hiking poles, a small daypack, also wearing sneakers. She has a dog in tow. They are wet and, clearly, also underprepared.
+"You're beautiful," I say, to the group of three—a muscular and tall man in short shorts with a thick brown mustache, wearing sneakers, led by a former marine with a side-arm and a camo rain jacket draped over a large frame backpack. He's in a t-shirt. The rain is falling steadily. The two men are followed closely by a young woman. She's quiet, carrying hiking poles, a small daypack, also wearing sneakers. She has a dog in tow. They are wet and, clearly, also underprepared.
 
 {% include feature/figure.html objectid="salmopriest-criticalhabitat-salmodivide535rim-imag0029" %}
 

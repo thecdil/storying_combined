@@ -144,7 +144,7 @@ I had a vision of filming Dave sitting by the fireplace with a glass of merlot, 
 
 "No, they used a fire poker to hack them off. You guys want to come spend the night at the cabin?"
 
-{% include feature/figure-full-page.html objectid="full-jeannot-article.jpg" %}
+{% include feature/figure-full-page.html objectid="jeannotnewsarticle.jpg" %}
 
 I immediately called Chris to tell him about the enigmatic caribou aficionado named Dave Boswell—he became 'Boswell' or 'Bozzie' thereafter—who invited us to spend the night at his cabin in order to see the world famous Jeannot caribou which, unfortunately, had been mutilated by teenagers and was now kept in his basement. Gripped by empathy for Dave, I tell Chris to hold out his arms as wide as he can because that's how big the Jeannot caribou's antlers were. Chris agrees without hesitation that we need to spend the night at Dave's remote cabin. The risk of visiting a stranger's remote basement be damned. In the weeks leading up to our visit with Dave, he becomes something of a mythic figure—a true disciple of the grey ghost, a mountain hermit who wandered the Selkirk wilderness for a decade just to get a glimpse of his idol and coming up short. All he found was a set of tracks at a placed called Goblin Knob.
 

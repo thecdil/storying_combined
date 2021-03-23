@@ -134,8 +134,6 @@ My dad collected antique paper weights. I have a small bronze weight of the Chic
 
 "Well it was the largest black caribou ever shot in the state of Idaho—I use the term black caribou on account of their dark coloration. Have you read Paul Flinn's book? He says they were almost black and damn near invisible when they got into the dark timber. I may have a copy if you need one. Of course, you need to read the Klockmann Diary for the story of Bill Houston."
 
-![](RackMultipart20210219-4-rn8hnk_html_50d2144802d2e37a.png)
-
 "Long story short, I found two caribou mounts at a hotel saloon in Hope, Idaho and bought them. The smaller one I gave to the biologist Don Johnson at the University of Idaho. He wanted the jawbone for something. He measured the Jeannot caribou and said it was the largest specimen he'd ever seen. Hold your arms out wide as you can. That's how big it was."
 
 I had a vision of filming Dave sitting by the fireplace with a glass of merlot, the Jeannot caribou mount resting beside him, telling the story of how he, against all odds, rescued the internationally famous Jeannot caribou from Hope, Idaho. I asked him if we could come see the mount and get his story on camera.
@@ -146,7 +144,7 @@ I had a vision of filming Dave sitting by the fireplace with a glass of merlot, 
 
 "No, they used a fire poker to hack them off. You guys want to come spend the night at the cabin?"
 
-{% include feature/figure.html objectid="jeannotnewsarticle.jpg" %}
+{% include feature/figure-full-page.html objectid="full-jeannot-article.jpg" %}
 
 I immediately called Chris to tell him about the enigmatic caribou aficionado named Dave Boswell—he became 'Boswell' or 'Bozzie' thereafter—who invited us to spend the night at his cabin in order to see the world famous Jeannot caribou which, unfortunately, had been mutilated by teenagers and was now kept in his basement. Gripped by empathy for Dave, I tell Chris to hold out his arms as wide as he can because that's how big the Jeannot caribou's antlers were. Chris agrees without hesitation that we need to spend the night at Dave's remote cabin. The risk of visiting a stranger's remote basement be damned. In the weeks leading up to our visit with Dave, he becomes something of a mythic figure—a true disciple of the grey ghost, a mountain hermit who wandered the Selkirk wilderness for a decade just to get a glimpse of his idol and coming up short. All he found was a set of tracks at a placed called Goblin Knob.
 

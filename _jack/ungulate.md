@@ -199,3 +199,5 @@ Later that night, in the star-studded vortex of our drunkenness, we spot a curio
 Are there mountain caribou alive in the United States right now?
 
 Arise Lazarus.
+
+{% include feature/figure.html objectid="comet_2020_f3_neowise_on_jul_14_2020_aligned_to_stars.jpg" %}

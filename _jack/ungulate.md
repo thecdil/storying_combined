@@ -9,7 +9,7 @@ layout: para
 
 *by* **Jack Kredell**
 
-{% include feature/quote.md text="And, most alluring of all, it possessed no name. I had momentary fantasies of standing on its summit, Norgay-Tenzig-like, breathing comfortably in my oxygen mask, unfurling, in the thin air, a Union Jack, and naming it Bukit Batu Baldy in honour of my companion—though the 5,000 foot contour line rather circumscribed this image. Still, if there _was_ a rhinoceros left in Borneo, this ought to be the place to find him." source="—Redmon O'Hanlon, _Into the Heart of Borneo_"  %}
+{% include feature/quote.md text="And, most alluring of all, it possessed no name. I had momentary fantasies of standing on its summit, Norgay-Tenzig-like, breathing comfortably in my oxygen mask, unfurling, in the thin air, a Union Jack, and naming it Bukit Batu Baldy in honour of my companion—though the 5,000 foot contour line rather circumscribed this image. Still, if there was a rhinoceros left in Borneo, this ought to be the place to find him." source="—Redmon O'Hanlon, _Into the Heart of Borneo_"  %}
 
 
 *I.*

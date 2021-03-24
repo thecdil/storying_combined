@@ -9,8 +9,6 @@ layout: para
 
 *by* **Jack Kredell**
 
-{% include feature/quote.md text="And, most alluring of all, it possessed no name. I had momentary fantasies of standing on its summit, Norgay-Tenzig-like, breathing comfortably in my oxygen mask, unfurling, in the thin air, a Union Jack, and naming it Bukit Batu Baldy in honour of my companion—though the 5,000 foot contour line rather circumscribed this image. Still, if there was a rhinoceros left in Borneo, this ought to be the place to find him." source="—Redmon O'Hanlon, _Into the Heart of Borneo_"  %}
-
 
 *I.*
 
@@ -45,6 +43,8 @@ Playing through the car's stereo was a hunting podcast in which the episode's gu
 Until the mid-nineteenth century, woodland caribou, a boreal forest-dwelling subspecies of North American caribou (_Rangifer tarandus_), ranged as far south as Minnesota, Wisconsin, Michigan and New England. Unlike their migratory arctic cousins, the barren-ground caribou, these were mostly sedentary animals who for millennia lived and died in the coniferous snow forests of the northern United States. Today, certain Northeastern toponymies bear witness to woodland ghosts: Maine's Caribou-Speckled Mountain Wilderness, for example, so named after two brothers who shot and killed the area's last caribou in 1854. With the exception of a few individuals spotted in northeastern Minnesota during an aerial survey in winter of 1980-81, woodland caribou were all but eliminated from their ranges in the contiguous United States by the start of the 20th century. However, an ecotype of the woodland caribou, the mountain or "black" caribou—a reference to their dark and shadowy appearance, and the preferred nomenclature of Idaho game warden and conservationist Paul Flinn, an early advocate of the Lower-48's last native caribou herd—were still the occupants, though tenuous and beleaguered, of the northern tip of Idaho's rugged Selkirk Mountains as recently as 2019.
 
 The mountain group was able to outlast its woodland relatives by, in a sense, migrating annually to the arctic; a migration not to colder latitudes of the Far North, but to colder altitudes in the South Selkirks of Idaho and Washington. Here and in other ranges where they were historically found—the Purcells and Cabinets, to some extent the Bitterroots—mountain caribou adapted themselves to a life of wintry high-country solitude, relying on the spatial separation that such inhospitable country provides from predators—humans or otherwise. And now, due to a combination of factors including historic 20th century fires, extractive industries (logging, mining) and their infrastructures, development, and an increased load of winter recreation, the arctic oasis of the South Selkirk mountains had shrunk to the point of no return, and with it went the mountain caribou.
+
+{% include feature/figure.html objectid="mountain-carbou-historical-range.jpg" %}
 
 In the Spring of 2019 news broke that the remaining three individuals of the South Selkirk herd had been airlifted to a captive breeding facility in southern British Columbia, leaving them functionally extinct. That fall I entered grad school at the University of Idaho where I began asking myself a set of questions: What was their story, I wondered, and how does one even begin to the tell the story of extinction? What does their extinction mean to us? What does it mean to the people who knew them through their encounters?
 

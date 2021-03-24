@@ -1,7 +1,7 @@
 ---
 title: To Sleep Beneath its Unhinged Doors
 layout: para
-permalink: para/chris/tosleep.html
+permalink: /mountains/tosleep.html
 map-on: true
 ---
 

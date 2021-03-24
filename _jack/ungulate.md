@@ -1,6 +1,6 @@
 ---
 title: Ungulate Highways
-permalink: /para/jack/jack/ungulate.html
+permalink: /valleys/ungulate.html
 layout: para
 ---
 

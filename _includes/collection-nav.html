@@ -2,7 +2,7 @@
     <div class="row justify-content-end">
         <div class="col-12 col-md-6">
             <h1 class="h2 mb-0">
-                <a href="{{ '/' | absolute_url }}" class="text-dark text-uppercase font-weight-normal">Storying
+                <a href="{{ '/about.html' | absolute_url }}" class="text-dark text-uppercase font-weight-normal">Storying
                     Extinction</a></h1>
             <!--<h2 class=" text-muted h5">{{ site.tagline }}</h2>-->
             </h1>
@@ -28,28 +28,6 @@
                                 aria-expanded="false">Paratexts</a>
                             <div class="dropdown-menu">
                                 {% for c in site.para %}
-                                <a class="dropdown-item {% if page.url == c.url %}active{% endif %}"
-                                    href="{{ c.url | relative_url }}">{{ c.title }}</a>
-                                {% endfor %}
-                            </div>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link  dropdown-toggle{% if childStubs contains page.url %} active{% endif %}"
-                                data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
-                                aria-expanded="false">Chris</a>
-                            <div class="dropdown-menu">
-                                {% for c in site.chris %}
-                                <a class="dropdown-item {% if page.url == c.url %}active{% endif %}"
-                                    href="{{ c.url | relative_url }}">{{ c.title }}</a>
-                                {% endfor %}
-                            </div>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link  dropdown-toggle{% if childStubs contains page.url %} active{% endif %}"
-                                data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
-                                aria-expanded="false">Jack</a>
-                            <div class="dropdown-menu">
-                                {% for c in site.jack %}
                                 <a class="dropdown-item {% if page.url == c.url %}active{% endif %}"
                                     href="{{ c.url | relative_url }}">{{ c.title }}</a>
                                 {% endfor %}

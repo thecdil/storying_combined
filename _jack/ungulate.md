@@ -44,7 +44,7 @@ Until the mid-nineteenth century, woodland caribou, a boreal forest-dwelling sub
 
 The mountain group was able to outlast its woodland relatives by, in a sense, migrating annually to the arctic; a migration not to colder latitudes of the Far North, but to colder altitudes in the South Selkirks of Idaho and Washington. Here and in other ranges where they were historically found—the Purcells and Cabinets, to some extent the Bitterroots—mountain caribou adapted themselves to a life of wintry high-country solitude, relying on the spatial separation that such inhospitable country provides from predators—humans or otherwise. And now, due to a combination of factors including historic 20th century fires, extractive industries (logging, mining) and their infrastructures, development, and an increased load of winter recreation, the arctic oasis of the South Selkirk mountains had shrunk to the point of no return, and with it went the mountain caribou.
 
-{% include feature/figure.html objectid="mountain-carbou-historical-range-better.jpg" %}
+{% include feature/figure.html objectid="mountain-carbou-historical-range-better" %}
 
 In the Spring of 2019 news broke that the remaining three individuals of the South Selkirk herd had been airlifted to a captive breeding facility in southern British Columbia, leaving them functionally extinct. That fall I entered grad school at the University of Idaho where I began asking myself a set of questions: What was their story, I wondered, and how does one even begin to the tell the story of extinction? What does their extinction mean to us? What does it mean to the people who knew them through their encounters?
 

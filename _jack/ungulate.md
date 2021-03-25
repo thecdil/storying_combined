@@ -40,11 +40,11 @@ I was a deer hunter and didn't know the first thing about elk hunting, but it di
 
 Playing through the car's stereo was a hunting podcast in which the episode's guest, Bart George, a wildlife biologist for the Kalispell Tribe, was discussing the tribe's effort to save the South Selkirk mountain caribou herd, then estimated to be less than fifteen individuals. Despite the alarming precarity of their situation, I was awestruck by the reality of actually existing caribou in Idaho and Washington. Again, I felt a 'becoming seized' by caribou and their unfamiliar otherness with respect to the ungulate scene of the United States—deer, sheep, mountain goats, pronghorn, elk. The thought of caribou took me to another era—the Pleistocene Ice Age—where I lived and played vicariously as a child in my beloved La Brea Tar Pits with its dire wolves, short faced bears, and saber-toothed cats. I came to think of mountain caribou as an ice age phantom, a relic, a ghostly projection from the ancestral Cordilleran ice sheet. Part living, part dead. And in fact, the continent was already full of their ghosts; the recent extirpation of mountain caribou wasn't a first for caribou in the colonial United States. We were witnessing a second death.
 
-Until the mid-nineteenth century, woodland caribou, a boreal forest-dwelling subspecies of North American caribou (_Rangifer tarandus_), ranged as far south as Minnesota, Wisconsin, Michigan and New England. Unlike their migratory arctic cousins, the barren-ground caribou, these were mostly sedentary animals who for millennia lived and died in the coniferous snow forests of the northern United States. Today, certain Northeastern toponymies bear witness to woodland ghosts: Maine's Caribou-Speckled Mountain Wilderness, for example, so named after two brothers who shot and killed the area's last caribou in 1854. With the exception of a few individuals spotted in northeastern Minnesota during an aerial survey in winter of 1980-81, woodland caribou were all but eliminated from their ranges in the contiguous United States by the start of the 20th century. However, an ecotype of the woodland caribou, the mountain or "black" caribou—a reference to their dark and shadowy appearance, and the preferred nomenclature of Idaho game warden and conservationist Paul Flinn, an early advocate of the Lower-48's last native caribou herd—were still the occupants, though tenuous and beleaguered, of the northern tip of Idaho's rugged Selkirk Mountains as recently as 2019.
+Until the mid-nineteenth century, woodland caribou, a boreal forest-dwelling subspecies of North American caribou (_Rangifer tarandus_), ranged as far south as Minnesota, Wisconsin, Michigan and New England. Unlike their migratory arctic cousins, the barren-ground caribou, these were mostly sedentary animals who for millennia lived and died in the coniferous snow forests of the northern United States. Today, certain Northeastern toponymies bear witness to woodland ghosts: Maine's Caribou-Speckled Mountain Wilderness, for example, so named after two brothers who shot and killed the area's last caribou in 1854. With the exception of a few individuals spotted in northeastern Minnesota during an aerial survey in winter of 1980-81, woodland caribou were all but eliminated from their ranges in the contiguous United States by the start of the 20th century. However, an ecotype of the woodland caribou, the mountain or "black" caribou—a reference to their dark and shadowy appearance, and the preferred nomenclature of Idaho game warden and conservationist Paul Flinn, an early advocate of the Lower-48's last native caribou herd—were still the occupants, though tenuous and beleaguered, of the northern tip of Idaho's rugged Selkirk Mountains as recently as 2019.{% include feature/marginnote-image.html id="tellus-note" text="" image="mountain-carbou-historical-range-better"%} 
 
 The mountain group was able to outlast its woodland relatives by, in a sense, migrating annually to the arctic; a migration not to colder latitudes of the Far North, but to colder altitudes in the South Selkirks of Idaho and Washington. Here and in other ranges where they were historically found—the Purcells and Cabinets, to some extent the Bitterroots—mountain caribou adapted themselves to a life of wintry high-country solitude, relying on the spatial separation that such inhospitable country provides from predators—humans or otherwise. And now, due to a combination of factors including historic 20th century fires, extractive industries (logging, mining) and their infrastructures, development, and an increased load of winter recreation, the arctic oasis of the South Selkirk mountains had shrunk to the point of no return, and with it went the mountain caribou.
 
-{% include feature/figure.html objectid="mountain-carbou-historical-range-better" %}
+{% include feature/youtube-clip.html objectid="greg-servheen-on-ecology" %}
 
 In the Spring of 2019 news broke that the remaining three individuals of the South Selkirk herd had been airlifted to a captive breeding facility in southern British Columbia, leaving them functionally extinct. That fall I entered grad school at the University of Idaho where I began asking myself a set of questions: What was their story, I wondered, and how does one even begin to the tell the story of extinction? What does their extinction mean to us? What does it mean to the people who knew them through their encounters?
 
@@ -180,6 +180,8 @@ Dave tells the story of how for ten years he tried and failed to see a black car
 
 "That's a good question but I know the answer: the face of god."
 
+{% include feature/youtube-clip.html objectid="dave-boswell-and-the-face-of-god" %}
+
 We lose the light and decide to film the same session again in the morning. We move back over to the first cabin and drink more beer as Dave prepares a stir fry dinner. Short on rice, Dave mixes jasmine and basmati together, which cooks unevenly and gets stuck in our teeth. Chris thanks Dave for the "Bosmati" rice which draws a laugh from everybody, even Phil.
 
 "Hey," says Dave, "You guys wanna see the Jeannot caribou?"
@@ -201,6 +203,8 @@ Later that night, in the star-studded vortex of our drunkenness, we spot a curio
 Are there mountain caribou alive in the United States right now?
 
 Arise Lazarus.
+
+
 
 
 

@@ -21,7 +21,7 @@ But the recent wildfire has exposed this ridgeline and provided an expansive vie
 
 We're camped on the Idaho side of this line, at about 6000 feet and roughly two miles shy of the Canadian border, on the protruding cretaceous granite of the [Idaho Batholith's Kaniksu lobe](http://geology.isu.edu/Digital_Geology_Idaho/Module6/mod6.htm)—a sixty five million year old rock that rested, in its infancy, in the depths of the Pacific Ocean. My two friends (and for the purposes of this trip) colleagues, Jack Kredell and Michael Decker, are asleep in the tents about twenty yards behind me, in a small grove of sub-alpine fir and englemann spruce trees. They've been there since we retired last night after an exhausting ten-mile hike in. We arrived just before dark and had barely enough time to set up camp, light a fire, and cook a freeze-dried meal. At that point the weather was fair and the scene I'm observing right now was under mostly clear skies, punctuated at dusk by a gilded horizon. The wind picked up after sundown and we heard thunder and saw flickers of lightning in the distance. But as far as I know, no storm passed over our site. 
 
-{% include feature/youtube-clip.html objectid="lightning.mp4" start="0" end="46"%}
+{% include feature/map-small.html mapid="first" filter="item.location contains '535 Outcropping'" zoom="16" latitude="48.950421" longitude="-117.016485" basemap="Esri_WorldImagery" align="right" %}
 
 This is our second of what will be many trips into these mountains this summer. We've been drawn here primarily by the recent extirpation of the South Selkirk mountain caribou, an animal that was specific to the rocky alpine ridges and the old growth, lichen-heavy forests that a decade ago would've surrounded me. 
 

@@ -7,7 +7,7 @@ permalink: /about.html
 
 # About the Project
 
-{% include about/jumbotron.html %}{% include feature/marginnote.html id="dev" text="The site and project are currently being developed by Jack Kreddell, Christopher Lamb, and [the CDIL](https://cdil.lib.uidaho.edu/), with the full site expected to be released sometime in Spring 2021." %} 
+{% include about/jumbotron.html %}{% include feature/marginnote.html id="dev" text="The site and project are currently being developed by Jack Kredell, Christopher Lamb, and [the CDIL](https://cdil.lib.uidaho.edu/), with the full site expected to be released sometime in Spring 2021." %} 
 
 ***Storying Extinction: Responding to the Loss of North Idaho’s Mountain Caribou*** is a multidisciplinary digital humanities project aimed at representing community response to the recent extirpation (2019) of mountain caribou from the South Selkirk mountains of North Idaho—the last caribou to inhabit the coterminous United States.
 
@@ -19,12 +19,6 @@ It takes the moment of extirpation as a point of departure, as a “fissure” o
 
 
 ## Future Development
-
-Currently, the map includes only a fraction of the data we collected between May and September of 2020: 
-
-- four [oral histories]({{ 'browse.html#encounter' | relative_url }}) (three from Idaho residents and one from BC) 
-- fourteen game camera images/videos from two locations ([Ball Creek Drainage]({{ 'browse.html#ball creek drainage' | relative_url }}) and [Little Snowy Top]({{ 'browse.html#little snowy top' | relative_url }})) in the Idaho Selkirks. 
-- and a photo of [a mural]({{ 'mapitem.html?id=caribou-mural-in-sandpoint' | relative_url }}) in Sandpoint, ID.
 
 These media are represented as colored nodes on a GIS satellite baselayer of Northern Idaho and surrounding areas. 
 Users can scroll forward or backward for a random selection of map items, or click “view map” to be taken back to the full baselayer where they can browse media from a bird’s eye view. 

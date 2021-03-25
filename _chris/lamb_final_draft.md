@@ -91,7 +91,7 @@ For almost a century, this 14X14' wood frame cabin held windows that provided a 
 
 In the thirty years of its operation as a Forest Service fire lookout, and the fifty or so years following, the people who visited this windowed watch compiled a history that, cumulatively, would've told the story of extinction—the slow, almost silent, whimper of a world on its way out. Surely the sightings were fewer and fewer as the years progressed, and what was likely a typical occurrence in the early part of the century became, toward the end, an unexpected encounter.
 
-{% include feature/gallery.html filter="item.location contains 'Small'" %}
+{% include feature/figure.html objectid="blackbear-through-binos.jpg" %}
 
 As we prepare to make our way down the mountain and back to camp, we pause for a moment in the remains of the tower. The glass and nails and metal crunch beneath our boot soles as we investigate the wreckage. The first thing that comes to mind—something we've been thinking about since reading of the fire tower a few weeks earlier—is how neat it would've been to sleep there. Especially this time of year, when the weather is so mercurial and inhospitable. To sit in the cabin at dark, watching and listening to the beads of cold rain and wind as they tapped, ghostlike, at the giant windows, would've been something else.
 

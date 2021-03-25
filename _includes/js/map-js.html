@@ -70,7 +70,7 @@
         {% if site.data.theme.map-search == true %}/* bind feature for search */
         feature.layer = layer;{% endif %}
         /* create pop up */
-        var itemHref = '{{ "/items/" | relative_url }}' + feature.properties.id + '.html';
+        var itemHref = '{{ "/mapitem.html?id=" | relative_url }}' + feature.properties.id;
         if (feature.properties.img) {
             var thumbSrc = '<img class="map-thumb" src="' + feature.properties.img + '" alt="item thumbnail">';
         } else if (feature.properties.format.includes("image")) {

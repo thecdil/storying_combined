@@ -13,7 +13,7 @@ map-on: true
 
 I wake up early. The sky is clear above our campsite but a veil of rain is sweeping through the forested valley below, consuming distant peaks. The wind is shifting. After lighting a small fire to dry my socks and boots, I sit quietly beneath a small black tarp, drinking hot coffee with my bare feet near the flame, watching the weather in the distance. It's almost silent here except for the slight breeze, the crackling wood, and the crinkling sound of the tarp as it inhales and exhales with the wind. And aside from the far-off rain and the few mountain blue birds I can spot darting between the bone-like standing dead trees, the landscape is seemingly vacant.
 
-{% include feature/figure.html objectid="burn-off.jpg" %}
+{% include feature/figure.html objectid="burn-off" %}
 
 Directly in front me lies a patchwork of mostly dead but some living trees. A shot from Google earth would depict a skeletal forest draping over the ridge flowing west in the direction of my vision, spliced every so often by a vein of old growth timber. Peppered here and there with the emerging green of an early seral habitat. The standing dead trees, stripped of foliage and limbs, are the reason I have such a clear view of the space laid out before me. If not for their nudity, I would be enclosed, screened, and protected from the wind by ancient, heavily clad trees with thick beards of lichen. 
 
@@ -37,7 +37,7 @@ Our hike in yesterday was impeded significantly by this enduring snowpack. We ar
 
 At the top of Shedroof, the trail-less ridgeline led us to a steep, rocky face on the northwest side of the peak. Because of the snow and the grade of the mountain, there were few options for descending safely. We scoped several alternative routes but each one came with its own risk, the most likely being a wet, spring avalanche. So, we opted eventually to climb carefully down the face, clinging to stunted sub-alpine firs and exposed boulders to avoid falling and potentially triggering a slide. The snow was over my head in places, peeling away from the radiant warmth of boulders and tree trunks, leaving large glide cracks on the surface. From my experience skiing in the backcountry and my basic understanding of snow science, I was aware that these were less than optimal conditions for scaling a mountain face. And the added weight of our packs contributed to my insecurities about the rotten, sun-cooked snow—its layers ready to shed in wet-slides like the hair of a caribou's winter coat in spring.
 
-{% include feature/figure.html objectid="calving-grounds.jpg" %}
+{% include feature/figure.html objectid="calving-grounds" %}
 
 After about seven hours of hiking, and four with soaking feet, we still hadn't made it to where we'd hoped to camp, which was on a saddle about two hundred feet below the summit of Little Snowy Top—the last stronghold for mountain caribou in this region. So, with the day dimming we set up camp here, about two miles shy, in this open grove of standing dead trees, in what typically, this time of year, would've been prime calving grounds for female caribou.
 
@@ -63,7 +63,7 @@ Over the course of our relocation and preparation for the incoming weather, some
 
 The snow is slick and soft beneath our feet as we make our way from camp toward Little Snowy Top. It swallows them, sometimes to the knee. The caribou had adapted snowshoe-like hooves that allowed them to float on top of this snowpack like leaves on water. The challenge of staying on the surface is one of the main reasons why predators were unable to reach them. My appreciation for this evolutionary technology is increasing with each precarious and exhausting step. We cover two miles in more time than we'd predicted. But the now open sky and views of Continental and Kaniksu Mountain's, Priest Lake and the Selkirk Crest draw long pauses. Continental Mountain lies on the eastern side of Little Snowy Top and the Priest River. It's a rather unspectacular, elongated peak with a rocky top that reminds me of the weatherworn granite of the White Mountains back home in New Hampshire. I think it's this quality that draws me to it—the reminder of home—but also its fascinating history. 
 
-{% include feature/figure.html objectid="continental-mt.jpg" %}
+{% include feature/figure.html objectid="continental-mt" %}
 
 At the turn of the twentieth century, a man by the name of Billy Houston overwintered alone on Continental Mountain. He was protecting his claim on a silver-lead ore deposit that would later become the Continental Mine. It is said that this "ore body was exposed on the bare summit of the mountain for a length of about one thousand feet and from fifty to one hundred feet in width," with "some solid clean ore eight feet wide protruding several feet above the surface of the bare rock" (Klockmann 20). Houston, desperate as he was to claim this ore deposit, survived almost exclusively off of caribou during his winter on Continental Mountain. He'd erected a tent made from caribou hides, ate caribou meat, and wore caribou skins. In his diary, A.K. Klockmann, a German immigrant and prospector, and the eventual principal developer of the legendary Continental Mine, describes encountering Billy for the first time off of Cedar Creek in the Priest Lake area. Klockmann, following rumors of Houston's find, had made several attempts to locate the man and the mine with no luck. Until one day, while camping at the foot of the mountain on Cedar Creek with his dog, Prince, and his companion, Pelke, Kockmann observed Houston emerging from the woods in an almost more than human form:
 
@@ -79,7 +79,7 @@ The fact that it took over two attempts to make it to Little Snowy Top is indica
 
 Even when situated entirely, physically, within this space, we remain forever at a distance. The physicality itself, while fostering a feeling of nearness—of being _in_ the wilderness, _in_ the mountains and affected by their steep slopes, rock and windfall, their greening drainages and avalanche paths, the sight and sound of the northern flicker, the mountain blue bird, the presence of bear, we nevertheless remain outside, somewhere on the edges—only on the edges—of time and space, tracing the tracings of an incommensurable event.
 
-{% include feature/figure.html objectid="big-snowy-ridge-2.jpg" %}
+{% include feature/figure.html objectid="big-snowy-ridge-2" %}
 
 --------------
 
@@ -89,7 +89,7 @@ For almost a century, this 14X14' wood frame cabin held windows that provided a 
 
 In the thirty years of its operation as a Forest Service fire lookout, and the fifty or so years following, the people who visited this windowed watch compiled a history that, cumulatively, would've told the story of extinction—the slow, almost silent, whimper of a world on its way out. Surely the sightings were fewer and fewer as the years progressed, and what was likely a typical occurrence in the early part of the century became, toward the end, an unexpected encounter.
 
-{% include feature/figure.html objectid="blackbear-through-binos.jpg" %}
+{% include feature/figure.html objectid="blackbear-through-binos" %}
 
 As we prepare to make our way down the mountain and back to camp, we pause for a moment in the remains of the tower. The glass and nails and metal crunch beneath our boot soles as we investigate the wreckage. The first thing that comes to mind—something we've been thinking about since reading of the fire tower a few weeks earlier—is how neat it would've been to sleep there. Especially this time of year, when the weather is so mercurial and inhospitable. To sit in the cabin at dark, watching and listening to the beads of cold rain and wind as they tapped, ghostlike, at the giant windows, would've been something else.
 
@@ -173,7 +173,7 @@ And this is precisely why storying extinction matters: to erase the ruins left i
 
 ----------------
 
-Clouds spill into the open blue above us as we make our way back to camp. The rain I was watching earlier is now approaching in earnest. Trees are sifting fog and the temps are dropping. When we arrive at our packs and our shelter we layer with the appropriate gear. I've got a gore-tex jacket and rain pants under a translucent five-dollar poncho. Michael a purple raincoat. Jack a rain jacket, water resistant pants, and a camouflage poncho that seems significantly more durable than mine. With the tarp now in a more protected space, room and plenty of fuel for a fire, adequate supplies, we feel prepared for whatever weather the mountains decide to throw our way.{% include feature/marginnote-image.html id="tellus-note" text="At camp" image="decker-tarp.jpg"%} 
+Clouds spill into the open blue above us as we make our way back to camp. The rain I was watching earlier is now approaching in earnest. Trees are sifting fog and the temps are dropping. When we arrive at our packs and our shelter we layer with the appropriate gear. I've got a gore-tex jacket and rain pants under a translucent five-dollar poncho. Michael a purple raincoat. Jack a rain jacket, water resistant pants, and a camouflage poncho that seems significantly more durable than mine. With the tarp now in a more protected space, room and plenty of fuel for a fire, adequate supplies, we feel prepared for whatever weather the mountains decide to throw our way.{% include feature/marginnote-image.html id="tellus-note" text="At camp" image="decker-tarp"%} 
 
 Jack and I head out to collect two game cameras from our first trip while Michael decides to stay back and do some writing. We'd come in on a different trail two weeks prior and camped roughly two miles south of where we are now, so we'll have at least four miles of hiking through snow and rain before settling in for the night.
 

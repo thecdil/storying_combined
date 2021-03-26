@@ -79,6 +79,8 @@
             var thumbSrc = '<svg class="bi text-body map-thumb" fill="currentColor"><use xlink:href="#{{ site.data.theme.icon-image | default: "file-image" }}"/></svg><span class="sr-only">Image File</span>';
         } else if (feature.properties.format.includes("audio")) {
             var thumbSrc = '<svg class="bi text-body map-thumb" fill="currentColor"><use xlink:href="#{{ site.data.theme.icon-audio | default: "file-play" }}"/></svg><span class="sr-only">Audio File</span>';
+        } else if (feature.properties.youtube) {
+            thumbSrc = '<img class="map-thumb" src="https://img.youtube.com/vi/' +  feature.properties.youtube + '/default.jpg" alt="item thumbnail">';
         } else if (feature.properties.format.includes("video")) {
             var thumbSrc = '<svg class="bi text-body map-thumb" fill="currentColor"><use xlink:href="#{{ site.data.theme.icon-video | default: "film" }}"/></svg><span class="sr-only">Video File</span>';
         } else if (feature.properties.format.includes("pdf")) {

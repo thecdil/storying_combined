@@ -21,10 +21,14 @@ custom-foot: js/mapitem-js.html
 </style>
 <div class="col-12 mt-1" >
     <button id="map-toggler" type="button" class="float-right btn btn-outline-light m-2 "  aria-label="Close" onclick="mapToggle()">
-        <span aria-hidden="true" id="map-off"><i class="fas fa-map"></i>
+        <span aria-hidden="true" id="map-off"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-map" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M15.817.113A.5.5 0 0 1 16 .5v14a.5.5 0 0 1-.402.49l-5 1a.502.502 0 0 1-.196 0L5.5 15.01l-4.902.98A.5.5 0 0 1 0 15.5v-14a.5.5 0 0 1 .402-.49l5-1a.5.5 0 0 1 .196 0L10.5.99l4.902-.98a.5.5 0 0 1 .415.103zM10 1.91l-4-.8v12.98l4 .8V1.91zm1 12.98l4-.8V1.11l-4 .8v12.98zm-6-.8V1.11l-4 .8v12.98l4-.8z"/>
+          </svg><span class="sr-only">Map icon</span>
         <br>
         <span class="small">View Map</span></span>
-        <span aria-hidden="true" id="map-on" class='d-none'><i class="fas fa-image"></i>
+        <span aria-hidden="true" id="map-on" class='d-none'><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-image-alt" viewBox="0 0 16 16">
+            <path d="M7 2.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0zm4.225 4.053a.5.5 0 0 0-.577.093l-3.71 4.71-2.66-2.772a.5.5 0 0 0-.63.062L.002 13v2a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-4.5l-4.777-3.947z"/>
+          </svg><span class="sr-only">Image icon</span>
             <br>
             <span class="small">View Item</span></span>
       </button>

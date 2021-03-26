@@ -207,8 +207,6 @@ Knowing that we'll be fine if we just stay in our tents until morning, but still
 
 "What do you dudes think about hiking out tonight?"
 
-{% include feature/quote-medium.md text="What do you dudes think about hiking out tonight?" source="Michael Decker" %}
-
 I tell him what I've been thinking and that I think we could make it. Jack says he's concerned about how much we've already hiked today—altogether about eleven miles—and he's worried about his knee holding up. But he also says he'd be up for it.
 
 "If we can make it to Shedroof by sundown, then it won't be too bad to hike down the mountain in the dark," I say. "It's 7:00 now. I think we could get there in two hours."

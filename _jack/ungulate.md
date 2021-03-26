@@ -50,11 +50,11 @@ In the Spring of 2019 news broke that the remaining three individuals of the Sou
 
 III.
 
-Do you have an Idaho caribou story?
+_Do you have an Idaho caribou story?_
 
-We are a pair of University of Idaho graduate students currently at work on a research project about the recent loss of North Idaho's South Selkirk mountain caribou herd. We will be traveling to the South Selkirk Mountains and surrounding communities to gather ecological, historical, graphic, and geographical data that will be incorporated into a web-based deep map (multilayered interactive map) documenting ecological/community response to mountain caribou absence in North Idaho. A key component of this project is the collection of oral history from communities surrounding this area, and we are seeking volunteers who have stories pertaining to caribou for incorporation into the project.
+_We are a pair of University of Idaho graduate students currently at work on a research project about the recent loss of North Idaho's South Selkirk mountain caribou herd. We will be traveling to the South Selkirk Mountains and surrounding communities to gather ecological, historical, graphic, and geographical data that will be incorporated into a web-based deep map (multilayered interactive map) documenting ecological/community response to mountain caribou absence in North Idaho. A key component of this project is the collection of oral history from communities surrounding this area, and we are seeking volunteers who have stories pertaining to caribou for incorporation into the project._
 
-If you have a story about a caribou encounter (or anything pertaining to the former Idaho Mountain Caribou herd) that you would like to share, please send e-mails to Jack Kredell [_jkredell@uidaho.edu_](mailto:jkredell@uidaho.edu)_) and/or Chris Lamb (_[_clamb@uidaho.edu_](mailto:clamb@uidaho.edu)_)._
+_If you have a story about a caribou encounter (or anything pertaining to the former Idaho Mountain Caribou herd) that you would like to share, please send e-mails to Jack Kredell [_jkredell@uidaho.edu_](mailto:jkredell@uidaho.edu)_) and/or Chris Lamb (_[_clamb@uidaho.edu_](mailto:clamb@uidaho.edu)_).__
 
 It was the moment of truth, a wordy one at that: We were about to find out if stories of mountain caribou encounters—the "key component" of our grant-funded project—were even out there to be collected. Stories aren't just out therelike apples on a tree; stories are out there as people—busy, bothersome people. It hadn't really occurred to us until now, with the publication of our notice in the _Spokane Spokesman Review_, that the foundation of our project was an educated guess: 20-30 individuals with mountain caribou stories from the 1990s or earlier, before the herd's complete collapse. Most of our subjects will be older. And many of our subjects are dead, leaving behind caribou stories I can only dream of. The reality of it was nauseating.
 
@@ -68,17 +68,17 @@ But we were not fucked: Shortly after publishing our call for caribou stories in
 
 On June 14, 2020, at 2:56 PM, Bob Case wrote:
 
-I have pictures of a caribou encounter.
+_I have pictures of a caribou encounter._
 
-Sent from my Samsung Galaxy , an AT&amp;T LTE smartphone
+_Sent from my Samsung Galaxy , an AT&amp;T LTE smartphone_
 
 We had already received several emails from people who had photographs of caribou which turned out to be press clippings from the herd augmentation efforts of 1980s. These were interesting in themselves but not the encounter stories we hoped to solicit. Intrigued as we were by Bob's email, the phrasing made us uncertain as to whether the photos were of his own encounter or somebody else's. Still, we figured it was worth a 90-minute drive to Spokane to find out and agreed to meet the following Monday morning. At worst we'd get more press clippings. But then, two days later, we got a strange email from Bob in which he admitted to driving to Moscow from Spokane earlier in the day, seemingly for pleasure, and without advance warning:
 
 On Jun 16, 2020, at 9:43 PM, Bob Case wrote:
 
-I should have told you I work nights. Early hours are hard for me.I usually get up at that time.I took a drive down there today after my doctor appointment. It was a nice drive.
+_I should have told you I work nights. Early hours are hard for me.I usually get up at that time.I took a drive down there today after my doctor appointment. It was a nice drive._
 
-Sent from my Samsung Galaxy , an AT&amp;T LTE smartphone
+_Sent from my Samsung Galaxy , an AT&amp;T LTE smartphone_
 
 We were beginning to lose faith in Bob but decided to reschedule for the 29th in Moscow at the University of Idaho rec center parking lot. About an hour before the interview Bob called to tell us he was an hour away. During the phone conversation between Bob and Chris, I could tell there might yet be another wrinkle in the Bob saga based on how Chris was having to strain to listen. I asked Chris what was wrong, but he said he didn't know. "His voice," he said.
 

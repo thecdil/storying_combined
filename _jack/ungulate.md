@@ -132,7 +132,7 @@ I tell him about the project. How we are building a digital deep map; a multimod
 
 "Chicago?"
 
-My dad collected antique paper weights. I have a small bronze weight of the Chicago skyline from the World's Columbian Exposition, also known as the world's fair, that was held in Chicago in 1893 to commemorate the 400th anniversary of the arrival of Columbus—a date that proved to be fateful for America's caribou.
+My dad collected antique paper weights. I have a small bronze weight of the Chicago skyline from the World's Columbian Exposition, also known as the world's fair, that was held in Chicago in 1893 to commemorate the 400th anniversary of the arrival of Columbus—a date that proved fateful for America's caribou.
 
 "Well it was the largest black caribou ever shot in the state of Idaho—I use the term black caribou on account of their dark coloration. Have you read Paul Flinn's book? He says they were almost black and damn near invisible when they got into the dark timber. I may have a copy if you need one. Of course, you need to read the Klockmann Diary for the story of Bill Houston."
 

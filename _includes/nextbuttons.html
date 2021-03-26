@@ -2,8 +2,8 @@
 <!--NEXT BUTTONS-->
 <div id="item-nav">
     <div class="d-none d-md-block">
-        <!-- {{navpage.prevtitle}} {{page.title}} {{navpage.title}}-->
-      <a id="back-button" onclick="newRecord(back);" href="{{navpage.prevlink | relative_url }}" alt="{{navpage.prevtitle}}" data-toggle="tooltip" data-placement="top"  title="{{navpage.prevtitle}}" alt="{{navpage.nexttitle}}" class="previous btn btn-lg btn-outline-info" style="font-size: 50px;"  >&laquo;</a>
+        <!-- {{navpage.prevtitle}} {{page.objectid}} {{navpage.title}}-->
+     {% if navpage.prevtitle %} <a id="back-button" onclick="newRecord(back);" href="{{navpage.prevlink | relative_url }}" alt="{{navpage.prevtitle}}" data-toggle="tooltip" data-placement="top"  title="{{navpage.prevtitle}}" alt="{{navpage.nexttitle}}" class="previous btn btn-lg btn-outline-info" style="font-size: 50px;"  >&laquo;</a>{% endif %}
         <a id="next-button" onclick="newRecord(forward);" href="{{navpage.nextlink | relative_url }}" alt="{{navpage.nexttitle}}" data-toggle="tooltip" data-placement="top" title="{{navpage.nexttitle}}" alt="{{navpage.nexttitle}}" class="next btn btn-lg btn-outline-info" style="font-size: 50px;">&raquo;</a>
     </div>
 </div>

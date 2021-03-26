@@ -7,12 +7,14 @@
     <div id="skip-to-content"><a href="#maincontent">Skip to main content</a></div>
     {% include collection-banner.html %}
     {% include collection-nav.html %}
+    {% include icons-embed.html %}
+
     <main id="maincontent" role="main">
       {{ content }}
     </main>
     {% include footer.html %}
     {% include foot.html %}
     {% include scroll-to-top.html %}
-  {% include nextbuttons.html %} 
+{% unless page.url contains "mapitem.html" %}    {% include nextbuttons.html %} {% endunless %}
   </body>
 </html>

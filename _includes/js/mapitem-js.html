@@ -1,10 +1,12 @@
 {%- assign fields = site.data.config-metadata -%}
 {%- assign stubs = site.data.config-nav | map: 'stub' | join: ';' -%}
+{%- assign mapitems = site.data[site.metadata] | where_exp: 'item','item.latitude != nil and item.longitude != nil and item.filename != nil' -%}
 <script src="{{ '/assets/lib/lightgallery/js/lightgallery-all.min.js' | relative_url }}"></script>
 <script>
 /* add item data */
+ /* mapitem-js.html */
 var items = { 
-        {%- for mapitem in site.data[site.metadata] -%}{% assign navpage = site.data.pages | where_exp: 'item', 'item.objectid == mapitem.objectid' | first %}
+        {%- for mapitem in mapitems -%}{% assign navpage = site.data.pages | where_exp: 'item', 'item.objectid == mapitem.objectid' | first %}
         {{ mapitem.objectid | default: navpage.title | jsonify }} : { {% for f in fields %}{% if mapitem[f.field] %}{{ f.field | escape | jsonify }}: {{ mapitem[f.field] | escape | jsonify }}, {% endif %}{% endfor %}{% if navpage.prevobjectid %} "prevobjectid": {{ navpage.prevobjectid | jsonify }},{% else %} "prevlink": {{ navpage.prevlink | jsonify }},{% endif %}{% if navpage.nextobjectid %} "nextobjectid": {{ navpage.nextobjectid | jsonify }}, {% else %} "nextlink": {{ navpage.nextlink | jsonify }},{% endif %}{% if mapitem.youtubeid %} "youtube": {{ mapitem.youtubeid | jsonify }}, {% endif %}"image_small": {{ mapitem.image_small | jsonify }}, "latlong": "{{ mapitem.latitude }},{{ mapitem.longitude }}" , "filename": {{ mapitem.filename | jsonify }} }{% unless forloop.last %}, {% endunless %}{% endfor %}
     };
     /* get query id from URL */
@@ -101,21 +103,10 @@ var items = {
         /* add prev/next nav */
         var itemKeys = Object.keys(items);
         var current = itemKeys.indexOf(queryString);
-        var last = itemKeys.length - 1;
-        var back, forward;
-        if (current === 0) {
-            back = itemKeys[last];
-        } else { 
-            back = itemKeys[current - 1];
-        }
-        if (current === last) {
-            forward = itemKeys[0];
-        } else {
-            forward = itemKeys[current + 1];
-        }
+       
         if (record.prevobjectid && record.nextobjectid) {
-                var backUrl = "newRecord('" + back + "');";
-                var forwardUrl = "newRecord('" + forward + "');";
+                var backUrl = "newRecord('" + record.prevobjectid + "');";
+                var forwardUrl = "newRecord('" + record.nextobjectid + "');";
             }
             else if (record.prevlink && record.nextlink) {
                 var backUrl = "window.location.assign('" + record.prevlink +"')";
@@ -123,11 +114,11 @@ var items = {
             }
           else if (record.nextlink && record.prevobjectid ) {
             var forwardUrl = "window.location.assign('" + record.nextlink +"')";
-                var backUrl = "newRecord('" + back + "');";
+                var backUrl = "newRecord('" + record.prevobjectid + "');";
                
             }
             else {
-                var forwardUrl = "newRecord('" + forward + "');";
+                var forwardUrl = "newRecord('" + record.nextobjectid + "');";
                 var backUrl = "window.location.assign('" + record.prevlink +"')";
             }
         
@@ -274,8 +265,8 @@ function newRecord(nextRecord){
         }
       
         if (record.prevobjectid && record.nextobjectid) {
-                var newbackUrl = "newRecord('" + back + "');";
-                var newforwardUrl = "newRecord('" + forward + "');";
+                var newbackUrl = "newRecord('" + record.prevobjectid + "');";
+                var newforwardUrl = "newRecord('" + record.nextobjectid + "');";
             }
             else if (record.prevlink && record.nextlink) {
                 var newbackUrl = "window.location.assign('" + record.prevlink +"')";
@@ -408,7 +399,7 @@ function newRecord(nextRecord){
             thumbSrc = '{{ "/assets/img/audio.svg" | relative_url }}';
         } else if (feature.properties.format.includes("pdf")) {
             thumbSrc = '{{ "/assets/img/pdf.svg" | relative_url }}';
-        } else if (feature.properties.format.includes("video")) {
+        } else if (feature.properties.youtube) {
             thumbSrc = 'https://img.youtube.com/vi/' +  feature.properties.youtube + '/default.jpg';
         } else {
             thumbSrc = feature.properties.image_thumb;

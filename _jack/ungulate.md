@@ -9,6 +9,8 @@ layout: para
 
 *by* **Jack Kredell**
 
+{% include feature/quote.md text="If there is only crumbs left—lick them up." objectid="" source="A handwritten note found inside a box of homemade biscotti sent from Grandma Pat, Northridge, CA."%}
+
 
 *I.*
 

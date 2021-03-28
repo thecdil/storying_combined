@@ -8,9 +8,8 @@ layout: para
 ### In Search of Mountain Caribou
 
 *by* **Jack Kredell**
-
-{% include feature/quote.md text="If there is only crumbs left—lick them up." objectid="" source="A handwritten note placed inside a box of homemade biscotti sent to me by Grandma Pat, Northridge, CA."%}
-
+{% include feature/quote.md text=""If there is only crumbs left—lick them up."" objectid="" source="A handwritten note placed inside a box of homemade 
+biscotti sent to me by Grandma Pat, Northridge, CA."%}
 *I.*
 
 I've never really felt at home in the human world. As a child, I preferred the company of insects and alligator lizards, the latter which I plucked unsuspecting from sunwarmed pavers in San Fernando Valley backyards. If I was too slow and happened to pin the lizard by the tail, the tail would often be jettisoned and left witching under my fingers as the lizard scurried to safety. I buried the tails, sometimes still twitching, in the soft dirt of my father's rose garden, as I was unsure if a new tail grew from the old lizard or a new lizard from the old tail.{% include feature/marginnote-image.html id="tellus-note" text="Southern Alligator Lizard" image="southern-alligator-lizard2"%} Arise Lazarus!

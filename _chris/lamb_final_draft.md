@@ -49,7 +49,7 @@ I pull my boots on despite my desire for dry and comfortable feet. And I begin s
 
 When I return from my search, Jack is awake and sitting by the campfire preparing his own coffee. He's dressed in his usual mountain apparel—light weight Kuhl pants, a camo long-sleeve wick dry tee, a beige Hells Canyon National Recreation Site cap. His binos are strapped to his chest like a safety vest. He appears to be fixed in contemplation, staring into the Salmo-Priest, also trying to stomach a Cliff Bar. I don't know what's going through his mind, but I imagine that he's trying to picture the scene as it was in 1490--a thought experiment that I've come to realize is one of his prerequisites for entering any new landscape. Jack would gladly give up several years of his life to spend one day in the pre-contact west. And in moments like this I often wonder if he's somehow found a way in. When I approach he nods through the steam of his boiling water and I bring up my concern about the weather.
 
-"The wind's picking up," I say. "I think we're going to have to relocate the shelter; I found a few potential spots on the East facing side of the saddle, we should scope 'em out."
+"The wind's picking up," I say. "I think we're going to have to relocate the shelter; I found a few potential spots on the east facing side of the saddle, we should scope 'em out."
 
 "Yeah, man, you're probably right," he replies. "Let me finish this coffee and then we can start moving our shit."
 

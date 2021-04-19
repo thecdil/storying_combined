@@ -15,7 +15,7 @@ I wake up early. The sky is clear above our campsite but a veil of rain is sweep
 
 {% include feature/figure.html objectid="burn-off" %}
 
-Directly in front me lies a patchwork of mostly dead but some living trees. A shot from Google earth would depict a skeletal forest draping over the ridge flowing west in the direction of my vision, spliced every so often by a vein of old growth timber. Peppered here and there with the emerging green of an early seral habitat. The standing dead trees, stripped of foliage and limbs, are the reason I have such a clear view of the space laid out before me. If not for their nudity, I would be enclosed, screened, and protected from the wind by ancient, heavily clad trees with thick beards of lichen. 
+Directly in front of me lies a patchwork of mostly dead but some living trees. A shot from Google earth would depict a skeletal forest draping over the ridge flowing west in the direction of my vision, spliced every so often by a vein of old growth timber. Peppered here and there with the emerging green of an early seral habitat. The standing dead trees, stripped of foliage and limbs, are the reason I have such a clear view of the space laid out before me. If not for their nudity, I would be enclosed, screened, and protected from the wind by ancient, heavily clad trees with thick beards of lichen. 
 
 But the recent wildfire has exposed this ridgeline and provided an expansive view of the [Salmo-Priest Wilderness](https://www.fs.usda.gov/recarea/colville/recarea/?recid=79330)—a 43,348-acre swath of what appears to be untouched forest that straddles the invisible border between northeastern Washington and northwestern Idaho and contains part of the South Selkirk mountain range.
 

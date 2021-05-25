@@ -736,7 +736,7 @@ tarp-setup,Tarp Setup,mapitem.html?id=tarp-setup,Ridgeline to Big Snowy Top,big-
 big-snowy-ridge,Ridgeline to Big Snowy Top,mapitem.html?id=big-snowy-ridge,Earnie's Story,earnie-story,mapitem.html?id=earnie-story,Tarp Setup,tarp-setup,mapitem.html?id=tarp-setup,,,,,,,,,
 earnie-story,Earnie's Story,mapitem.html?id=earnie-story,Mountain Caribou Historical Range,mountain-carbou-historical-range-better,mapitem.html?id=mountain-carbou-historical-range-better,Ridgeline to Big Snowy Top,big-snowy-ridge,mapitem.html?id=big-snowy-ridge,,,,,,,,,
 mountain-carbou-historical-range-better,Mountain Caribou Historical Range,mapitem.html?id=mountain-carbou-historical-range-better,Browse Page,,/browse.html,Earnie's Story,earnie-story,mapitem.html?id=earnie-story,,,,,,,,,
-,Browse Page,/browse.html,Data Page,,/data.html,#REF!,#REF!,#REF!,,,,,,,,,
+,Browse Page,/browse.html,Data Page,,/data.html,Mountain Caribou Historical Range,mountain-carbou-historical-range-better,mapitem.html?id=mountain-carbou-historical-range-better,,,,,,,,,
 ,Data Page,/data.html,Locations Page,,/locations.html,Browse Page,,/browse.html,,,,,,,,,
 ,Locations Page,/locations.html,Map,,/map.html,Data Page,,/data.html,,,,,,,,,
 ,Map,/map.html,Subjects Page,,/subjects.html,Locations Page,,/locations.html,,,,,,,,,

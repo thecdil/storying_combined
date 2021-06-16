@@ -1,7 +1,8 @@
 objectid,title,relative_link,nexttitle,nextobjectid,nextlink,prevtitle,prevobjectid,prevlink,,,,,,,,,
 ,Home,/,Error,,/error.html,,,,,,,,,,,,
 ,Error,/error.html,About,,/about.html,Home,,/,,,,,,,Home,,/
-,About,/about.html,To Sleep Beneath its Unhinged Doors,,/mountains/tosleep.html,Error,,/error.html,,,,,,,,,
+,trails,/trails/index.html,About,,/about.html,Error,,/error.html,,,,,,,,,
+,About,/about.html,To Sleep Beneath its Unhinged Doors,,/mountains/tosleep.html,Trails,,/trails/index.html,,,,,,,,,
 ,To Sleep Beneath its Unhinged Doors,/mountains/tosleep.html,Ungulate Highways,,/valleys/ungulate.html,About,,/about.html,,,,,,,,,
 ,Ungulate Highways,/valleys/ungulate.html,Bull Elk Investigates,bull-elk-investigates,mapitem.html?id=bull-elk-investigates,To Sleep Beneath its Unhinged Doors,,/mountains/tosleep.html,,,,,,,,,
 bull-elk-investigates,Bull Elk Investigates,mapitem.html?id=bull-elk-investigates,Bull Moose Shoulder Profile Bell and Wind,bull-moose-shoulder-profile-bell-and-wind,mapitem.html?id=bull-moose-shoulder-profile-bell-and-wind,Ungulate Highways,,/valleys/ungulate.html,,,,,,,,,

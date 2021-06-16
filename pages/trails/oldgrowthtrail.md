@@ -1,7 +1,7 @@
 ---
 title: Old Growth Trail Map Item
 layout: trail
-permalink: /loops/oldgrowthtrail.html
+permalink: /trails/oldgrowthtrail.html
 map-on: true
 gallery: true
 trail: Old Growth Trail

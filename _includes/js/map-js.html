@@ -17,7 +17,7 @@
     { "type":"Feature", "geometry":{ "type":"Point", "coordinates":[{{ item.longitude | strip }},{{ item.latitude | strip }}] }, "properties":
     { "title": {{ item.title | escape | jsonify }}, 
     {% for f in fields %}{{ f.field | escape | jsonify }}: {{ item[f.field] | escape | jsonify }},{% endfor %}{% if item.youtubeid %} "youtube": {{ item.youtubeid | jsonify }}, {% endif %}
-    "format": {{ item.format | jsonify }}, "image_small": {{ item.image_small | jsonify }}, "filename": {{ item.filename | jsonify }}, "id": {{ item.objectid | jsonify }} } }{% unless forloop.last %}, {% endunless %}{% endfor %}
+    "format": {{ item.format | jsonify }}, "image_small": {{ item.image_small | jsonify }},"image_thumb": {{ item.image_thumb | jsonify }}, "filename": {{ item.filename | jsonify }}, "id": {{ item.objectid | jsonify }} } }{% unless forloop.last %}, {% endunless %}{% endfor %}
     ]};
 
     /* init map and set zoom */
@@ -67,36 +67,37 @@
     /* create cluster group */
     var markers = L.markerClusterGroup({ maxClusterRadius: {{ site.data.theme.map-cluster-radius | default: 15 }}, singleMarkerMode: true {% if site.data.theme.map-search == true %}, removeOutsideVisibleBounds: false{% endif %} });{% endif %}
 
-    /* object popup function */
-    function objectPopups(feature, layer) {
-        {% if site.data.theme.map-search == true %}/* bind feature for search */
+      /* function to create object popups */
+      function objectPopups(feature, layer) {
+        {% if site.data.theme.map-search == true %}
+        /* bind feature for search */
         feature.layer = layer;{% endif %}
-        /* create pop up */
+        /* calculate item link */
         var itemHref = '{{ "/mapitem.html?id=" | relative_url }}' + feature.properties.id;
-        if (feature.properties.img) {
-            var thumbSrc = '<img class="map-thumb" src="' + feature.properties.img + '" alt="item thumbnail">';
-        } else if (feature.properties.format.includes("image")) {
-            var thumbSrc = '<svg class="bi text-body map-thumb" fill="currentColor"><use xlink:href="#{{ site.data.theme.icon-image | default: "file-image" }}"/></svg><span class="sr-only">Image File</span>';
-        } else if (feature.properties.format.includes("audio")) {
-            var thumbSrc = '<svg class="bi text-body map-thumb" fill="currentColor"><use xlink:href="#{{ site.data.theme.icon-audio | default: "file-play" }}"/></svg><span class="sr-only">Audio File</span>';
-        } else if (feature.properties.youtube) {
-            thumbSrc = '<img class="map-thumb" src="https://img.youtube.com/vi/' +  feature.properties.youtube + '/default.jpg" alt="item thumbnail">';
-        } else if (feature.properties.format.includes("video")) {
-            var thumbSrc = '<svg class="bi text-body map-thumb" fill="currentColor"><use xlink:href="#{{ site.data.theme.icon-video | default: "film" }}"/></svg><span class="sr-only">Video File</span>';
+        /* find object thumb based on format */
+        var thumbSrc;
+        if (feature.properties.format.includes("audio")) {
+            thumbSrc = '{{ "/assets/img/audio.svg" | relative_url }}';
         } else if (feature.properties.format.includes("pdf")) {
-            var thumbSrc = '<svg class="bi text-body map-thumb" fill="currentColor"><use xlink:href="#{{ site.data.theme.icon-pdf | default: "file-richtext" }}"/></svg><span class="sr-only">Video File</span>';
+            thumbSrc = '{{ "/assets/img/pdf.svg" | relative_url }}';
+        } else if (feature.properties.youtube) {
+            thumbSrc = 'https://img.youtube.com/vi/' +  feature.properties.youtube + '/default.jpg';
         } else {
-            var thumbSrc = '<svg class="bi text-body map-thumb" fill="currentColor"><use xlink:href="#{{ site.data.theme.icon-default | default: "file-earmark" }}"/></svg><span class="sr-only">File Icon</span>';
-        }
+            thumbSrc = feature.properties.image_small;
+        }    
+        /* create popup content */
         var popupTemplate = '<h4><a class="text-dark" href="' + itemHref + '">' +
             feature.properties.title + '</a></h4><div class="text-center"><a href="' + itemHref + 
-            '" >' + thumbSrc + '</a></div><p>';
+            '" ><img class="mapthumb img-thumb" src="' +  thumbSrc + '" alt="item thumbnail"></a></div><p class="mt-1">';
+        /* add metadata fields */
         {% for f in fields %}{% if f.display_name %}
         if (feature.properties[{{ f.field | escape | jsonify }}]) {
             popupTemplate += '<strong>{{ f.display_name }}:</strong> ' + feature.properties[{{ f.field | escape | jsonify }}] + '<br>'; 
         }
         {% endif %}{% endfor %}
+        /* add object link button to popup */
         popupTemplate += '</p><div class="text-center"><a class="btn btn-light" href="' + itemHref + '" >View Item</a></div>';
+        /* add object popup to map layer */
         layer.bindPopup(popupTemplate);
     }
     function objectMarkers(feature,latlng) {

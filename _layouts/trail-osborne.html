@@ -1,0 +1,135 @@
+---
+layout: default
+map-on: true
+custom-foot: js/trail-mapitem-js.html
+---
+<style>
+    #map {
+    height: 800px; 
+    width: 800px; 
+    border-radius: 50%;
+    z-index: -100;
+    position: absolute;
+    border: black 5px ridge;
+}
+#item-image .img-fluid{
+    max-height: 500px;
+}
+#main-header, .main-footer, .leaflet-right{display: none;}
+.btn-outline-light:hover{
+    color:black !important;
+}
+</style>
+<ul class="breadcrumb h5 bg-transparent" >
+    <li class="breadcrumb-item"><a class="text-dark" href="{{ '/about.html' | absolute_url }}">{{ site.title }}</a></li>
+    <li class="breadcrumb-item text-secondary"><a class="text-dark" href="{{ '/trails-osborne/index.html' | absolute_url }}">Trails</a></li>
+    <li id="bc-title" class="breadcrumb-item active text-dark"></li>
+</ul>
+
+<div class="float-right col-3 text-left">
+<div class="list-group w-75 mb-5 pb-3 border-bottom">
+    <a type="button" class="list-group-item list-group-item-action list-group-item-success" href="/interviews/transcripts/gerstler.html">Full Transcript and Video</a>
+    
+    <a type="button" class="list-group-item list-group-item-action" href="/flotsam/videos/gerstler.html">Interview
+      Video</a>
+      <a type="button" class="list-group-item list-group-item-action" href="/flotsam/photos/gerstler.html">Interview Photos</a>    
+     <!-- <a type="button" class="list-group-item list-group-item-action" href="/ohms/gerstler.html">Indexed Audio/Transcript (OHMS)</a>  -->      
+
+      <a type="button" class="list-group-item list-group-item-action" href="/analyses/respondents/gerstler.html">Answers
+        to Common Questions</a>
+    <a type="button" class="list-group-item list-group-item-action" data-toggle="modal" data-target="#filesData">Files and Data </a>
+  </div>
+  <div id="item-metadata"></div>
+</div>
+<div id="map"></div>
+<div class="container pt-3" id="contents-container" >
+    
+    <div id="loading" class="text-center">
+        <div class="spinner-border text-secondary" role="status"><span class="sr-only">Loading...</span></div>
+    </div>
+
+    <div class="row mt-3" >
+
+        <div class="col-md-6 mt-4 text" >
+            <button id="map-toggler" type="button" class="text-center btn btn-outline-light my-4 mx-auto justify-content-center"  aria-label="Close" onclick="mapToggle()">
+                <span aria-hidden="true" id="map-off"><i class="fas fa-map"></i>
+                <br>
+                <span class="small">View Map</span></span>
+                <span aria-hidden="true" id="map-on" class='d-none'><i class="fas fa-image"></i>
+                    <br>
+                    <span class="small">View Item</span></span>
+              </button>
+            <h2 id="item-title" class="d-none"></h2>
+            <div class=" mb-4 text-center">
+                <div class="w-100 text-center p-1" id="item-image" ></div>
+                <div id="item-link" class="text-center my-2 d-none"></div>
+            </div>
+            
+        </div>
+           
+    </div>
+        <div class="row mt-3">
+            <div class="col-md-6" >
+                <div class="text-center mb-5">
+                <button class="btn btn-lg btn-outline-light" type="button" data-toggle="modal"  data-target="#metadataModal" aria-expanded="false" aria-controls="metadataModal">
+                    More Item Info 
+                  </button>
+                </div>
+                <div class="modal fade" id="metadataModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Item Metadata</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                            
+
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  {%- if site.data.theme.browse-buttons == true -%}
+                  <div class="text-center">
+                      <a id="prev-button" class="btn btn-outline-light text-white">&laquo; Previous</a>
+                      <a class="btn btn-outline-light text-white" href="{{ '/browse.html' | relative_url }}">Back to browse</a>
+                      <a id="for-button" class="btn btn-outline-light text-white">Next &raquo;</a>
+                  </div>
+              
+                  <div id="item-nav">
+                      <div class="d-none d-md-block">
+                          <a id="back-button" class="previous btn btn-lg btn-outline-light text-white">&laquo;</a>
+                          <a id="next-button" class="next btn btn-lg btn-outline-light text-white">&raquo;</a>
+                      </div>
+                  </div>
+                  {% else %}
+                  <div class="text-center">
+                      <a class="btn btn-outline-primary" href="{{ '/browse.html' | relative_url }}">&laquo; Back to Collection Browse</a>
+                  </div>
+                  {% endif %}
+            </div>
+        </div> 
+    </div>
+
+   
+</div>
+
+
+
+</div>
+
+<script>
+    function mapToggle(){
+        document.getElementById('contents-container').classList.toggle('d-none');
+        document.getElementById('map-off').classList.toggle('d-none');
+        document.getElementById('map-on').classList.toggle('d-none');        
+    };
+    // function navToggle(){
+    //    location.href = "www.yoursite.com";
+//    };
+</script>

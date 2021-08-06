@@ -17,7 +17,7 @@
     { "type":"Feature", "geometry":{ "type":"Point", "coordinates":[{{ item.longitude | strip }},{{ item.latitude | strip }}] }, "properties":
     { "title": {{ item.title | escape | jsonify }}, 
     {% for f in fields %}{{ f.field | escape | jsonify }}: {{ item[f.field] | escape | jsonify }},{% endfor %}{% if item.youtubeid %} "youtube": {{ item.youtubeid | jsonify }}, {% endif %}
-    "format": {{ item.format | jsonify }}, "image_small": {{ item.image_small | jsonify }},"image_thumb": {{ item.image_thumb | jsonify }}, "filename": {{ item.filename | jsonify }}, "id": {{ item.objectid | jsonify }} } }{% unless forloop.last %}, {% endunless %}{% endfor %}
+    "format": {{ item.format | jsonify }}, "image_small": {{ item.image_small | jsonify }},"image_thumb": {{ item.image_thumb | jsonify }}, "filename": {{ item.filename | jsonify }}, "icon":"{% if item.itemtype == "trailcam" %}orangeIcon{% elsif item.itemtype == "oralhistory" %}greenIcon{% else %}redIcon}{% endif %}", "id": {{ item.objectid | jsonify }} } }{% unless forloop.last %}, {% endunless %}{% endfor %}
     ]};
 
     /* init map and set zoom */
@@ -48,9 +48,25 @@
         "Esri National Geo": Esri_NatGeoWorldMap,
         "Esri Imagery": Esri_WorldImagery
     };
-    L.control.layers(baseMaps).addTo(map);
+
     /* load base map */
     {{ site.data.theme.map-base | default: 'Esri_WorldStreetMap' }}.addTo(map);
+
+	var LeafIcon = L.Icon.extend({
+		options: {
+			shadowUrl: '/assets/img/leaf-shadow.png',
+			iconSize:     [38, 95],
+			shadowSize:   [50, 64],
+			iconAnchor:   [22, 94],
+			shadowAnchor: [4, 62],
+			popupAnchor:  [-3, -76]
+		}
+	});
+
+	var greenIcon = new LeafIcon({iconUrl: '/assets/img/leaf-green.png'}),
+		redIcon = new LeafIcon({iconUrl: '/assets/img/leaf-red.png'}),
+		orangeIcon = new LeafIcon({iconUrl: '/assets/img/leaf-orange.png'});
+
 
     {% if site.data.theme.map-search == true %}
     /* add search, https://github.com/naomap/leaflet-fusesearch */
@@ -101,11 +117,18 @@
         layer.bindPopup(popupTemplate);
     }
     function objectMarkers(feature,latlng) {
-        var marker = L.marker(latlng);
+        if (feature.properties.icon.includes("red")) {
+            var marker = L.circleMarker(latlng, {color: "red"});
+        } else if (feature.properties.icon.includes("green")) {
+            var marker = L.circleMarker(latlng, {color: "green"});
+        } else {
+            var marker = L.circleMarker(latlng, {color: "orange"});
+        }       
         {% if site.data.theme.map-cluster == true %}markers.addLayer(marker);{% endif %}
         return marker;
     }
 
+       
     /* add objects from geoJson features */
     L.geoJson(geodata, {
         onEachFeature: objectPopups,

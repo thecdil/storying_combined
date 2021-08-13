@@ -1,0 +1,44 @@
+{% comment %}
+
+    Bootstrap Modal, https://getbootstrap.com/docs/4.5/components/modal/
+
+    E.G. --> {% include feature/modal.html button="More Info" color="info" title="Information" text="Example text" %}
+
+    Options: 
+    - "button" = text of button to trigger modal
+    - "color" = color of modal button (primary, secondary, success, danger, warning, info, light, dark)
+    - "title" = header text for modal pop up
+    - "text" = body text for modal pop up, can use markdown formatting (tip: use a Liquid capture to add more complex content)
+
+{%- endcomment -%}
+<!-- Button trigger modal -->
+<div class="text-center mb-3">
+       <button id="nav-toggler" type="button" class="float-left btn btn-outline-light m-2 "  aria-label="Close" data-toggle="modal" data-target="#nav-modal">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-compass" viewBox="0 0 16 16">
+            <path d="M8 16.016a7.5 7.5 0 0 0 1.962-14.74A1 1 0 0 0 9 0H7a1 1 0 0 0-.962 1.276A7.5 7.5 0 0 0 8 16.016zm6.5-7.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
+            <path d="m6.94 7.44 4.95-2.83-2.83 4.95-4.949 2.83 2.828-4.95z"/>
+          </svg>
+          <span class="sr-only">Compass icon</span>
+        <br>
+        <span class="small">How to Navigate the Site</span></span>
+      </button>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="nav-modal" tabindex="-1" role="dialog" aria-labelledby="NavigationModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="{{ include.button | slugify }}ModalLabel">How To Navigate This Site</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body" >
+            {% include feature/button.html text="Bushwack on your own"  color="outline-success" size="lg" width="50" centered="true" link="/mapitem.html?id=twomouth-unnamedlake-imag0191"%}
+            {% include feature/button.html text="Choose a Trail"  color="outline-primary" size="lg" width="50" centered="true" link="/trails/"%}
+             
+            <p>This site can be navigated at all times by using the right and left arrows on your keyboard, or via clicking the blue arrows at the right and left of each page.</p> 
+            </div>
+        </div>
+    </div>
+</div>

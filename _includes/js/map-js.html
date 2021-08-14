@@ -118,11 +118,11 @@
     }
     function objectMarkers(feature,latlng) {
         if (feature.properties.icon.includes("red")) {
-            var marker = L.circleMarker(latlng, {color: "red"});
+            var marker = L.circleMarker(latlng, {color: "blue"});
         } else if (feature.properties.icon.includes("green")) {
             var marker = L.circleMarker(latlng, {color: "green"});
         } else {
-            var marker = L.circleMarker(latlng, {color: "orange"});
+            var marker = L.circleMarker(latlng, {color: "yellow"});
         }       
         {% if site.data.theme.map-cluster == true %}markers.addLayer(marker);{% endif %}
         return marker;

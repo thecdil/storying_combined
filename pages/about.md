@@ -1,7 +1,7 @@
 ---
 title: About the Project
 layout: para
-permalink: /about/project.html
+permalink: /about.html
 # Edit the markdown on in this file to describe your collection
 ---
 

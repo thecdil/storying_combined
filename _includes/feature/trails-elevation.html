@@ -13,7 +13,7 @@
 {%- assign items_el = site.data.trails -%}
 {%- assign items_el = items_el | where_exp: 'item','item.trailurl contains include.trail' -%}
 {% assign items_by_elevation = items_el | sort: "elevation" %}
-{% assign divisive = 100 %}
+{% assign divisive = 25 %}
 {% assign last = items_by_elevation.last %}
 {% assign first = items_by_elevation.first %}
 {% assign bottom_elevation = first.elevation | times: 1 %}
@@ -23,9 +23,9 @@
 
 
 
-<div class="row my-2 py-2">
+<div class="row mb-2 mt-5 py-2">
   
-    <svg height="{{top_elevation | divided_by: divisive | plus: 60  }}" width="100%" style="overflow:visible;">
+    <svg height="200" width="100%" style="overflow:visible;">
         <polyline points="{% for i in items_el %}{% assign next = items_el[forloop.index] %}{{forloop.index0 | times: 50}},{{top_elevation | minus: i.elevation | divided_by: divisive  }} {% endfor %}"
         style="fill:none;stroke:black;stroke-width:3" />
          
@@ -36,7 +36,7 @@
           </g>
           <!-- Label the points -->
           <g font-size="15" font-family="sans-serif" fill="black" stroke="none" text-anchor="start">
-            {% for i in items_el %}{% if i.objectid == first.objectid %}<text x="{{forloop.index0 | times: 50 | plus: 7}}" y="{{top_elevation | minus: i.elevation | divided_by: divisive | plus: 7  }}" ><a href="{{ include.trail | prepend: 'trails/' | relative_url | append: '.html?id=' | append: i.objectid }}">{{i.title}}, {{i.elevation}}ft</a></text>
+            {% for i in items_el %}{% if i.objectid == first.objectid %}<text x="{{forloop.index0 | times: 50 | plus: 7}}" y="{{top_elevation | minus: i.elevation | divided_by: divisive | plus: 20  }}" ><a href="{{ include.trail | prepend: 'trails/' | relative_url | append: '.html?id=' | append: i.objectid }}">{{i.title}}, {{i.elevation}}ft</a></text>
             {% elsif i.objectid == last.objectid%}<text x="{{forloop.index0 | times: 50 | plus: 7}}" y="{{top_elevation | minus: i.elevation | divided_by: divisive | minus: 7}}" ><a href="{{ include.trail | prepend: 'trails/' | relative_url | append: '.html?id=' | append: i.objectid }}">{{i.title}}, {{i.elevation}}ft</a></text>{% else%} {%endif%}
             {% endfor %}
           </g>

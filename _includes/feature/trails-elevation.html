@@ -16,8 +16,8 @@
 {% assign divisive = 100 %}
 {% assign last = items_by_elevation.last %}
 {% assign first = items_by_elevation.first %}
-{% assign bottom_elevation = first.elevation | times: 1 %}
-{% assign top_elevation = last.elevation | times: 1 %}
+{% assign bottom_elevation = first.elevation | times: 5 %}
+{% assign top_elevation = last.elevation | times: 5 %}
 {% assign height = top_elevation | minus: bottom_elevation %}
 
 

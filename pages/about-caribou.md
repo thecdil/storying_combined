@@ -1,7 +1,7 @@
 ---
-title: About the Project
+title: About Caribou
 layout: para
-permalink: /about.html
+permalink: /about/caribou.html
 # Edit the markdown on in this file to describe your collection
 ---
 

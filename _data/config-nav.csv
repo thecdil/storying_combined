@@ -1,6 +1,6 @@
 display_name,stub,dropdown_parent
-Trails,/trails/index.html
 Map,/map.html,
+Trails,/trails/index.html
 Mountains,/mountains/tosleep.html
 Valleys,/valleys/ungulate.html
 Browse,,
@@ -9,4 +9,6 @@ Subjects,/subjects.html,Browse
 Locations,/locations.html,Browse
 Timeline,/timeline.html,Browse
 Data,/data/,Browse
-About,/about.html
+About,,
+About the Project,/about.html,About
+About Caribou,/about/caribou.html,About

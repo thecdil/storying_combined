@@ -10,13 +10,13 @@
 {% endcapture %}
 {%- endcomment -%}
 
-{%- assign items = site.data[site.metadata] | where_exp: 'item','item.format contains "image" or item.format contains "video"' -%}
-{% if include.filter %}{%- assign items = items | where_exp: 'item',include.filter -%}{% endif %}
-<div class="row my-5 py-5">
-    {% for item in items limit:10%}
-    <div class="col-2 m-1">
-        <a href="{{ '/mapitem.html' | relative_url | append: '?id=' | append: item.objectid }}"><img alt="{{ item.description | escape }}" src="{{ item.image_thumb }}" /></a>
-    </div>
+{%- assign items = site.data.trails -%}
+{%- assign items = items | where_exp: 'item','item.trailurl contains include.trail' -%}
+<div class="row my-2 py-2">
+    {% for i in items %}
+   {% assign item = site.data[site.metadata] | where: "objectid", i.objectid | first %}
+        <a class="m-0 float-left" href="{{ include.trail | prepend: 'trails/' | relative_url | append: '.html?id=' | append: item.objectid }}"><img style="height:45px;width:60px;filter: blur(.25px);" alt="{{ item.description | escape }}" src="{{ item.image_thumb }}" /></a>
+    
     {% endfor %}
 </div>
 

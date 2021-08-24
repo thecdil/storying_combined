@@ -11,8 +11,8 @@ permalink: /about/about-caribou.html
 
 **ETYMOLOGY.** 
 
-
-| -------- | -------- |
+|          |	      |			
+|:--------:|:--------:|
 | naxni | Ktunaxa/Kootenai |                                         
 | tipitéuisin (male), tatápai (female) | Nimipuutímt/Nez Perce |
 | Vadzaih | Vuntut Gwich’in |

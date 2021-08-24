@@ -2,14 +2,14 @@
 title: Etymology & Extracts
 layout: para
 permalink: /about/caribou.html
-# Edit the markdown on in this file to describe your collection
+# Edit the markdown in this file to describe your collection
 ---
 
 # Etymology & Extracts
 
 {% include about/jumbotron.html %}{% include feature/marginnote.html id="dev" text="The world’s Caribou and Reindeer are classified as a single species Rangifer tarandus. Reindeer is the European name for the species while in North America, the species is known as Caribou" (IUCN 2021). %} 
 
-<p style="text-align: center;">**ETYMOLOGY.**</p> 
+**ETYMOLOGY.** 
 
 
 caribou, n. A reindeer belonging to any of several subspecies found in North America; esp. the migratory Rangifer tarandus groenlandicus.
@@ -36,7 +36,7 @@ etymology: <French caribou (1609) < Micmac *qaripu*, earlier form of qalipu (pro
 
 
 
-<p style="text-align: center;">**EXTRACTS.**</p> 
+**EXTRACTS.**
 
 
 "In the afternoon on one of the dry shoals of the River [near present day Revelstoke] we came to a herd of eight Rein Deer, they were not shy, and we shot a good Doe, and might have killed two, or three more. The hunters often mentioned to me that they had seen Rein Deer, but I doubted if they were of the same species that is found around Hudson's Bay and the interior country; upon examination I found no difference: the question is from whence do they come, as they are not known in any part of these countries except in the vicinity of the Canoe River, by the head of which they probably have a pass to the east side of the Mountains." —*David Thompson’s Narrative*, 1810.

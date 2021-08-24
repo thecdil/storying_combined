@@ -1,7 +1,7 @@
 ---
 title: Etymology & Extracts
 layout: para
-permalink: /about/paratext.html
+permalink: /about/about-caribou.html
 # Edit the markdown on in this file to describe your collection
 ---
 

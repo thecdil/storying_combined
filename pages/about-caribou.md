@@ -11,23 +11,28 @@ permalink: /about/paratext.html
 
 **ETYMOLOGY.** 
 
-naxni,                                            Ktunaxa/Kootenai.                                         
-tipitéuisin (male), tatápai (female),             Nimipuutímt/Nez Perce.
-Vadzaih,                                          Vuntut Gwich’in.
-tuktu,                                            Inuktitut.
-Maka·lipowa ("it shovels snow"),                  Proto-Algonquin.
-qalipu,                                           Mi'kmaq.
-caribou,                                          French.
-caribou,                                          English.
-Karibu,                                           German.
-boazu (domesticated), goddi (wild),               Northern Sámi.
-се́верный оле́нь,                                   Russian.
-Hreinn,         					                        Old Norse.
-Hrán, 						                                Anglo-Saxon.
-Rangifer tarandus caribou (Gmelin, 1788),         binomial/International Code of Zoological Nomenclature.
-	                                                           
-caribou, n. A reindeer belonging to any of several subspecies found in North America; esp. the migratory Rangifer tarandus groenlandicus. 
-etymology: <French caribou (1609) < Micmac *qaripu, earlier form of qalipu (pronounced /xalibu/, cognate with Maliseet-Passamaquoddy mokalip caribou: see maccarib n.), reflecting an agent noun of an Algonquian verb with the sense ‘to shovel snow, to clear away snow’ (compare Ojibwa mangaanibii he shovels snow), so called on account of the animal's habit of scraping away snow to feed on the vegetation underneath. "Caribou." <Oxford English Dictionary>
+
+| -------- | -------- |
+| naxni | Ktunaxa/Kootenai |                                         
+| tipitéuisin (male), tatápai (female) | Nimipuutímt/Nez Perce |
+| Vadzaih | Vuntut Gwich’in |
+| tuktu | Inuktitut |
+| Maka·lipowa ("it shovels snow") | Proto-Algonquin |
+| qalipu | Mi'kmaq |
+| caribou | French |
+| caribou | English |
+| Karibu |  German |
+| boazu (domesticated), goddi (wild) | Northern Sámi |
+| се́верный оле́нь | Russian |
+| Hreinn | Old Norse |
+| Hrán | Anglo-Saxon |
+| Rangifer tarandus caribou (Gmelin, 1788) | binomial/International Code of Zoological Nomenclature |
+	
+		
+**caribou**, n. A reindeer belonging to any of several subspecies found in North America; esp. the migratory Rangifer tarandus groenlandicus. 
+**etymology**: <French caribou (1609) < Micmac *qaripu, earlier form of qalipu (pronounced /xalibu/, cognate with Maliseet-Passamaquoddy mokalip caribou: see maccarib n.), reflecting an agent noun of an Algonquian verb with the sense ‘to shovel snow, to clear away snow’ (compare Ojibwa mangaanibii he shovels snow), so called on account of the animal's habit of scraping away snow to feed on the vegetation underneath. "Caribou." *Oxford English Dictionary*
+
+
 
 **EXTRACTS.**
 

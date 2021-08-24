@@ -27,7 +27,7 @@ permalink: /about/caribou.html
 | се́верный оле́нь | Russian |
 | Hreinn | Old Norse |
 | Hrán | Anglo-Saxon |
-| Rangifer tarandus caribou (Gmelin, 1788) | binomial/International Code of Zoological Nomenclature |
+| Rangifer tarandus caribou | binomial/International Code of Zoological Nomenclature |
 	
 
 caribou, n. A reindeer belonging to any of several subspecies found in North America; esp. the migratory Rangifer tarandus groenlandicus.

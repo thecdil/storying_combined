@@ -1,7 +1,7 @@
 ---
 title: Etymology & Extracts
 layout: para
-permalink: /about/about-caribou.html
+permalink: /about/caribou.html
 # Edit the markdown on in this file to describe your collection
 ---
 
@@ -10,6 +10,11 @@ permalink: /about/about-caribou.html
 {% include about/jumbotron.html %}{% include feature/marginnote.html id="dev" text="The world’s Caribou and Reindeer are classified as a single species Rangifer tarandus. Reindeer is the European name for the species while in North America, the species is known as Caribou" (IUCN 2021). %} 
 
 **ETYMOLOGY.** 
+
+
+caribou, n. A reindeer belonging to any of several subspecies found in North America; esp. the migratory Rangifer tarandus groenlandicus.
+etymology: <French caribou (1609) < Micmac *qaripu*, earlier form of qalipu (pronounced /xalibu/, cognate with Maliseet-Passamaquoddy mokalip caribou: see maccarib n.), reflecting an agent noun of an Algonquian verb with the sense ‘to shovel snow, to clear away snow’ (compare Ojibwa mangaanibii he shovels snow), so called on account of the animal's habit of scraping away snow to feed on the vegetation underneath. "Caribou." *Oxford English Dictionary*
+
 
 |          |	      |			
 |:--------:|:--------:|
@@ -28,9 +33,6 @@ permalink: /about/about-caribou.html
 | Hrán | Anglo-Saxon |
 | Rangifer tarandus caribou (Gmelin, 1788) | binomial/International Code of Zoological Nomenclature |
 	
-		
-**caribou**, n. A reindeer belonging to any of several subspecies found in North America; esp. the migratory Rangifer tarandus groenlandicus. 
-**etymology**: <French caribou (1609) < Micmac *qaripu*, earlier form of qalipu (pronounced /xalibu/, cognate with Maliseet-Passamaquoddy mokalip caribou: see maccarib n.), reflecting an agent noun of an Algonquian verb with the sense ‘to shovel snow, to clear away snow’ (compare Ojibwa mangaanibii he shovels snow), so called on account of the animal's habit of scraping away snow to feed on the vegetation underneath. "Caribou." *Oxford English Dictionary*
 
 
 

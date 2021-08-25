@@ -14,20 +14,20 @@ permalink: /about/caribou.html
 
 ---|---      
 :---|---:
-NAXNI | *Ktunaxa/Kootenai*                                         
-tipitéuisin (male), tatápai (female) | *Nimipuutímt/Nez Perce*
-Vadzaih | *Vuntut Gwich’in*
-tuktu | *Inuktitut*
-Maka·lipowa ("it shovels snow") | *Proto-Algonquin*
-qalipu | *Mi'kmaq*
-caribou | *French*
-caribou | *English*
-Karibu |  *German*
-boazu (domesticated), goddi (wild) | *Northern Sámi*
-се́верный оле́нь | *Russian*
-Hreinn | *Old Norse*
-Hrán | *Anglo-Saxon*
-Rangifer tarandus caribou | *binomial/International Code of Zoological Nomenclature*
+NAXNI, | *Ktunaxa/Kootenai*                                         
+TIPITÉUISIN, (male), TATÁPAI (female) | *Nimipuutímt/Nez Perce*
+VADZAIH, | *Vuntut Gwich’in*
+TUKTU, | *Inuktitut*
+MAKA·LIPOWA, ("it shovels snow") | *Proto-Algonquin*
+QUALIPU, | *Mi'kmaq*
+CARIBOU, | *French*
+CARIBOU, | *English*
+KARIBU, |  *German*
+BOAZU (domesticated), GODDI (wild), | *Northern Sámi*
+се́верный оле́нь, | *Russian*
+HREINN, | *Old Norse*
+HRÁN, | *Anglo-Saxon*
+RANGIFER TARANDUS CARIBOU, | *binomial/International Code of Zoological Nomenclature*
 	
 
 

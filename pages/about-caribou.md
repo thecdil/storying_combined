@@ -12,22 +12,22 @@ permalink: /about/caribou.html
 **ETYMOLOGY.** 
 
 
-| Name \|| Origin |  
-|:---:|:---:|
-| NAXNI \|| *Ktunaxa/Kootenai* |                                         
-| tipitéuisin (male), tatápai (female) \|| *Nimipuutímt/Nez Perce* |
-| Vadzaih \|| *Vuntut Gwich’in* |
-| tuktu \|| *Inuktitut* |
-| Maka·lipowa ("it shovels snow") \|| *Proto-Algonquin* |
-| qalipu \|| *Mi'kmaq* |
-| caribou \|| *French* |
-| caribou \|| *English* |
-| Karibu \||  *German* |
-| boazu (domesticated), goddi (wild) \|| *Northern Sámi* |
-| се́верный оле́нь \|| *Russian* |
-| Hreinn \|| *Old Norse* |
-| Hrán \|| *Anglo-Saxon* |
-| Rangifer tarandus caribou \|| *binomial/International Code of Zoological Nomenclature* |
+Name | Origin  
+---:|:---
+NAXNI | *Ktunaxa/Kootenai*                                         
+tipitéuisin (male), tatápai (female) | *Nimipuutímt/Nez Perce*
+Vadzaih | *Vuntut Gwich’in*
+tuktu | *Inuktitut*
+Maka·lipowa ("it shovels snow") | *Proto-Algonquin*
+qalipu | *Mi'kmaq*
+caribou | *French*
+caribou | *English*
+Karibu |  *German*
+boazu (domesticated), goddi (wild) | *Northern Sámi*
+се́верный оле́нь | *Russian*
+Hreinn | *Old Norse*
+Hrán | *Anglo-Saxon*
+Rangifer tarandus caribou | *binomial/International Code of Zoological Nomenclature*
 	
 
 caribou, n. A reindeer belonging to any of several subspecies found in North America; esp. the migratory Rangifer tarandus groenlandicus.

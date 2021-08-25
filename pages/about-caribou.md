@@ -12,7 +12,7 @@ permalink: /about/caribou.html
 **ETYMOLOGY.** 
 
 
-Name | Origin  
+  |   
 :---|---:
 NAXNI | *Ktunaxa/Kootenai*                                         
 tipitéuisin (male), tatápai (female) | *Nimipuutímt/Nez Perce*

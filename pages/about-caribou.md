@@ -1,4 +1,3 @@
-<style>table tr td:first-child{width:400px}</style>
 ---
 title: Etymology & Extracts
 layout: para

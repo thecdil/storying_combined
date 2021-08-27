@@ -4,10 +4,11 @@ layout: para
 permalink: /about/caribou.html
 # Edit the markdown in this file to describe your collection
 ---
+<style>table tr td:first-child{width:400px}</style>
 
 # Etymology & Extracts
 
-{% include about/jumbotron.html %}{% include feature/marginnote.html id="dev" text="The world's Caribou and Reindeer are classified as a single species Rangifer tarandus. Reindeer is the European name for the species while in North America, the species is known as Caribou (IUCN 2021)."  %} 
+{% include about/jumbotron.html %}{% include feature/marginnote.html id="dev" text="The world's Caribou and Reindeer are classified as a single species Rangifer tarandus. Reindeer is the European name for the species while in North America, the species is known as Caribou (IUCN 2021)." %} 
 
 **ETYMOLOGY.** 
 

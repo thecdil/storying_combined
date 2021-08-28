@@ -48,7 +48,7 @@ etymology: <French caribou (1609) < Micmac *qaripu*, earlier form of qalipu (pro
 "In the afternoon on one of the dry shoals of the River [near present day Revelstoke] we came to a herd of eight Rein Deer, they were not shy, and we shot a good Doe, and might have killed two, or three more. The hunters often mentioned to me that they had seen Rein Deer, but I doubted if they were of the same species that is found around Hudson's Bay and the interior country; upon examination I found no difference: the question is from whence do they come, as they are not known in any part of these countries except in the vicinity of the Canoe River, by the head of which they probably have a pass to the east side of the Mountains." —*David Thompson’s Narrative*, 1810.
 
 
-	
+
   
 "On the 11nth we continued our route at early dawn [Columbia River, likely near present day Northport] — the mountain scenery was hidden from our view, wrapped up in dense mist and fog, which were seen ascending in dense pillars, adding to the forming clouds above till the whole sky was overcast. Occasionally, as if to break upon the unusual monotony, would a fallow or reindeer be observed on the margin of the stream, or peeping with uplifted ears from a thicket, as the strange sound of oars or the Canadian song came stealing louder and louder upon them in their quiet abode — off they bounded, affrighted at the sight of men, so hateful, it appears, to the wild and timid creatures of the forest. In the course of this day we ran the place called the Little Dalles, and in the evening we encamped at the entrance of the Upper Lake." —Pierre Jean de Smet, *Life, Letters and Travels of Father Pierre-Jean de Smet, S.J.,* 1801-1873.
   
@@ -94,7 +94,7 @@ Slipping my pistol back in its holster in one quick motion, I rushed forward to 
  
  
 	
-"When a scared animal was killed, its spirit went to a spirit house. For the Neskapi this was Caribou House. Caribou House was a real place. It lay in a mountain range west of Ungava Bay in present-day Quebec. The mountains there were white, not from ice or snow but from centuries of caribou hair falling on the ground. The caribou entered and left this place each year, passing through a valley between two high mountains. The caribou hair on the ground was several feet depe and for miles around the cart-off caribou antlers formed a layer as high as a man’s waist. The caribou paths were worn so deep a calf going along one would only show his head...The Animal Master lived at Caribou House, together with the living caribou and the spirits of slain caribou." —Barry Lopez, *Of Wolves and Men*, 1979.
+"When a scared animal was killed, its spirit went to a spirit house. For the Neskapi this was Caribou House. Caribou House was a real place. It lay in a mountain range west of Ungava Bay in present-day Quebec. The mountains there were white, not from ice or snow but from centuries of caribou hair falling on the ground. The caribou entered and left this place each year, passing through a valley between two high mountains. The caribou hair on the ground was several feet deep and for miles around the cart-off caribou antlers formed a layer as high as a man’s waist. The caribou paths were worn so deep a calf going along one would only show his head...The Animal Master lived at Caribou House, together with the living caribou and the spirits of slain caribou." —Barry Lopez, *Of Wolves and Men*, 1979.
 
 
 	

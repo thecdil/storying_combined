@@ -4,8 +4,8 @@
 <script src="{{ '/assets/lib/leaflet/leaflet.js' | relative_url }}"></script>
 {% if site.data.theme.map-search == true %}<script src="{{ '/assets/lib/leaflet/fuse.min.js' | relative_url }}"></script>
 <script src="{{ '/assets/lib/leaflet/leaflet.fusesearch.js' | relative_url }}"></script>{% endif %}
-{% if site.data.theme.map-cluster == true %}<script src="{{ '/assets/lib/leaflet/leaflet.markercluster.js' | relative_url }}"></script>{% endif %}
-{% if site.data.theme.map-search == true and site.data.theme.map-cluster == true %}<script src="{{ '/assets/lib/leaflet/leaflet.markercluster.freezable.js' | relative_url }}"></script>{% endif %}
+{% if site.data.theme.map2-cluster == true %}<script src="{{ '/assets/lib/leaflet/leaflet.markercluster.js' | relative_url }}"></script>{% endif %}
+{% if site.data.theme.map-search == true and site.data.theme.map2-cluster == true %}<script src="{{ '/assets/lib/leaflet/leaflet.markercluster.freezable.js' | relative_url }}"></script>{% endif %}
 
 <script>
 (function(){
@@ -114,9 +114,9 @@ var redIcon = L.icon({
     searchCtrl.addTo(map);
     searchCtrl.indexFeatures(geodata.features, {{ fields | where: 'search','true' | map: 'field' | unshift: 'title' | jsonify }});{% endif %}
 
-    {% if site.data.theme.map-cluster == true %}
+    {% if site.data.theme.map2-cluster == true %}
     /* create cluster group */
-    var markers = L.markerClusterGroup({ maxClusterRadius: {{ site.data.theme.map-cluster-radius | default: 15 }}, singleMarkerMode: true {% if site.data.theme.map-search == true %}, removeOutsideVisibleBounds: false{% endif %} });{% endif %}
+    var markers = L.markerClusterGroup({ maxClusterRadius: {{ site.data.theme.map2-cluster-radius | default: 15 }}, singleMarkerMode: true {% if site.data.theme.map-search == true %}, removeOutsideVisibleBounds: false{% endif %} });{% endif %}
 
       /* function to create object popups */
       function objectPopups(feature, layer) {
@@ -161,7 +161,7 @@ var redIcon = L.icon({
         }else {
             var marker = L.marker(latlng, {icon: goldIcon});
         }       
-        {% if site.data.theme.map-cluster == true %}markers.addLayer(marker);{% endif %}
+        {% if site.data.theme.map2-cluster == true %}markers.addLayer(marker);{% endif %}
         return marker;
     }
 
@@ -170,10 +170,10 @@ var redIcon = L.icon({
     L.geoJson(geodata, {
         onEachFeature: objectPopups,
         pointToLayer: objectMarkers
-    }){% if site.data.theme.map-cluster != true %}.addTo(map);{% else %};
+    }){% if site.data.theme.map2-cluster != true %}.addTo(map);{% else %};
     map.addLayer(markers);{% endif %}
     
-    {% if site.data.theme.map-cluster == true and site.data.theme.map-search == true %}
+    {% if site.data.theme.map2-cluster == true and site.data.theme.map-search == true %}
     /* uncluster when search is clicked */
     document.querySelector('a.button').addEventListener("click", function() {
         markers.disableClustering();

@@ -66,6 +66,7 @@ map-base: Esri_WorldImagery # set default base map, choose from: Esri_WorldStree
 map-search: true # true/false, not suggested with large collections
 map-search-fuzziness: 0.35 # fuzzy search range from 1 = anything to 0 = exact match only
 map-cluster: true # true/false, suggested for large collection or with many items in same location
+map2-cluster: false # true/false, suggested for large collection or with many items in same location
 map-cluster-radius: 25 # size of clusters, from ~ 10 to 80
 
 ##########

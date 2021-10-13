@@ -1,5 +1,6 @@
 ---
 title: Map
-layout: map
+layout: map2
 permalink: /map2.html
+map-on: true
 ---

@@ -13,6 +13,8 @@ permalink: /about.html
 
 The local extinction served as the exigence for a GIS-based deep map, or spatial narrative, which documents the interaction of human and more-than-human communities in North Idaho through geolocated oral histories{% include feature/marginnote-image.html id="oh2" image="two-mouth-lakes-encounter" text="Debbie Ackley Encounter at Two Mouth Lakes <br> 1 of 15 oral histories" width="50" %} of [caribou encounters]({{ 'browse.html#encounter' | relative_url }}), [game camera]({{ 'browse.html#game camera' | relative_url }}) footage of species currently inhabiting former caribou habitat, and various historical documents about caribou existence in the South Selkirks. 
 
+**What is a deep map?**
+
 A deep map is a multidimensional, interactive map that offers an alternative to traditional two and three-dimensional representations of space. Beyond portraying the physical geography of a region, a deep map broadens our understanding of geography itself—imagining space as a complex, open-ended web of storied interactions determined as much by geological and biological history as by imagination, memory, and desire.
  
 *Storying Extinction* attempts to represent Idaho’s former mountain caribou habitat as a space constituted by human and more-than-human relationships, each of which are somehow linked to caribou extirpation. Together, the map’s oral histories, historical materials, and trail camera footage document an environment no longer hospitable to mountain caribou, but which remains haunted by their presence.

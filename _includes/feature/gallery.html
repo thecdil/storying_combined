@@ -14,9 +14,8 @@
 {% if include.filter %}{%- assign items = items | where_exp: 'item',include.filter -%}{% endif %}
 <div class="row my-5 py-5">
     {% for item in items limit:{{ include.limit | default: 30 }} %}
-    <div class="col-3 m-1">
-        <a href="{{ '/mapitem.html' | relative_url | append: '?id=' | append: item.objectid }}"><img alt="{{ item.description | escape }}" src="{{ item.image_thumb }}" /></a>
-        <p>{{item.title | truncatewords: 4 }}</p>
+    <div class="col-3 col-md-2 m-1">
+        <a href="{{ '/mapitem.html' | relative_url | append: '?id=' | append: item.objectid }}"><img alt="{{ item.description | escape }}" src="{{ item.image_thumb }}" alt="{{ item.title | escape }}" data-toggle="tooltip" data-placement="bottom" title="{{ item.title | escape }}" /></a>
     </div>
     {% endfor %}
 </div>

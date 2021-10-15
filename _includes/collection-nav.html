@@ -47,7 +47,7 @@
                             <div class="dropdown-menu">
                                 {% for c in navChildren %}
                                 <a class="dropdown-item {% if page.url == c.stub %}active{% endif %}"
-                                    href="{{ c.stub | relative_url }}">{{ c.display_name }}</a>
+                                {% if c.display_name contains 'Navigate' %}href="{{ c.stub }}" data-toggle="modal" data-target="#nav-modal"{% else %}href="{{ c.stub | relative_url }}"{% endif %}>{{ c.display_name }}</a>
                                 {% endfor %}
                             </div>
                         </li>

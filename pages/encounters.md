@@ -1,10 +1,11 @@
 ---
-title: Histories
+title: Encounters
 layout: para
-permalink: /histories.html
+permalink: /encounters.html
+custom-foot: js/tooltip-js.html
 # Edit the markdown on in this file to describe your collection
 ---
 
-# Histories
+# Encounters
 
 {% include feature/gallery.html filter="item.itemtype contains 'oralhistory'" %}

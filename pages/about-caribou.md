@@ -15,6 +15,8 @@ etymology: <French caribou (1609) < Micmac *qaripu*, earlier form of qalipu (pro
 
 
 
+
+
 A subspecies of the woodland caribou (*rangifer tarandus caribou*), the mountain caribou is an ecotype primarily inhabiting inland regions of British Columbia and Western Alberta. Until recently, mountain caribou could be found in the high peaks and temperate rainforests of northeastern Washington, northern Idaho, and northwestern Montana.  By 2016, however, the inland mountain caribou had become one of the most endangered species in the lower 48, earning the name “gray ghosts” for their elusive, almost spectral presence in the jagged peaks and remote old-growth forests of Idaho’s South Selkirk Mountains on the Canadian border. At that time, it was estimated that the population had been winnowed down to a mere dozen; predation, climate change, and habitat destruction from logging, mining, and other forms of resource extraction exerted extreme pressures on Idaho’s dwindling caribou herd. Serious conservation efforts were made to combat these threats, including several augmentation programs, the listing of caribou as a threatened species under the endangered species act, the designation of critical caribou habitat in 2016, and even periodic wolf culls by helicopter.  However, conservation efforts were ended in January 2019, when the three remaining Idaho caribou were captured in a net and airlifted by helicopter into southern British Columbia. This event marked the official extinction of caribou in the lower 48, a species which once roamed throughout the northern US and lived as far south as the Salmon River, according to biologists.  
 
 

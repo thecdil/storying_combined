@@ -33,8 +33,8 @@ z-index:1000;
 </style>
 <div id="item-nav" class="d-none d-md-block">
         <!-- {{navpage.prevtitle}} {{page.objectid}} {{navpage.title}}-->
-     {% if navpage.prevtitle %} <a id="back-button" onclick="newRecord(back);" href="{{navpage.prevlink | relative_url }}" alt="{{navpage.prevtitle}}" data-toggle="tooltip" data-placement="top"  title="{{navpage.prevtitle}}" alt="{{navpage.nexttitle}}" class="previous btn btn-lg btn-outline-info" style="font-size: 40px;"  >&laquo;</a>{% endif %}
-        <a id="next-button" onclick="newRecord(forward);" href="{{navpage.nextlink | relative_url }}" alt="{{navpage.nexttitle}}" data-toggle="tooltip" data-placement="top" title="{{navpage.nexttitle}}" alt="{{navpage.nexttitle}}" class="next btn btn-lg btn-outline-info" style="font-size: 40px;">&raquo;</a>
+     {% if navpage.prevtitle %} <a id="back-button" onclick="newRecord(back);" href="{{navpage.prevlink | relative_url }}" alt="{{navpage.prevtitle}}" data-toggle="tooltip" data-placement="top"  title="{{navpage.prevtitle}}" alt="{{navpage.nexttitle}}" class="previous btn btn-lg {% unless page.layout == 'map' %}btn-outline-info{% else %}btn-light text-info border-info{% endunless%}" style="z-index:100"  >&laquo;</a>{% endif %}
+        <a id="next-button" onclick="newRecord(forward);" href="{{navpage.nextlink | relative_url }}" alt="{{navpage.nexttitle}}" data-toggle="tooltip" data-placement="top" title="{{navpage.nexttitle}}" alt="{{navpage.nexttitle}}" class="next btn btn-lg {% unless page.layout == 'map' %}btn-outline-info{% else %}btn-light text-info border-info{% endunless%}" style="z-index:100">&raquo;</a>
 </div>
 
 <div id="mobile-nav" class="d-md-none row mx-0">

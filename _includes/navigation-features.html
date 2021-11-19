@@ -1,0 +1,184 @@
+{% assign navpage = site.data.pages | where_exp: 'item', 'item.relative_link == page.url' | first %}
+<!--NEXT BUTTONS-->
+<style>
+
+{% if page.layout contains "map"  or page.layout contains "trail" %}
+#mobile-nav{
+    position: fixed;
+bottom:0px;
+text-align: center;
+width:100%;
+border: 1px white solid;
+border-radius: 2%;
+background-color:transparent;
+z-index:1000;
+
+}
+{% else %} 
+    #mobile-nav{
+position: fixed;
+bottom:0px;
+text-align: center;
+width:100%;
+border: 1px black solid;
+border-radius: 2%;
+background-color: white;
+z-index:1000;
+
+}
+
+
+{% endif %}   
+
+</style>
+<div id="item-nav" class="d-none d-md-block">
+        <!-- {{navpage.prevtitle}} {{page.objectid}} {{navpage.title}}-->
+     {% if navpage.prevtitle %} <a id="back-button" onclick="newRecord(back);" href="{{navpage.prevlink | relative_url }}" alt="{{navpage.prevtitle}}" data-toggle="tooltip" data-placement="top"  title="{{navpage.prevtitle}}" alt="{{navpage.nexttitle}}" class="previous btn btn-lg {% unless page.layout == 'map' %}btn-outline-info{% else %}btn-outline-light{% endunless%}" style="z-index:100"  >&laquo;</a>{% endif %}
+        <a id="next-button" onclick="newRecord(forward);" href="{{navpage.nextlink | relative_url }}" alt="{{navpage.nexttitle}}" data-toggle="tooltip" data-placement="top" title="{{navpage.nexttitle}}" alt="{{navpage.nexttitle}}" class="next btn btn-lg {% unless page.layout == 'map' %}btn-outline-info{% else %}btn-outline-light{% endunless%}" style="z-index:100">&raquo;</a>
+</div>
+
+<div id="mobile-nav" class="d-md-none row mx-0">
+    <div class="col mr-0">
+    <!-- {{navpage.prevtitle}} {{page.objectid}} {{navpage.title}}-->
+ {% if navpage.prevtitle %} <a id="back-button" onclick="newRecord(back);" href="{{navpage.prevlink | relative_url }}" alt="{{navpage.prevtitle}}" data-toggle="tooltip" data-placement="top"  title="{{navpage.prevtitle}}" alt="{{navpage.nexttitle}}" class="previous btn btn-lg mt-1 float-right {% if page.layout contains "map" or page.layout contains "trail" %}btn-outline-light{% else %}btn-outline-dark{% endif %}"   >&laquo;</a>{% endif %}
+</div>
+<div class="col ">
+ <a class="{% if page.layout contains "map" or page.layout contains "trail" %}text-white{% else %}text-dark{% endif %}"  aria-label="navigation information button" data-toggle="modal" data-target="#nav-modal" style="cursor: pointer;" alt="navigation modal button"><svg xmlns="http://www.w3.org/2000/svg"  width="60" height="50" class="bi bi-compass" viewBox="0 -3 15 20"><path d="M8 16.016a7.5 7.5 0 0 0 1.962-14.74A1 1 0 0 0 9 0H7a1 1 0 0 0-.962 1.276A7.5 7.5 0 0 0 8 16.016zm6.5-7.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/><path d="m6.94 7.44 4.95-2.83-2.83 4.95-4.949 2.83 2.828-4.95z"/></svg><span class="sr-only">Compass icon</span></a>
+</div>
+<div class="col ml-0">
+ <a id="next-button" onclick="newRecord(forward);" href="{{navpage.nextlink | relative_url }}" alt="{{navpage.nexttitle}}" data-toggle="tooltip" data-placement="top" title="{{navpage.nexttitle}}" alt="{{navpage.nexttitle}}" class="next btn btn-lg float-left mt-1 {% if page.layout contains "map" or page.layout contains "trail" %}btn-outline-light{% else %}btn-outline-dark{% endif %}" >&raquo;</a>
+</div>
+</div>
+
+
+<script>
+     /* add back forward key press */
+        document.onkeydown = function(evt) {
+        evt = evt || window.event;
+        switch (evt.keyCode) {
+            case 37:
+            document.getElementById("back-button").click();
+                break;
+            case 39:
+            document.getElementById("next-button").click();
+                break;
+        }};
+</script>
+
+{% comment %}
+
+    Bootstrap Modal, https://getbootstrap.com/docs/4.5/components/modal/
+
+    E.G. --> {% include feature/modal.html button="More Info" color="info" title="Information" text="Example text" %}
+
+    Options: 
+    - "button" = text of button to trigger modal
+    - "color" = color of modal button (primary, secondary, success, danger, warning, info, light, dark)
+    - "title" = header text for modal pop up
+    - "text" = body text for modal pop up, can use markdown formatting (tip: use a Liquid capture to add more complex content)
+
+{%- endcomment -%}
+
+<style>
+
+{% if page.layout contains "map"  or page.layout contains "trail" %}
+#nav-modal-div{
+position: fixed;
+bottom:-40px;
+left: -12px;
+border: 1px white solid;
+border-radius: 10% 25%;
+background-color:transparent;
+
+}
+{% else %} 
+    #nav-modal-div{
+position: fixed;
+bottom:-35px;
+left: -12px;
+border: 1px black solid;
+border-radius: 10% 25%;
+background-color: white;
+
+}
+#nav-modal-div:hover {
+
+color: #fff !important;
+background-color: #343a40;
+border-color: #343a40;
+fill: #fff;
+
+}
+#nav-modal-div:hover a.text-dark{
+    color:white !important;
+    fill:white !important;}
+{% endif %}   
+</style>
+<!-- Button trigger modal -->
+<div class="text-center mb-3 p-3 d-none d-md-block"  id="nav-modal-div" style="z-index: 100;">
+       <a class="my-2 ml-3 mr-0 {% if page.layout contains "map" or page.layout contains "trail" %}text-white{% else %}text-dark{% endif %}"  aria-label="Close" data-toggle="modal" data-target="#nav-modal" style="cursor: pointer;" alt="navigation modal button">
+        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" class="bi bi-compass" viewBox="0 0 20 20">
+            <path d="M8 16.016a7.5 7.5 0 0 0 1.962-14.74A1 1 0 0 0 9 0H7a1 1 0 0 0-.962 1.276A7.5 7.5 0 0 0 8 16.016zm6.5-7.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
+            <path d="m6.94 7.44 4.95-2.83-2.83 4.95-4.949 2.83 2.828-4.95z"/>
+          </svg>
+          <span class="sr-only">Compass icon</span>
+        </a>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="nav-modal" tabindex="-1" role="dialog" aria-labelledby="NavigationModalLabel" aria-hidden="true" >
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title h3 text-center w-100" id="{{ include.button | slugify }}ModalLabel">How To Navigate Storying Extinction</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body" >
+                <div class="row justify-content-center">
+                    <div class="col-8">
+                    {% capture modal-content %}{% include about/nav-modal-content.md %}{% endcapture %}
+                    {{ modal-content | markdownify }}
+
+                    
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-10 offset-1 col-md-3 offset-md-3">
+                        <div class="text-right mb-2">
+                            <a class="btn btn-lg btn-outline-dark m-2" href="{{'/trails/' | relative_url }}">
+                                <svg class="svg-nav-icon"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="100%" height="auto" fill="inherit" viewBox="0 0 75 91" enable-background="new 0 0 75 75"  xml:space="preserve"><path d="M13.799,48.111c-4.351,0-7.878,3.527-7.878,7.878c0,4.351,3.527,7.879,7.878,7.879c4.351,0,7.878-3.528,7.878-7.879  C21.678,51.638,18.15,48.111,13.799,48.111z M13.799,59.868c-2.142,0-3.879-1.737-3.879-3.879c0-2.143,1.737-3.878,3.879-3.878  c2.142,0,3.878,1.735,3.878,3.878C17.678,58.131,15.941,59.868,13.799,59.868z"/><path d="M69.854,52.986c-4.351,0-7.878,3.527-7.878,7.878c0,4.352,3.527,7.879,7.878,7.879c4.352,0,7.879-3.527,7.879-7.879  C77.732,56.514,74.205,52.986,69.854,52.986z M69.854,64.743c-2.142,0-3.878-1.736-3.878-3.879s1.736-3.878,3.878-3.878  c2.143,0,3.879,1.735,3.879,3.878S71.996,64.743,69.854,64.743z"/><path d="M71.076,15.116c-5.964,0-10.799,4.835-10.799,10.799c0,5.964,4.835,10.799,10.799,10.799s10.799-4.835,10.799-10.799  C81.875,19.951,77.04,15.116,71.076,15.116z M71.076,31.232c-2.937,0-5.317-2.38-5.317-5.316c0-2.937,2.381-5.317,5.317-5.317  c2.936,0,5.316,2.38,5.316,5.317C76.393,28.852,74.012,31.232,71.076,31.232z"/><g><g><path d="M13.196,84.523c-1.038-1.041-1.975-2.188-2.786-3.41l4.325-2.873c0.623,0.938,1.343,1.818,2.139,2.618L13.196,84.523z"/></g><g><path d="M7.182,73.451c-0.342-1.583-0.515-3.209-0.515-4.831c0-1.154,0.088-2.317,0.262-3.454l5.133,0.783    c-0.134,0.879-0.202,1.777-0.202,2.671c0,1.254,0.134,2.511,0.399,3.734L7.182,73.451z M81.078,63.712l-0.602-5.158    c2.22-0.259,3.99-0.955,5.41-2.128l3.308,4.003C87.01,62.233,84.279,63.338,81.078,63.712z M58.337,59.41    c-1.384-0.464-2.78-0.943-4.184-1.424c-0.939-0.321-1.882-0.645-2.825-0.964l1.669-4.918c0.948,0.322,1.896,0.646,2.839,0.97    c1.393,0.478,2.778,0.952,4.152,1.412L58.337,59.41z M44.379,54.768c-2.596-0.785-4.869-1.385-6.946-1.836l1.1-5.075    c2.214,0.48,4.618,1.115,7.348,1.94L44.379,54.768z M94.069,53.172l-4.936-1.616c0.254-0.776,0.378-1.509,0.378-2.242    c0-1.005-0.236-1.992-0.723-3.016l4.69-2.228c0.812,1.711,1.225,3.476,1.225,5.243C94.704,50.586,94.49,51.884,94.069,53.172z     M23.94,52.412l-1.216-5.048c2.417-0.583,5.134-0.789,8.1-0.621l-0.297,5.185C28.072,51.787,25.86,51.95,23.94,52.412z     M84.809,41.333c-1.722-1.593-3.75-3.15-5.54-4.523l3.161-4.119c1.878,1.441,4.008,3.075,5.905,4.832L84.809,41.333z"/></g></g></svg>
+                                <span class="sr-only" >Trails ICON Created by Gabriele Debolini from the Noun Project</span>
+                                <br />
+                                <br />
+                                Choose a Trail
+                                <br />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-10 offset-1 col-md-3 offset-md-0">
+                        <div class="text-left mb-2">
+                            <a class="btn btn-lg btn-outline-dark m-2" href="{{ '/map.html' | relative_url }}">
+                                <svg class="svg-nav-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="100%" height="auto" viewBox="0 0 75 91" enable-background="new 0 0 75 75" xml:space="preserve"><g><path d="M54.804,17.029L54.804,17.029l-0.015,0.009c-1.214,0.75-7.47,3.318-14.482-3.251c-2.815-2.859-4.15-7.214-4.15-7.214   s2.996,1.345,5.333,0.447c1.582-0.615,3.159-2.509,3.457-2.885c0.729-0.818,1.635-1.518,2.692-1.997   c4.123-1.87,8.991,0,10.86,4.159C60.324,10.357,58.663,15.032,54.804,17.029z"/></g><g><g><path d="M23.043,52.247c-0.601,0-1.209-0.068-1.818-0.216c-4.135-1-6.674-5.163-5.675-9.298l4.813-19.896    c1-4.135,5.157-6.677,9.297-5.677c4.134,1.002,6.674,5.165,5.673,9.3l-4.812,19.895C29.668,49.88,26.516,52.247,23.043,52.247    L23.043,52.247z"/><path d="M82.276,20.037H45.643c-0.292,0-0.854,0.045-1.087,0.112c-4.321,0.741-5.907,5.881-5.907,5.881l-4.565,19.183    l12.957-7.558l-1.176-2.542c-0.256-0.554-0.015-1.211,0.539-1.461c0.55-0.262,1.207-0.019,1.463,0.537l1.546,3.334    c0.002,0.009,0.009,0.015,0.013,0.02c0.013,0.019,0.011,0.035,0.018,0.055l2.986,6.437l0.299,0.61    c0.176,0.343,0.808,0.987,1.394,1.227l12.009,4.583l-7.669,13.186l-10.057-9.442l2.013-9.247l-2.447-5.285l-14.596,8.514    l-5.648,23.713L15.773,90.597c-0.443,0.623-0.666,1.366-0.666,2.252c-0.176,1.497,0.222,2.797,1.191,3.908    c0.969,1.1,2.208,1.737,3.707,1.918c2.207,0.172,3.883-0.711,5.028-2.652L37.788,76.01c0.263-0.535,0.615-1.278,1.061-2.262    l2.536-10.681l11.788,9.667L39.238,96.687c-0.382,0.658-0.158,1.502,0.5,1.887c0.218,0.13,0.457,0.189,0.692,0.189    c0.474,0,0.938-0.249,1.193-0.688l11.903-20.465L53.51,93.832c0.533,2.562,2.166,3.974,4.901,4.242    c1.497,0.088,2.799-0.353,3.903-1.323c1.1-0.979,1.695-2.168,1.782-3.574c0-0.271,0-0.66,0-1.194l-0.101-20.236    c0-1.6-0.37-3.193-1.385-4.206l-2.082-1.963l8.298-14.274c2.204,0.134,3.788-1.123,4.107-3.299    c0.216-1.438-0.742-2.766-1.887-3.199L58.68,40.401l-4.845-13.299h28.441c1.95,0,3.531-1.581,3.531-3.533    C85.808,21.618,84.227,20.037,82.276,20.037z"/></g></g></svg>
+                                <span class="sr-only"> Hiker icon Created by Luis Prado from the Noun Project</span>
+                                <br>
+                                No thanks, I prefer to bushwack.</a>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+
+
+           
+            </div>
+            <div class="modal-footer">
+                <div class="text-center">
+                    {% if navpage.prevtitle %} <a id="back-button" onclick="newRecord(back);" href="{{navpage.prevlink | relative_url }}" alt="{{navpage.prevtitle}}" data-toggle="tooltip" data-placement="top"  title="{{navpage.prevtitle}}" alt="{{navpage.nexttitle}}" class="previous btn btn-outline-dark" style="z-index:100"  >Go to Previous Page</a>{% endif %}
+        <a id="next-button" onclick="newRecord(forward);" href="{{navpage.nextlink | relative_url }}" alt="{{navpage.nexttitle}}" data-toggle="tooltip" data-placement="top" title="{{navpage.nexttitle}}" alt="{{navpage.nexttitle}}" class="next btn btn-outline-dark" style="z-index:100">Go to Next Page</a>
+        </div>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>

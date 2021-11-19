@@ -33,7 +33,7 @@ Unlike the barren ground caribou of Alaska that migrate long distances and in la
 <p class="h2">{{ event.date }}</p>
 </div>
 <div class="col-8 border-left my-5" style="border-width: 3px;">
-<p class="h3 w-50">{{ event.text }}</p>
+<p class="h3 col-12 col-md-6">{{ event.text }}</p>
 </div>
 </div>
 {% endfor %}

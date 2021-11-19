@@ -3,6 +3,10 @@
 .tufte-content {
 
     padding-left: 12.5%;
+    @media (max-width: 760px)  {
+        padding-left:3%
+        
+    }
     color: #111;
     max-width: 1400px;
     counter-reset: sidenote-counter;
@@ -377,13 +381,13 @@ label.margin-toggle:not(.sidenote-number) {
     }
 
     blockquote {
-        margin-left: 1.5em;
+        margin-left: .5em;
         margin-right: 0em;
     }
 
     blockquote p,
     blockquote footer {
-        width: 100%;
+        width: 100% !important;
     }
 
     label.margin-toggle:not(.sidenote-number) {

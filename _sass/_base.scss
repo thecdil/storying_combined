@@ -56,7 +56,7 @@ a {
 }
 #home-banner {
     @include media-query($on-palm) {
-    max-height:500px;
+    
     }
 }
 .display-4 {

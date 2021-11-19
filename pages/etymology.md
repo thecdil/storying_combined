@@ -14,11 +14,11 @@ permalink: /etymology_extracts.html
 
 **ETYMOLOGY.** 
 
-{:.my-4}
+{:.my-4 .pb-4}
 **caribou, n.** A reindeer belonging to any of several subspecies found in North America; esp. the migratory Rangifer tarandus groenlandicus.
 etymology: <French caribou (1609) < Micmac *qaripu*, earlier form of qalipu (pronounced /xalibu/, cognate with Maliseet-Passamaquoddy mokalip caribou: see maccarib n.), reflecting an agent noun of an Algonquian verb with the sense ‘to shovel snow, to clear away snow’ (compare Ojibwa mangaanibii he shovels snow), so called on account of the animal's habit of scraping away snow to feed on the vegetation underneath. "Caribou." *Oxford English Dictionary*
 
-{:.my-4}
+{:.my-4 .table-striped}
 ---|---      
 :---|---:
 NAXNI, | *Ktunaxa/Kootenai*.                                         

@@ -2,12 +2,12 @@
 
     <div class="row border-bottom border-white pb-4 mb-2">
 
-        <div class="col-md-7  px-4 mt-2">
+        <div class="col-md-7  px-4 mt-2 text-white">
 
-            <h4><a href="{{ '/' | relative_url }}" class="text-white font-weight-normal">{{ site.title }}</a></h4>
-            <p class="text-white"><small>{{ site.description }}</small></p>
+            <p class="h3"><a href="{{ '/' | relative_url }}" class="text-white font-weight-normal">{{ site.title }}</a></p>
+            <p class="text-white"><small>{{ site.tagline }}</small></p>
             <nav>
-                <ul class="nav nav-pills ">
+                <ul class="nav nav-pills mb-4">
                     {%- assign navItems = site.data.config-nav | where_exp: 'item', 'item.dropdown_parent == nil' -%}
                     {% for nav in navItems %}
                     <li class="nav-item">
@@ -21,17 +21,23 @@
                     {%- endfor -%}
                 </ul>
             </nav>
-
+            <p class="mt-3 mt-md-5 h6"><i>Project Directors:</i> Jack Kredell & Chris Lamb</p>
+            <p class="h6"><i>Web Design and Development:</i> Devin Becker</p>
         </div>
 
-        <div class="col-md-5 mt-2 text-right">
-
-            <p class="text-right">
+        <div class="col-12 col-md-5 mt-4 mt-md-2 text-left text-md-right ml-4 ml-md-0 text-white">
+            <h5>Funding and Support:</h5>
+            <p class="mt-3">
                 <a href="{{ site.organization-link }}" target="_blank" rel="noopener">
-                    <img class="img-fluid" src="{{ site.organization-logo-nav | relative_url }}" alt="{{ site.organization-name }} home">
+                    <img class="img-fluid" style="max-width: 200px;" src="{{ '/assets/img/cdil_white.png' | relative_url }}" alt="{{ site.organization-name }} home">
                 </a>
             </p>
-            <p class="text-white" id="footer-credits">
+            <p class="mt-3">
+                <a href="https://www.lib.uidaho.edu/" target="_blank" rel="noopener">
+                    <img class="img-fluid" style="max-width: 200px;" src="{{ '/assets/img/uidaholibrary.png' | relative_url }}" alt="University of Idaho Library home">
+                </a>
+            </p>
+            <p id="footer-credits">
                 <small><em>built with</em>
                     <a href="https://collectionbuilder.github.io/" target="_blank" rel="noopener" title="CollectionBuilder">
                         <img src="{{ '/assets/img/collectionbuilder-logo.png' | relative_url }}" class="img-fluid" alt="CollectionBuilder home" >

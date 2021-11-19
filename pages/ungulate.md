@@ -4,10 +4,17 @@ permalink: /valleys/ungulate.html
 layout: para
 ---
 
-## Ungulate Highways: 
-### In Search of Mountain Caribou
+{:.mb-1}
+# Ungulate Highways 
 
+{:.my-1}
+## In Search of Mountain Caribou
+
+{:.mt-1}
 *by* **Jack Kredell**
+
+{% include feature/jumbotron.html objectid="salmopriest-criticalhabitat-salmodivide535rim-imag0013" position="bottom" %}
+
 
 
 *I.*

@@ -27,14 +27,25 @@ Unlike the barren ground caribou of Alaska that migrate long distances and in la
 
 
 {% assign events = site.data.cariboutimeline %}
-{% for event in events %}
+{% for event in events %}{% if event.image%}
 <div class="row">
 <div class="col-4 text-center align-self-center my-5">
-<p class="h2">{{ event.date }}</p>
+<h2>{{ event.date }}</h2>
+</div>
+<div class="col-8 border-left my-5" style="border-width: 3px;">
+<p class="h3 col-12 col-md-6">{{ event.text }}</p>
+{% include feature/image.html objectid=event.image %}
+</div>
+</div>
+{% else %}
+<div class="row">
+<div class="col-4 text-center align-self-center my-5">
+<h2>{{ event.date }}</h2>
 </div>
 <div class="col-8 border-left my-5" style="border-width: 3px;">
 <p class="h3 col-12 col-md-6">{{ event.text }}</p>
 </div>
 </div>
+{% endif %}
 {% endfor %}
 

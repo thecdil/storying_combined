@@ -5,11 +5,17 @@ permalink: /mountains/tosleep.html
 map-on: true
 ---
 
-## To Sleep Beneath its Unhinged Doors
+{:.mb-1}
+# To Sleep Beneath its Unhinged Doors
 
-### Dreams and Encounters in the Ruins of Caribou Country
+{:.my-1}
+## Dreams and Encounters in the Ruins of Caribou Country
 
+{:.mt-1}
 *by* **Chris Lamb**
+
+{% include feature/jumbotron.html objectid="salmopriest-criticalhabitat-salmodivide535rim-imag0024" position="center" %}
+
 
 I wake up early. The sky is clear above our campsite but a veil of rain is sweeping through the forested valley below, consuming distant peaks. The wind is shifting. After lighting a fire to dry my socks and boots, I sit quietly beneath a small black tarp, drinking hot coffee with my bare feet near the flame, watching the weather in the distance. It's almost silent here except for the slight breeze, the crackling wood, and the crinkling sound of the tarp as it inhales and exhales with the wind. And aside from the far-off rain and the few mountain blue birds I can spot darting between the bone-like standing dead trees, the landscape is seemingly vacant.
 
@@ -47,7 +53,7 @@ I finish my second cup of instant coffee and work my way, unenthusiastically, th
 
 I pull my boots on despite my desire for dry and comfortable feet. And I begin searching for an alternative location. I pause intermittently to gaze at the distant slopes and greening avalanche paths. I pull out my binoculars in hopes of catching something moving through the forest or upon the mountain crest. I imagine a grizzly bear, a mountain lion, a wolf. I imagine a caribou. I see nothing but the patience of lichen and trees in the wind, the remnants of fire, the slowly departing snow.
 
-When I return from my search, Jack is awake and sitting by the campfire preparing his own coffee. He's dressed in his usual mountain apparel—light weight Kuhl pants, a camo long-sleeve wick dry tee, a beige Hells Canyon National Recreation Site cap. His binos are strapped to his chest like a safety vest. He appears to be fixed in contemplation, staring into the Salmo-Priest, also trying to stomach a Cliff Bar. I don't know what's going through his mind, but I imagine that he's trying to picture the scene as it was in 1490--a thought experiment that I've come to realize is one of his prerequisites for entering any new landscape. Jack would gladly give up several years of his life to spend one day in the pre-contact west. And in moments like this I often wonder if he's somehow found a way in. When I approach he nods through the steam of his boiling water and I bring up my concern about the weather.
+When I return from my search, Jack is awake and sitting by the campfire preparing his own coffee. He's dressed in his usual mountain apparel—-light-weight Kuhl pants, a camo long-sleeve wick dry tee, a beige Hells Canyon National Recreation Site cap. His binos are strapped to his chest like a safety vest. He appears to be fixed in contemplation, staring into the Salmo-Priest, also trying to stomach a Cliff Bar. I don't know what's going through his mind, but I imagine that he's trying to picture the scene as it was in 1490--a thought experiment that I've come to realize is one of his prerequisites for entering any new landscape. Jack would gladly give up several years of his life to spend one day in the pre-contact west. And in moments like this I often wonder if he's somehow found a way in. When I approach he nods through the steam of his boiling water and I bring up my concern about the weather.
 
 "The wind's picking up," I say. "I think we're going to have to relocate the shelter; I found a few potential spots on the east facing side of the saddle, we should scope 'em out."
 

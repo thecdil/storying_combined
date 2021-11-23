@@ -1,26 +1,40 @@
 ---
-title: About Caribou
+title: About Mountain Caribou
 layout: para
 permalink: /about/caribou.html
-# Edit the markdown on in this file to describe your collection
+# Edit the markdown in this file to describe your collection
+---
+<style>table tr td:first-child{width:400px}</style>
+
+# About Mountain Caribou
+
+{% include feature/jumbotron.html objectid="two-mouth-meadow-imag214" position="top" %}
+
+A subspecies of the woodland caribou (*rangifer tarandus caribou*), the mountain caribou is an ecotype primarily inhabiting inland regions of British Columbia and Western Alberta. Until recently, mountain caribou could be found in the high peaks and temperate rainforests of northeastern Washington, northern Idaho, and northwestern Montana.  By 2016, however, the inland mountain caribou had become one of the most endangered species in the lower 48, earning the name “gray ghosts” for their elusive, almost spectral presence in the jagged peaks and remote old-growth forests of Idaho’s South Selkirk Mountains on the Canadian border. 
+
+{% include feature/image.html objectid="ballcreek-smallclearing-blackbeargaze" %}
+
+At that time, it was estimated that the population had been winnowed down to a mere dozen; predation, climate change, and habitat destruction from logging, mining, and other forms of resource extraction exerted extreme pressures on Idaho’s dwindling caribou herd. Serious conservation efforts were made to combat these threats, including several augmentation programs, the listing of caribou as a threatened species under the endangered species act, the designation of critical caribou habitat in 2016, and even periodic wolf culls by helicopter.  However, conservation efforts were ended in January 2019, when the three remaining Idaho caribou were captured in a net and airlifted by helicopter into southern British Columbia. This event marked the official extinction of caribou in the lower 48, a species which once roamed throughout the northern US and lived as far south as the Salmon River, according to biologists.  
+
+{% include feature/marginnote-image.html image="two-mouth-lakes-encounter" %}
+
+
+Unlike the barren ground caribou of Alaska that migrate long distances and in large herds, mountain caribou evolved to migrate vertically, not to colder latitudes, but to the arctic conditions of high elevation old-growth forests of the South Selkirks. According to biologists, the seasonal migration pattern of mountain caribou initiates in the old growth cedar-hemlock bottoms at around 4,500 feet in early winter, where they’d feed on remaining summer forbs and lichen-heavy deadfall until the snow piled high and dense enough for them to migrate vertically to the elevated snowpack on mountain ridgelines. At that point, and for the duration of winter, they would feed exclusively on *bryoria fremontii* and *alectoria sarmentosa* –lichens formed on old growth englemann spruce and sub-alpine fir trees. They would remain mostly stationary until the spring warm-up triggered a downward migration that would follow the green-up back to the mountain summits for summer. Calving cow caribou would make an additional migration back to the ridgelines in early summer to give birth. The migration patterns of mountain caribou were largely a predator avoidance strategy. Their ability to live at high elevations and in deep snowpack (thanks to their snowshoe-like hooves) ensured an important spatial barrier between them and any potential predators. And the breeching and fragmentation of this barrier is essentially the reason for their absence. 
+
 ---
 
-# About the Project
-
-{% include about/jumbotron.html %}{% include feature/marginnote.html id="dev" text="The site and project are currently being developed by Jack Kredell, Christopher Lamb, and [the CDIL](https://cdil.lib.uidaho.edu/), with the full site expected to be released sometime in Spring 2021." %} 
-
-***Storying Extinction: Responding to the Loss of North Idaho’s Mountain Caribou*** is a multidisciplinary digital humanities project aimed at representing community response to the recent extirpation (2019) of mountain caribou from the South Selkirk mountains of North Idaho—the last caribou to inhabit the coterminous United States.
-
-The local extinction served as the exigence for a GIS-based deep map, or spatial narrative, which documents the interaction of human and more-than-human communities in North Idaho through geolocated oral histories{% include feature/marginnote-image.html id="oh2" image="two-mouth-lakes-encounter" text="Debbie Ackley Encounter at Two Mouth Lakes <br> 1 of 15 oral histories" width="50" %} of [caribou encounters]({{ 'browse.html#encounter' | relative_url }}), [game camera]({{ 'browse.html#game camera' | relative_url }}) footage of species currently inhabiting former caribou habitat, and various historical documents about caribou existence in the South Selkirks. 
-
-The deep map intends to represent caribou absence by revealing what Thom Van Dooren and Deborah Bird Rose refer to as “the countless interwoven ēthea [styles or ways of life] that together comprise the foundation of our [shared] world.”{% include feature/sidenote.html id="dooreen_rose" text="[https://doi.org/10.1215/22011919-3527731](https://doi.org/10.1215/22011919-3527731)"%} It is grounded in a shared conviction with Van Dooren and Rose that storytelling is an ethical practice, and that the “stories we tell are powerful contributors to the becoming of our shared world” (264).{% include feature/sidenote.html id="dooreen_rose" text="[Section - 'Response: Becoming-Witness'](https://read.dukeupress.edu/environmental-humanities/article/8/1/77/61701/Lively-EthographyStorying-Animist-Worlds#725308)"%}
-
-It takes the moment of extirpation as a point of departure, as a “fissure” or “gesture,” from the world that calls on our response-ability. And it aims to create a sense of proximity and ethical entanglement with the more-than-human through a practice of spatially situated multispecies storytelling.
 
 
-## Future Development
 
-These media are represented as colored nodes on a GIS satellite baselayer of Northern Idaho and surrounding areas. 
-Users can scroll forward or backward for a random selection of map items, or click “view map” to be taken back to the full baselayer where they can browse media from a bird’s eye view. 
+{% assign events = site.data.cariboutimeline %}
+{% for event in events %}
+<div class="row">
+<div class="col-4 text-center align-self-center my-5">
+<p class="h2">{{ event.date }}</p>
+</div>
+<div class="col-8 border-left my-5" style="border-width: 3px;">
+<p class="h3 col-12 col-md-6">{{ event.text }}</p>
+</div>
+</div>
+{% endfor %}
 
-Eventually the map will be peppered with various nodes that will enable users to drop into the space and view its unfolding at a particular location and time, or to witness the retelling of a caribou encounter from the geographic location of its occurrence.

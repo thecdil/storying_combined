@@ -13,10 +13,8 @@
 {%- assign items = site.data[site.metadata] | where_exp: 'item','item.format contains "image" or item.format contains "video"' -%}
 {% if include.filter %}{%- assign items = items | where_exp: 'item',include.filter -%}{% endif %}
 <div class="row my-5 py-5">
-    {% for item in items limit:10%}
-    <div class="col-2 m-1">
-        <a href="{{ '/mapitem.html' | relative_url | append: '?id=' | append: item.objectid }}"><img alt="{{ item.description | escape }}" src="{{ item.image_thumb }}" /></a>
-    </div>
+    {% for item in items limit:{{ include.limit | default: 30 }} %}
+    <div class="col-5 col-md-2 m-1"><a class="d-none d-md-block" href="{{ '/mapitem.html' | relative_url | append: '?id=' | append: item.objectid }}"><img alt="{{ item.description | escape }}" src="{{ item.image_thumb }}" alt="{{ item.title | escape }}" data-toggle="tooltip" data-placement="bottom" title="{{ item.title | escape }}" /></a><a class="d-md-none" href="{{ '/mapitem.html' | relative_url | append: '?id=' | append: item.objectid }}"><img alt="{{ item.description | escape }}" class="img-fluid" src="{{ item.image_thumb }}" alt="{{ item.title | escape }}" title="{{ item.title | escape }}" />{{ item.title | truncatewords: 2}}</a></div>
     {% endfor %}
 </div>
 

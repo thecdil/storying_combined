@@ -45,13 +45,13 @@
 }
 {%- endif -%}
 </style>
-<div class="jumbotron feature px-0 border" id="jumbo-feature">
+<div class="jumbotron feature px-0 border mb-1" id="jumbo-feature">
     <div id="home-title-box">
-        {% unless include.heading == false and include.text == false %}
-        <div class="title-card p-2 text-center">
-            {% unless include.heading == false %}<h1 class="display-4">{{ include.heading | default: site.title }}</h1>{% endunless %}
-            {% unless include.text == false %}<p id="home-tagline">{{ include.text | default: site.tagline }}</p>{% endunless %}
-        </div>
-        {% endunless %}
+        <div class=" px-2 pb-3 text-center" style="padding-top: 13rem!important;">
+            <a href="{{ include.objectid | prepend: '/mapitem.html?id=' | relative_url }}" > </a>
+         </div>
     </div>
+</div>
+<div class="col-12 text-right mt-0">
+    <a href="{{ include.objectid | prepend: '/mapitem.html?id=' | relative_url }}" ><span class="small">{{ include.caption | default: "View Featured Image" }}</span></a>
 </div>

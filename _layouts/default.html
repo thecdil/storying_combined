@@ -12,9 +12,10 @@
     <main id="maincontent" role="main">
       {{ content }}
     </main>
+    
     {% include footer.html %}
     {% include foot.html %}
     {% include scroll-to-top.html %}
-{% unless page.url contains "mapitem.html" or page.layout contains "trail" %}    {% include nextbuttons.html %} {% endunless %}
+{% unless page.url contains "mapitem.html" or page.layout contains "trail" %}    {% include navigation-features.html %}  {% endunless %}
   </body>
 </html>

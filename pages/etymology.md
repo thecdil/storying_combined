@@ -62,7 +62,7 @@ RANGIFER TARANDUS CARIBOU, | *binomial/International Code of Zoological Nomencla
 
 	
 	
-{% include feature/marginnote-image.html id="archibald" image="archibald"%}  
+{% include feature/marginnote-image.html id="archibald" image="archibald" text="Archibald Butter of Faskally"%}  
 {% include feature/quote.md text="Mr. Butter of Faskally has had a very successful trip to the Rocky Mountains and the Selkirks, killing 11 caribou, 5 bighorn or Rocky Mountain sheep, 5 Rocky Mountain goats, besides deer. All the heads are very fine ones. One caribou head has 39 points, and is believed to be the largest ever killed. Mr. Butter also had the good luck to kill an Albino caribou, an animal which is extremely rare." source="*Glasgow Herald*, Friday, January 20, 1897." %}  
 
 

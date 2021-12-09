@@ -13,7 +13,7 @@ layout: para
 {:.mt-1}
 *by* **Jack Kredell**
 
-{% include feature/jumbotron.html objectid="salmopriest-criticalhabitat-salmodivide535rim-imag0013" position="bottom" %}
+{% include feature/jumbotron.html objectid="salmopriest-criticalhabitat-salmodivide535rim-imag0185" position="bottom" %}
 
 
 

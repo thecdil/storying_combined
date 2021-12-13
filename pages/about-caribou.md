@@ -12,7 +12,7 @@ permalink: /about/caribou.html
 
 # Ecological and Cultural History:
 
-A subspecies of the woodland caribou (*rangifer tarandus caribou*), the mountain caribou is an ecotype primarily inhabiting inland regions of British Columbia and Western Alberta. Until recently, mountain caribou could be found in the high peaks and temperate rainforests of northeastern Washington, northern Idaho, and northwestern Montana.  By 2016, however, the inland mountain caribou had become one of the most endangered species in the lower 48, earning the name “gray ghosts” for their elusive, almost spectral presence in the jagged peaks and remote old-growth forests of Idaho’s South Selkirk Mountains on the Canadian border. 
+A subspecies of the woodland caribou (*rangifer tarandus caribou*), the mountain caribou is an ecotype primarily inhabiting inland regions of British Columbia and Western Alberta. {% include feature/marginnote-image.html id="oh2" image="greg-johnson-habitat-alteration" width="50" %} Until recently, mountain caribou could be found in the high peaks and temperate rainforests of northeastern Washington, northern Idaho, and northwestern Montana.  By 2016, however, the inland mountain caribou had become one of the most endangered species in the lower 48, earning the name “gray ghosts” for their elusive, almost spectral presence in the jagged peaks and remote old-growth forests of Idaho’s South Selkirk Mountains on the Canadian border. 
 
 {% include feature/image.html objectid="ballcreek-smallclearing-blackbeargaze" %}
 

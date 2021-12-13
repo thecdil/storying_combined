@@ -14,7 +14,7 @@ map-on: true
 {:.mt-1}
 *by* **Chris Lamb**
 
-{% include feature/jumbotron.html objectid="salmopriest-criticalhabitatsnowytopsouthbasin-imag0011" position="center" %}
+{% include feature/jumbotron.html objectid="salmopriest-criticalhabitat-criticalhabitatridgelinesouth-imag0006" position="center" %}
 
 
 I wake up early. The sky is clear above our campsite but a veil of rain is sweeping through the forested valley below, consuming distant peaks. The wind is shifting. After lighting a fire to dry my socks and boots, I sit quietly beneath a small black tarp, drinking hot coffee with my bare feet near the flame, watching the weather in the distance. It's almost silent here except for the slight breeze, the crackling wood, and the crinkling sound of the tarp as it inhales and exhales with the wind. And aside from the far-off rain and the few mountain blue birds I can spot darting between the bone-like standing dead trees, the landscape is seemingly vacant.

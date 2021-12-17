@@ -47,7 +47,7 @@ RANGIFER TARANDUS CARIBOU, | *binomial/International Code of Zoological Nomencla
 {% include feature/quote.md text="On the 11nth we continued our route at early dawn [Columbia River, likely near present day Northport] — the mountain scenery was hidden from our view, wrapped up in dense mist and fog, which were seen ascending in dense pillars, adding to the forming clouds above till the whole sky was overcast. Occasionally, as if to break upon the unusual monotony, would a fallow or reindeer be observed on the margin of the stream, or peeping with uplifted ears from a thicket, as the strange sound of oars or the Canadian song came stealing louder and louder upon them in their quiet abode — off they bounded, affrighted at the sight of men, so hateful, it appears, to the wild and timid creatures of the forest. In the course of this day we ran the place called the Little Dalles, and in the evening we encamped at the entrance of the Upper Lake." source="Pierre Jean de Smet, *Life, Letters and Travels of Father Pierre-Jean de Smet, S.J.,* 1801-1873." %}  
 
 
-{% include feature/figure-full-page.html objectid="service-pnp-cwpbh-03500-03561v" %}
+{% include feature/figure-full-page.html id="tellus-note" text="" objectid="service-pnp-cwpbh-03500-03561v" %}
 
 
 {% include feature/marginnote-image.html id="close-up_diary-of-our-trip-to-e-soc-quet" image="close-up_diary-of-our-trip-to-e-soc-quet"%}

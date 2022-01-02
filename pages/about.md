@@ -7,7 +7,7 @@ permalink: /about.html
 
 # About the Project
 
-{% include about/jumbotron.html objectid="salmopriest-criticalhabitat-criticalhabitatridgelinesouth-imag0006" %}{% include feature/marginnote.html id="dev" text="The site and project are currently being developed by Jack Kredell, Christopher Lamb, and Devin Becker @ [the CDIL](https://cdil.lib.uidaho.edu/), with the full site expected to be released sometime in Fall 2021." %} 
+{% include about/jumbotron.html objectid="salmopriest-criticalhabitat-criticalhabitatridgelinesouth-imag0006" %}{% include feature/marginnote.html id="dev" text="The site and project are currently being developed by Jack Kredell, Christopher Lamb, and Devin Becker @ [the CDIL](https://cdil.lib.uidaho.edu/), with the full site expected to be released in February of 2022." %} 
 
 ***Storying Extinction: Responding to the Loss of North Idaho’s Mountain Caribou*** is a multidisciplinary digital humanities project aimed at representing community response to the recent extirpation (2019) of mountain caribou from the South Selkirk mountains of North Idaho—the last caribou to inhabit the coterminous United States.
 

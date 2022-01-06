@@ -12,12 +12,12 @@ permalink: /about/caribou.html
 
 {% include feature/marginnote.html id="dev" text="Under the Endangered Species Act, a distinct population segment—or DPS—is a vertebrate population or group of populations that is discrete from other populations of the species and significant in relation to the entire species (Fisheries.noaa.gov)." %}
 
-**Intro and Nomenclature**
+**INTRO and NOMENCLATURE**
 
 The Southern mountain caribou is an ecotype or distinct population segment (DPS)<sup>1</sup> of boreal woodland caribou (rangifer tarandus caribou) that is adapted to the inland montane rainforests of the Pacific Northwest. Though once ranging as far south as the Salmon River in Idaho (Evans 1960), the current population of southern mountain caribou is now limited to interior British Columbia, where 15 extant sub-populations (two of the original 17 have been extirpated) are collectively estimated to number fewer than 1,200 individuals. Idaho's caribou—known to biologists and conservation managers as the South Selkirk sub-population—could still be found in the jagged peaks and old-growth forests of northeastern Washington, northern Idaho, and northwestern Montana as recently as 2019. That is, however, until members from the last US-ranging caribou herd were airlifted to a captive breeding facility in British Columbia in January of that year, marking the official extirpation of the Idaho sub-population. Though there is a lingering desire to reestablish a viable population of mountain caribou in Idaho, for now, the 'gray ghost' is just that: a ghost.
 
  
-**Ecology** 
+**ECOLOGY** 
  
 The British novelist L.P. Hartley once famously wrote: "The past is a foreign country; they do things differently there." Mountain caribou also do things differently. 
  
@@ -28,14 +28,14 @@ In contrast to the commonly thought of barren ground caribou of the Arctic—tho
 {% include feature/youtube-clip.html objectid="greg-servheen-extinction-conservation" %}
 
 
-**Conservation**
+**CONSERVATION**
 
 No matter what they're called—South Selkirk caribou, mountain caribou, or Black caribou (as a few North Idaho old timers still call them)—the issues faced by present as well as extirpated animals are the same: habitat fragmentation and destruction due resource extraction (primarily timber and mining), human development, large wildfires, ecosystem change and altered predator/prey regimes, habitat intrusion from winter recreative practices, and, perhaps most urgently of all now, climate change. 
  
 Beginning in the 1980s, conservation efforts were made by federal, state, and tribal agencies to combat these threats, including several caribou augmentation programs, the listing of the South Selkirk herd as endangered under the endangered species act, the designation of critical caribou habitat in 2016, and even periodic wolf culls by helicopter. As vigorous and unwavering as those efforts were, it was not enough to keep South Selkirk mountain caribou on the landscape. What happened? 
 
 
-**Space is the Place**
+**SPACE AND TIME**
 
 The decline and extirpation of Idaho's mountain caribou is fundamentally a spatial or spatiotemporal issue. Think about this way: mountain caribou hacked the concept of winter range as used by large herbivores and their predators. When other cervids go down, drawing their predators with them, caribou go upslope and ensconce themselves in a nutrient-poor yet predator-free vacuum. The tradeoff works and has worked for millennia: for 4 to 6 months out of the year, mountain caribou are unlikely to experience predation. For this reason, as well as for other limiting environmental factors, cow caribou have a low birth rate (only one calf per year) compared to deer, elk, or moose. The special ingredient that sustains them during the long months in herbivore outer space—the Arrakean spice mélange, as it were, that mountain caribou alone have the tech to mine (snowshoes) and that allows them to subsist where others cannot—is a mixture of the two arboreal hair lichens mentioned above: bryoria fremontii and alectoria sarmentosa. Lichens are a low energy food source. Caribou must consume approximately 40g per kilogram of body weight in the winter, which, for a 400-pound bull caribou, equates to 16 pounds of lichen per day (Rominger et al., 1996). In addition, lichens are very slow growing, and their light weight means they are often blown away by wind events. As a result, the only place where lichens can be found in heavy, mountain caribou-sustaining loads are the limbs of old growth timber, into which caribou lift themselves using the deep snowpack. 
 

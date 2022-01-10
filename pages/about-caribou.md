@@ -49,7 +49,7 @@ In short, mountain caribou survival requires more space and more time than we've
 
 
 
-**Timeline**
+**Timeline:**
 ---
 
 

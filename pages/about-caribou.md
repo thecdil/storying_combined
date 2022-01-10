@@ -36,6 +36,8 @@ No matter what they're called—South Selkirk caribou, mountain caribou, or Blac
  
 Since the 1980s, conservation efforts have been made by federal, state, and tribal agencies to combat these threats, including several caribou augmentation programs, the listing of the South Selkirk herd as endangered under the endangered species act, the designation of critical caribou habitat in 2016, and even periodic wolf culls by helicopter. As vigorous and unwavering as these efforts have been however, they have not been enough to keep South Selkirk mountain caribou on the landscape. Why? 
 
+{% include feature/youtube-clip.html objectid="greg-johnson-habitat-alteration" %}
+
 
 **SPACE AND TIME**
 

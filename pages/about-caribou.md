@@ -30,9 +30,11 @@ In contrast to the commonly thought of barren ground caribou of the Arctic—tho
 
 **CONSERVATION**
 
+{% include feature/marginnote.html id="dev" text="Click the following link to read the current mountain caribou management plan (2018-2022) developed by the Selkirk Caribou International Technical Working Group ( http://www.restoringthekootenai.org/resources/SouthSelkirkCaribouManagementPlan_Oct-2018.pdf )." %}
+
 No matter what they're called—South Selkirk caribou, mountain caribou, or Black caribou (as a few North Idaho old timers still call them)—the issues faced by present as well as extirpated animals are the same: habitat fragmentation and destruction due resource extraction (primarily timber and mining), human development, large wildfires, ecosystem change and altered predator/prey regimes, habitat intrusion from winter recreative practices, and, perhaps most urgently of all now, climate change. 
  
-Since the 1980s, conservation efforts have been made by federal, state, and tribal agencies to combat these threats, including several caribou augmentation programs, the listing of the South Selkirk herd as endangered under the endangered species act, the designation of critical caribou habitat in 2016, and even periodic wolf culls by helicopter. {% include feature/marginnote.html id="dev" text="Click the following link to read the current mountain caribou management plan (2018-2022) developed by the Selkirk Caribou International Technical Working Group (http://www.restoringthekootenai.org/resources/SouthSelkirkCaribouManagementPlan_Oct-2018.pdf)." %} As vigorous and unwavering as these efforts have been however, they have thus far not been enough to keep South Selkirk mountain caribou on the landscape. Why? 
+Since the 1980s, conservation efforts have been made by federal, state, and tribal agencies to combat these threats, including several caribou augmentation programs, the listing of the South Selkirk herd as endangered under the endangered species act, the designation of critical caribou habitat in 2016, and even periodic wolf culls by helicopter. As vigorous and unwavering as these efforts have been however, they have thus far not been enough to keep South Selkirk mountain caribou on the landscape. Why? 
 
 
 **SPACE AND TIME**

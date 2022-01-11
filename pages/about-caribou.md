@@ -24,7 +24,7 @@ The British novelist L.P. Hartley once famously wrote: "The past is a foreign co
  
 In contrast to the commonly thought of barren ground caribou of the Arctic—those that migrate across vast distances and in large herds, mountain caribou migrate vertically, between different mountain elevation bands, in small groups averaging 5.7 animals (B.N. McLellan 2017). And unlike other cervids that move to lower elevations for the winter (deer or elk, for example), mountain caribou follow a unique late-season migration pattern that takes them higher in elevation: Beginning in mid-elevation (4,500 feet) cedar-hemlock forests in fall and early winter, they feed on residual summer forbs and lichen-heavy deadfall until the snowpack deepens and solidifies. At this point, they use their large, snowshoe-like hooves to climb to subalpine ridgelines (6,000 feet). With the snowpack forming an access barrier against predators, mountain caribou stay and feed in the cold solitude of the high country for the duration of winter and early spring, subsisting exclusively on bryoria fremontii and alectoria sarmentosa—lichens commonly found on old growth Englemann spruce and subalpine fir trees. Here they remain mostly stationary until the spring warm-up triggers a downward migration that follows green-up back to the mountain summits for summer. In what is also likely a predator avoidance strategy, calving cow caribou make a second migration to the snow-covered ridgelines in early summer to give birth.
   
-Former IDFG wildlife biologist Greg Servheen on the future of Idaho caribou:
+*Former IDFG wildlife biologist Greg Servheen on the future of Idaho caribou:*
 {% include feature/youtube-clip.html objectid="greg-servheen-extinction-conservation" %}
 
 
@@ -36,7 +36,7 @@ No matter what they're called—South Selkirk caribou, mountain caribou, or Blac
  
 Since the 1980s, conservation efforts have been made by federal, state, and tribal agencies to combat these threats, including several caribou augmentation programs, the listing of the South Selkirk herd as endangered under the endangered species act, the designation of critical caribou habitat in 2016, and even periodic wolf culls by helicopter. As vigorous and unwavering as these efforts have been however, they have not been enough to keep South Selkirk mountain caribou on the landscape. Why? 
 
-Former IDFG Conservation Officer Greg Johnson discusses some of the factors behind the decline of Idaho's caribou: 
+*Former IDFG Conservation Officer Greg Johnson discusses some of the factors behind the decline of Idaho's caribou:* 
 {% include feature/youtube-clip.html objectid="greg-johnson-habitat-alteration" %}
 
 
@@ -52,7 +52,7 @@ In short, mountain caribou survival requires more space and more time than we've
 
 
 
-# TIMELINE 
+# Timeline 
 ---
 
 

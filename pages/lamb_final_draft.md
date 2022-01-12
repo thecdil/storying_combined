@@ -227,5 +227,5 @@ But it's not about rationality. We're out here, after all, thinking that we're g
 
 We follow our tracks from the way in. They're disappearing slowly with the rain.
 
-{% include feature/figure-full-page.html objectid="englemann-spruce-subalpine-fir" %}
+{% include feature/figure-full-page.html objectid="englemann-spruce-subalpine-fir" text=" " %}
 

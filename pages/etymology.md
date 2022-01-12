@@ -49,9 +49,8 @@ RANGIFER TARANDUS CARIBOU, | *binomial/International Code of Zoological Nomencla
 {% include feature/figure-full-page.html objectid="rev-father-desmet" text=" " %}
 
 
-{% include feature/marginnote-image.html id="caribou-head-holberton" image="caribou-head-holberton"%}
 {% include feature/quote.md text="Just after he left, we saw the Doctor’s party returning, as they drew near, we could see that they had improvised flags fluttering with a triumphant air on their canvass boat. Some one suggested caribou! and a rush was made for the landing. Sure enough! they had killed a fine cow with a beautiful head, the horns still in the velvet. Dr. Merriam gave us an interesting description, in the evening as we sat around our campfire, how he and Sutton followed the herd of caribou many weary miles over the steep hills before they succeeded in killing one." source="from _The Diary of our Trip to E-Soc-Quet by One of the Party_ (Wakeman Holberton), 1887." %}
-
+{% include feature/marginnote-image.html id="caribou-head-holberton" image="caribou-head-holberton"%}
 
 
 {% include feature/marginnote-image.html id="roosevelt" image="theodore_roosevelt_with_hunting_suit_and_rifle"%}

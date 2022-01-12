@@ -82,5 +82,5 @@ In short, mountain caribou survival requires more space and more time than we've
 {% endfor %}
 
 <video width="320" height="240" autoplay loop muted playsinline>
-  <objectid="ballcreek-cedarrub-licheninthewind" type="video/mp4" />
+  <source src="ballcreek-cedarrub-licheninthewind" type="video/mp4" />
 </video>

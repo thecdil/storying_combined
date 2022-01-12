@@ -154,7 +154,7 @@ I had a vision of filming Dave sitting by the fireplace with a glass of merlot, 
 
 "No, they used a fire poker to hack them off. You guys want to come spend the night at the cabin?"
 
-{% include feature/figure-full-page.html objectid="jeannotnewsarticle" %}
+{% include feature/figure-full-page.html objectid="jeannotnewsarticle" text=" " %}
 
 I immediately called Chris to tell him about the enigmatic caribou aficionado named Dave Boswell—he became 'Boswell' or 'Bozzie' thereafter—who invited us to spend the night at his cabin in order to see the world famous Jeannot caribou which, unfortunately, had been mutilated by teenagers and was now kept in his basement. Gripped by empathy for Dave, I tell Chris to hold out his arms as wide as he can because that's how big the Jeannot caribou's antlers were. Chris agrees without hesitation to spend the night at Dave's remote cabin. The risk of visiting a stranger's remote basement be damned. In the weeks leading up to our visit with Dave, he becomes something of a mythic figure—a true disciple of the grey ghost, a mountain hermit who wandered the Selkirk wilderness for a decade just to get a glimpse of his idol but coming up short. All he found was a set of tracks at a place called Goblin Knob.
 
@@ -178,7 +178,7 @@ Dave, holding a glass of wine filled beyond decorum, and his neighbor, Phil, cam
 
 We crack open some beers as Dave starts picking through the box of caribou-related documents on the kitchen table. Dave casually mentions the conservation organization he started in the 1970s, which later became the Selkirk Conservation Alliance (still extant) and that he abandoned when it became "soft." He was a friend and early ally of the wildlife activist Jasper Carlton who started the petition to get mountain caribou listed as endangered. Dave was reverent when it came to Carlton. While Dave was reading from one of Carlton's letters I started to become anxious about the light since we had no artificial lighting of our own. We mention this to Dave but now he's saying that he doesn't have a story of his own. He wants to tell Carlton's story for the camera—the story of a tireless environmental activist who dies in obscurity. It's a good story we tell him but not why we came here. The light is fading quickly.
 
-{% include feature/figure-full-page.html objectid="carlton-letter" %}
+{% include feature/figure-full-page.html objectid="carlton-letter" text=" " %}
 
 We move to a larger cabin built by Dave and his brothers. The interior is dusky, storybook, and smells lushly of cedar. The camera recording, Dave becomes uncharacteristically demure about his own encounter with mountain caribou, which in fact never took place. Chris and I make a dent in our bottle of whiskey. Dave takes a big gulp of wine. As I told him over the phone, we are interested in precisely what you didn't see and how that felt. He looks at Phil. Phil, however, looks at me and I realize we've got Dave where we want him. He is getting ready to sing.
 
@@ -217,4 +217,4 @@ Arise Lazarus.
 
 
 
-{% include feature/figure.html objectid="neowise-alternate" %}
+{% include feature/figure.html objectid="neowise-alternate" text=" " %}

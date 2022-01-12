@@ -69,7 +69,7 @@ In short, mountain caribou survival requires more space and more time than we've
 </div>
 <div class="col-8 border-left my-5" style="border-width: 3px;">
 <p class="h3 col-12 col-md-6">{{ event.text }}</p>
-{% include feature/image.html objectid=event.image %}
+{% include feature/image.html objectid=event.image caption=false %}
 </div>
 </div>
 {% else %}

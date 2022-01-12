@@ -10,13 +10,11 @@ permalink: /etymology_extracts.html
 
 {% include feature/jumbotron.html objectid="salmopriest-criticalhabitat-salmodivide535rim-imag0105" position="bottom" %}
 
-{% include feature/marginnote.html id="dev" text="The world's Caribou and Reindeer are classified as a single species *Rangifer tarandus*. Reindeer is the European name for the species while in North America, the species is known as Caribou (IUCN 2021)." %} 
 
 **ETYMOLOGY.** 
 
 {:.my-4 .pb-4}
-**caribou, n.** A reindeer belonging to any of several subspecies found in North America; esp. the migratory Rangifer tarandus groenlandicus.
-etymology: <French caribou (1609) < Micmac *qaripu*, earlier form of qalipu (pronounced /xalibu/, cognate with Maliseet-Passamaquoddy mokalip caribou: see maccarib n.), reflecting an agent noun of an Algonquian verb with the sense ‘to shovel snow, to clear away snow’ (compare Ojibwa mangaanibii he shovels snow), so called on account of the animal's habit of scraping away snow to feed on the vegetation underneath. "Caribou." *Oxford English Dictionary*
+**caribou, n.** A reindeer belonging to any of several subspecies found in North America; esp. the migratory Rangifer tarandus groenlandicus. {% include feature/marginnote.html id="dev" text="The world's Caribou and Reindeer are classified as a single species *Rangifer tarandus*. Reindeer is the European name for the species while in North America, the species is known as Caribou (IUCN 2021)." %} etymology: <French caribou (1609) < Micmac *qaripu*, earlier form of qalipu (pronounced /xalibu/, cognate with Maliseet-Passamaquoddy mokalip caribou: see maccarib n.), reflecting an agent noun of an Algonquian verb with the sense ‘to shovel snow, to clear away snow’ (compare Ojibwa mangaanibii he shovels snow), so called on account of the animal's habit of scraping away snow to feed on the vegetation underneath. "Caribou." *Oxford English Dictionary*
 
 {:.my-4 .table-striped}
 ---|---      
@@ -51,8 +49,7 @@ RANGIFER TARANDUS CARIBOU, | *binomial/International Code of Zoological Nomencla
 {% include feature/figure-full-page.html objectid="rev-father-desmet" text=" " %}
 
 
-{% include feature/marginnote-image.html id="caribou-head-holberton" image="caribou-head-holberton"%}
-{% include feature/quote.md text="Just after he left, we saw the Doctor’s party returning, as they drew near, we could see that they had improvised flags fluttering with a triumphant air on their canvass boat. Some one suggested caribou! and a rush was made for the landing. Sure enough! they had killed a fine cow with a beautiful head, the horns still in the velvet. Dr. Merriam gave us an interesting description, in the evening as we sat around our campfire, how he and Sutton followed the herd of caribou many weary miles over the steep hills before they succeeded in killing one." source="from _The Diary of our Trip to E-Soc-Quet by One of the Party_ (Wakeman Holberton), 1887." %}
+{% include feature/quote.md text="Just after he left, {% include feature/marginnote-image.html id="caribou-head-holberton" image="caribou-head-holberton"%} we saw the Doctor’s party returning, as they drew near, we could see that they had improvised flags fluttering with a triumphant air on their canvass boat. Some one suggested caribou! and a rush was made for the landing. Sure enough! they had killed a fine cow with a beautiful head, the horns still in the velvet. Dr. Merriam gave us an interesting description, in the evening as we sat around our campfire, how he and Sutton followed the herd of caribou many weary miles over the steep hills before they succeeded in killing one." source="from _The Diary of our Trip to E-Soc-Quet by One of the Party_ (Wakeman Holberton), 1887." %}
 
 
 

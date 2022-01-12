@@ -10,10 +10,10 @@ permalink: /about/caribou.html
 
 {% include feature/jumbotron.html objectid="rangifer-tarandus-anselmus-boetius-de-boodt" position="top" %}
 
-{% include feature/marginnote.html id="dev" text="Under the Endangered Species Act, a distinct population segment—or DPS—is a vertebrate population or group of populations that is discrete from other populations of the species and significant in relation to the entire species (Fisheries.noaa.gov)." %}
 
 **INTRO and NOMENCLATURE**
 
+{% include feature/marginnote.html id="dev" text="Under the Endangered Species Act, a distinct population segment—or DPS—is a vertebrate population or group of populations that is discrete from other populations of the species and significant in relation to the entire species (Fisheries.noaa.gov)." %}
 The Southern mountain caribou is an ecotype or distinct population segment (DPS)<sup>1</sup> of boreal woodland caribou (rangifer tarandus caribou) that is adapted to the inland montane rainforests of the Pacific Northwest. Though once ranging as far south as the Salmon River in Idaho (Evans 1960), the current population of southern mountain caribou is now limited to interior British Columbia, where 15 extant sub-populations (two of the original 17 have been extirpated) are collectively estimated to number fewer than 1,200 individuals. Idaho's caribou—known to biologists and conservation managers as the South Selkirk sub-population—could still be found in the jagged peaks and old-growth forests of northeastern Washington, northern Idaho, and northwestern Montana as recently as 2019. That is, however, until members from the last US-ranging caribou herd were airlifted to a captive breeding facility in British Columbia in January of that year, marking the official extirpation of the Idaho sub-population. Though there is a lingering desire to reestablish a viable population of mountain caribou in Idaho, for now, the 'gray ghost' is just that: a ghost.
 
  

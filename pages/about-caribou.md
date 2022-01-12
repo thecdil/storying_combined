@@ -50,6 +50,9 @@ The spatiotemporal recipe for mountain caribou existence is space away from othe
 
 In short, mountain caribou survival requires more space and more time than we've been able to provide or imagine. 
 
+<video width="640" height="480" autoplay loop muted playsinline>
+  <source src="https://cdil.lib.uidaho.edu/storying-extinction/objects/trailcams/videos/ballcreek-cedarrub-licheninthewind.mp4" type="video/mp4" />
+</video>
 
 
 # Timeline 
@@ -81,6 +84,4 @@ In short, mountain caribou survival requires more space and more time than we've
 {% endif %}
 {% endfor %}
 
-<video width="320" height="240" autoplay loop muted playsinline>
-  <source src="ballcreek-cedarrub-licheninthewind" type="video/mp4" />
-</video>
+

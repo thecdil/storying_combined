@@ -8,7 +8,7 @@ permalink: /about/caribou.html
 
 # About Mountain Caribou
 
-{% include feature/jumbotron.html objectid="rendier-rangifer-tarandus" position="top" %}
+{% include feature/jumbotron.html objectid="rangifer-tarandus-anselmus-boetius-de-boodt" position="top" %}
 
 {% include feature/marginnote.html id="dev" text="Under the Endangered Species Act, a distinct population segment—or DPS—is a vertebrate population or group of populations that is discrete from other populations of the species and significant in relation to the entire species (Fisheries.noaa.gov)." %}
 

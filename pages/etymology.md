@@ -70,10 +70,10 @@ RANGIFER TARANDUS CARIBOU, | *binomial/International Code of Zoological Nomencla
 <br/><br/>Guns ready, Pelke with his rifle and me with my trusty mouser, we watched the twisted figure make its way slowly toward our camp. After an agonizing wait, I suddenly realized  that is was a human being entirely clad in caribou hides. Even a headpiece, which covered most his face as well, was made of stiff hide. Rising to my feet, I placed a restraining hand on Pelke’s shoulder. 'Hold fire,' I said softly. 'It’s a man and he desperately needs our help.'<br/><br/>Slipping my pistol back in its holster in one quick motion, I rushed forward to help the awesome stranger. My sudden movement frightened him and he made as if to run, then too far gone to make a go of it, stopped. 'Don’t shoot,' he cried in a faltering, weak voice, 'I’m Billy Houston.'" source="—Albert Klockmann, journal entry from 1890-1891 published in *The Klockmann Diary: The Quest for North Idaho's Legendary Continental Mine*, 1990." %}
 
 	
-	
-{% include feature/marginnote-image.html id="archibald-e-butter-faskally" image="archibald-e-butter-faskally" %}  
+	 
 {% include feature/quote.md text="Mr. Butter of Faskally has had a very successful trip to the Rocky Mountains and the Selkirks, killing 11 caribou, 5 bighorn or Rocky Mountain sheep, 5 Rocky Mountain goats, besides deer. All the heads are very fine ones. One caribou head has 39 points, and is believed to be the largest ever killed. Mr. Butter also had the good luck to kill an Albino caribou, an animal which is extremely rare." source="*Glasgow Herald*, Friday, January 20, 1897." %}  
 
+{% include feature/figure.html objectid="archibald-e-butter-faskally" text= " " %}
 
 	
 {% include feature/quote.md text="Of the woodland caribou a few are found in Maine, though it is not lawful to kill them, but they maybe he hunted in Newfoundlands, New Brunswich, Quebec, Nova Scotia, Cape Breton, Manitoba, Northern Canada, Minnesota, Northern Idaho, Washington, and then to Northern Alaska. If they are found in New Hampshire, Michigan, or North Dakota it is unlawful to kill them." source="*Seattle Post Intelligencer*, Sunday, October 21, 1900." %}
@@ -81,6 +81,8 @@ RANGIFER TARANDUS CARIBOU, | *binomial/International Code of Zoological Nomencla
 
 {% include feature/quote.md text="Oliver Hall and John Lloyd returned Sunday from a hunting trip to the almost inaccessible mountain country at the head of Sullivan Creek, in the extreme northeastern corner of the state of Washington, into what is known as the Caribou country. The weather was too warm and bright for good hunting, snow, which was needed, being still in the sky. They were well repaid, however, by the killing of two caribou, both falling to the prowess of Mr. Lloyd. One or two deer were secured. The head and horns of the caribou were brought out and are being mounted. So rough are the trails that the valuable trophies could not be trusted to pack horses, as they often 'rolled' in bad places and would smash them. It was necessary to carry them man-back the entire 45 miles to the Pend d’Orielle river at Hall’s ranch." source="*Colfax Gazette*, Colfax, Washington, November 8th, 1901." %} 
 
+
+{% include feature/figure.html objectid="white_caribou_historic" text= " " %}
 	
 {% include feature/quote.md text="The caribou or American Reindeer is very scarce in the United States and is in more imminent danger of becoming extinct than any of our other game animals. I only know of one herd in our country and that herd is located in Northwest Montana. The Caribou here illustrated is sometimes known as the Woodland Caribou and is about the size of our Elk. This animal has a large head upon which grows irregular antlers, which they shed in the Springtime. A 'shovel horn' grows out of one antler down from between the eyes toward the nose, and the Caribou uses this 'shovel horn' to push snow off the moss upon which he feeds. This animal is a 'trotter' like the Moose, and while not as swift on foot as the Moose, yet he is a fast traveler. Not being as wary or possessed of the same animal smartness as the Virgin Deer or the Moose, he more easily becomes the victim of hunters and wild animals than they, and consequently has entirely disappeared from much of his one-time range." source="Jim Whilt, *Daily Inter Lake*, December 2nd, 1933." %} 
   

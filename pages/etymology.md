@@ -129,5 +129,5 @@ RANGIFER TARANDUS CARIBOU, | *binomial/International Code of Zoological Nomencla
 
 
 	
-{% include feature/quote.md text="They’re shadows." source="Dave Doswell, *Storying Extinction*, 2020." %}  
+{% include feature/quote.md text="They’re shadows." source="Dave Boswell, *Storying Extinction*, 2020." %}  
  

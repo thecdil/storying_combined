@@ -11,6 +11,9 @@
 .modal-dialog {
     max-width: 65%;
     margin: 1.75rem auto;
+    @media (max-width: 760px) {
+         max-width: 95%;
+    }
 }
 
 

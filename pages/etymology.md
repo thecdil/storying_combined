@@ -39,8 +39,9 @@ RANGIFER TARANDUS CARIBOU, | *binomial/International Code of Zoological Nomencla
 **EXTRACTS.**
 
 
+{% include feature/marginnote-image.html id="david-thompson" image="david-thompson"  %}
 {% include feature/quote.md text="In the afternoon on one of the dry shoals of the River [near present day Revelstoke] we came to a herd of eight Rein Deer, they were not shy, and we shot a good Doe, and might have killed two, or three more. The hunters often mentioned to me that they had seen Rein Deer, but I doubted if they were of the same species that is found around Hudson's Bay and the interior country; upon examination I found no difference: the question is from whence do they come, as they are not known in any part of these countries except in the vicinity of the Canoe River, by the head of which they probably have a pass to the east side of the Mountains." source="*David Thompson’s Narrative*, 1810." %}
-{% include feature/marginnote-image.html id="david-thompson" image="david-thompson" %}
+
 
   
 {% include feature/quote.md text="On the 11nth we continued our route at early dawn [Columbia River, likely near present day Northport] — the mountain scenery was hidden from our view, wrapped up in dense mist and fog, which were seen ascending in dense pillars, adding to the forming clouds above till the whole sky was overcast. Occasionally, as if to break upon the unusual monotony, would a fallow or reindeer be observed on the margin of the stream, or peeping with uplifted ears from a thicket, as the strange sound of oars or the Canadian song came stealing louder and louder upon them in their quiet abode — off they bounded, affrighted at the sight of men, so hateful, it appears, to the wild and timid creatures of the forest. In the course of this day we ran the place called the Little Dalles, and in the evening we encamped at the entrance of the Upper Lake." source="Pierre Jean de Smet, *Life, Letters and Travels of Father Pierre-Jean de Smet, S.J.,* 1801-1873." %}  
@@ -49,8 +50,8 @@ RANGIFER TARANDUS CARIBOU, | *binomial/International Code of Zoological Nomencla
 {% include feature/figure-full-page.html objectid="rev-father-desmet" text=" " %}
 
 
-
-{% include feature/quote.md text="Just after he left, we saw the Doctor’s party returning, as they drew near, we could see that they had improvised flags fluttering with a triumphant air on their canvass boat. Some one suggested caribou! and a rush was made for the landing. Sure enough! they had killed a fine cow with a beautiful head, the horns still in the velvet. Dr. Merriam gave us an interesting description, in the evening as we sat around our campfire, how he and Sutton followed the herd of caribou many weary miles over the steep hills before they succeeded in killing one." source="from _The Diary of our Trip to E-Soc-Quet by One of the Party_ (Wakeman Holberton), 1887." %} {% include feature/marginnote-image.html id="caribou-head-holberton" image="caribou-head-holberton" %}
+{% include feature/marginnote-image.html id="caribou-head-holberton" image="caribou-head-holberton" %}
+{% include feature/quote.md text="Just after he left, we saw the Doctor’s party returning, as they drew near, we could see that they had improvised flags fluttering with a triumphant air on their canvass boat. Some one suggested caribou! and a rush was made for the landing. Sure enough! they had killed a fine cow with a beautiful head, the horns still in the velvet. Dr. Merriam gave us an interesting description, in the evening as we sat around our campfire, how he and Sutton followed the herd of caribou many weary miles over the steep hills before they succeeded in killing one." source="from _The Diary of our Trip to E-Soc-Quet by One of the Party_ (Wakeman Holberton), 1887." %} 
 
 
 
@@ -80,7 +81,7 @@ RANGIFER TARANDUS CARIBOU, | *binomial/International Code of Zoological Nomencla
 {% include feature/quote.md text="Oliver Hall and John Lloyd returned Sunday from a hunting trip to the almost inaccessible mountain country at the head of Sullivan Creek, in the extreme northeastern corner of the state of Washington, into what is known as the Caribou country. The weather was too warm and bright for good hunting, snow, which was needed, being still in the sky. They were well repaid, however, by the killing of two caribou, both falling to the prowess of Mr. Lloyd. One or two deer were secured. The head and horns of the caribou were brought out and are being mounted. So rough are the trails that the valuable trophies could not be trusted to pack horses, as they often 'rolled' in bad places and would smash them. It was necessary to carry them man-back the entire 45 miles to the Pend d’Orielle river at Hall’s ranch." source="*Colfax Gazette*, Colfax, Washington, November 8th, 1901." %} 
 
 
-{% include feature/figure.html objectid="white_caribou_historic" caption=false %}
+{% include feature/figure.html objectid="white_caribou_historic" %}
 
 	
 {% include feature/quote.md text="The caribou or American Reindeer is very scarce in the United States and is in more imminent danger of becoming extinct than any of our other game animals. I only know of one herd in our country and that herd is located in Northwest Montana. The Caribou here illustrated is sometimes known as the Woodland Caribou and is about the size of our Elk. This animal has a large head upon which grows irregular antlers, which they shed in the Springtime. A 'shovel horn' grows out of one antler down from between the eyes toward the nose, and the Caribou uses this 'shovel horn' to push snow off the moss upon which he feeds. This animal is a 'trotter' like the Moose, and while not as swift on foot as the Moose, yet he is a fast traveler. Not being as wary or possessed of the same animal smartness as the Virgin Deer or the Moose, he more easily becomes the victim of hunters and wild animals than they, and consequently has entirely disappeared from much of his one-time range." source="Jim Whilt, *Daily Inter Lake*, December 2nd, 1933." %} 

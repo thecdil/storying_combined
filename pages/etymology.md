@@ -49,14 +49,15 @@ RANGIFER TARANDUS CARIBOU, | *binomial/International Code of Zoological Nomencla
 {% include feature/figure-full-page.html objectid="rev-father-desmet" text=" " %}
 
 
-{% include feature/marginnote-image.html id="caribou-head-holberton" image="caribou-head-holberton" %}
+
 {% include feature/quote.md text="Just after he left, we saw the Doctor’s party returning, as they drew near, we could see that they had improvised flags fluttering with a triumphant air on their canvass boat. Some one suggested caribou! and a rush was made for the landing. Sure enough! they had killed a fine cow with a beautiful head, the horns still in the velvet. Dr. Merriam gave us an interesting description, in the evening as we sat around our campfire, how he and Sutton followed the herd of caribou many weary miles over the steep hills before they succeeded in killing one." source="from _The Diary of our Trip to E-Soc-Quet by One of the Party_ (Wakeman Holberton), 1887." %}
 
+{% include feature/image.html id="caribou-head-holberton" image="caribou-head-holberton" %}
 
 
-{% include feature/marginnote-image.html id="roosevelt" image="theodore_roosevelt_with_hunting_suit_and_rifle" %}
+
 {% include feature/quote.md text="A caribou has an enormous foot, bigger than a cow's, and admirably adapted for travelling over snow or bogs; hence they can pass through places where the long slender hoofs of moose or deer, or the rounded hoofs of elk, would let their owners sink at once; and they are very difficult to kill by following on snow-shoes a method much in vogue among the brutal game butchers for slaughtering the more helpless animals. Spreading out his great hoofs, and bending his legs till he walks almost on the joints, a caribou will travel swiftly over a crust through which a moose breaks at every stride, or through deep snow in which a deer cannot flounder fifty yards. Usually he trots; but when pressed he will spring awkwardly along, leaving tracks in the snow almost exactly like magnified imprints of those of a great rabbit, the long marks of the two hind legs forming an angle with each other, while the forefeet make a large point almost between." source="Theodore Roosevelt, Chapter VIII: 'Hunting in the Selkirks; The Caribou' in *The Wilderness Hunter: An Account of the Big Game of the United States and Its Chase with Horse, Hound, and Rifle*, 1889." %}
-
+{% include feature/marginnote-image.html id="roosevelt" image="theodore_roosevelt_with_hunting_suit_and_rifle" %}
 
 
 	
@@ -81,7 +82,7 @@ RANGIFER TARANDUS CARIBOU, | *binomial/International Code of Zoological Nomencla
 {% include feature/quote.md text="Oliver Hall and John Lloyd returned Sunday from a hunting trip to the almost inaccessible mountain country at the head of Sullivan Creek, in the extreme northeastern corner of the state of Washington, into what is known as the Caribou country. The weather was too warm and bright for good hunting, snow, which was needed, being still in the sky. They were well repaid, however, by the killing of two caribou, both falling to the prowess of Mr. Lloyd. One or two deer were secured. The head and horns of the caribou were brought out and are being mounted. So rough are the trails that the valuable trophies could not be trusted to pack horses, as they often 'rolled' in bad places and would smash them. It was necessary to carry them man-back the entire 45 miles to the Pend d’Orielle river at Hall’s ranch." source="*Colfax Gazette*, Colfax, Washington, November 8th, 1901." %} 
 
 
-{% include feature/figure.html objectid="white_caribou_historic" text=" " %}
+{% include feature/figure.html objectid="white_caribou_historic" caption=false %}
 
 	
 {% include feature/quote.md text="The caribou or American Reindeer is very scarce in the United States and is in more imminent danger of becoming extinct than any of our other game animals. I only know of one herd in our country and that herd is located in Northwest Montana. The Caribou here illustrated is sometimes known as the Woodland Caribou and is about the size of our Elk. This animal has a large head upon which grows irregular antlers, which they shed in the Springtime. A 'shovel horn' grows out of one antler down from between the eyes toward the nose, and the Caribou uses this 'shovel horn' to push snow off the moss upon which he feeds. This animal is a 'trotter' like the Moose, and while not as swift on foot as the Moose, yet he is a fast traveler. Not being as wary or possessed of the same animal smartness as the Virgin Deer or the Moose, he more easily becomes the victim of hunters and wild animals than they, and consequently has entirely disappeared from much of his one-time range." source="Jim Whilt, *Daily Inter Lake*, December 2nd, 1933." %} 

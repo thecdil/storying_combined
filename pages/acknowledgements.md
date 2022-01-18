@@ -14,24 +14,24 @@ permalink: /about/acknowledgements.html
 
 This project would not have been possible without the generous contributions from those who shared their stories and caribou expertise. We'd like to thank everyone who took the time to talk with us, who shared their insights, and gave us permission to use their interviews on the map. This project has truly been a community effort.
  
-Rich Flinn
-Debbie Ackley
-Bob Case
-Larry Jeffries
-Bryce Comer
-Rich Landers
-Mary Harding
-Wayne Wakkinen
-Greg Johnson
-Greg Servheen
-Dave Boswell
-Brad Smith
-Craig Anderson
-Ward Tollbom
-Jon Nylund
-Sandy Lange
-Ray Kresek
-Ernie Johnson & Whitney Palmer
+- Rich Flinn
+- Debbie Ackley
+- Bob Case
+- Larry Jeffries
+- Bryce Comer
+- Rich Landers
+- Mary Harding
+- Wayne Wakkinen
+- Greg Johnson
+- Greg Servheen
+- Dave Boswell
+- Brad Smith
+- Craig Anderson
+- Ward Tollbom
+- Jon Nylund
+- Sandy Lange
+- Ray Kresek
+- Ernie Johnson & Whitney Palmer
 
 This project would be unthinkable without the encouragement, professional support, and critical guidance--all of it depthless and ongoing--from Jennifer Ladino and Scott Slovic of the University of Idaho's Department of English. We are also grateful to the Confluence Lab (Jennifer Ladino, Erin James, and Teresa Cohn) for buying us the game cameras to document what isn't there. 
  

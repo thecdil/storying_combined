@@ -11,7 +11,7 @@ permalink: /about.html
 
 ***Storying Extinction: Responding to the Loss of North Idaho’s Mountain Caribou*** is a multidisciplinary digital humanities project aimed at representing community response to the recent extirpation (2019) of mountain caribou from the South Selkirk mountains of North Idaho—the last caribou to inhabit the coterminous United States.
 
-The local extinction served as the exigence for a GIS-based deep map, or spatial narrative, which documents the interaction of human and more-than-human communities in North Idaho through geolocated oral histories{% include feature/marginnote-image.html id="oh2" image="two-mouth-lakes-encounter" text="Debbie Ackley Encounter at Two Mouth Lakes <br> 1 of 32 oral histories" width="50" %} of [caribou encounters]({{ 'browse.html#encounter' | relative_url }}), [game camera]({{ 'browse.html#game camera' | relative_url }}) footage of species currently inhabiting former caribou habitat, and various historical documents about caribou existence in the South Selkirks. 
+The local extinction served as the exigence for a GIS-based deep map, or spatial narrative, which documents the interaction of human and more-than-human communities in North Idaho through geolocated oral histories{% include feature/marginnote-image.html id="oh2" image="two-mouth-lakes-encounter" text="Debbie Ackley Encounter at Two Mouth Lakes <br> 1 of 32 oral histories" image-width="100" %} of [caribou encounters]({{ 'browse.html#encounter' | relative_url }}), [game camera]({{ 'browse.html#game camera' | relative_url }}) footage of species currently inhabiting former caribou habitat, and various historical documents about caribou existence in the South Selkirks. 
 
 ## What is a deep map?
 

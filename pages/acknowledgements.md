@@ -43,21 +43,21 @@ Finally, to the Gray Ghost who is now with Animal Master at Caribou House.
 
 
  
-## References and Related Links:
+### References and Related Links:
  
 Conservation Northwest: <https://www.conservationnw.org/our-work/wildlife/mountain-caribou/>
  
-Mountain Caribou Initiative: https://www.facebook.com/mountaincaribou/
+Mountain Caribou Initiative: <https://www.facebook.com/mountaincaribou/>
  
-Idaho Governor's Office of Species Conservation: https://species.idaho.gov/wildlife-species/woodland-caribou/
+Idaho Governor's Office of Species Conservation: <https://species.idaho.gov/wildlife-species/woodland-caribou/>
  
-Idaho Fish and Wildlife: https://www.fws.gov/idaho/articles.cfm?id=149489582
+Idaho Fish and Wildlife: <https://www.fws.gov/idaho/articles.cfm?id=149489582>
  
-Selkirk Conservation Alliance: https://scawild.org/south-selkirk-mountain-caribou/
+Selkirk Conservation Alliance: <https://scawild.org/south-selkirk-mountain-caribou/>
  
-Restoring the Kootenai: https://www.restoringthekootenai.org/OtherFWProjects/Caribou/
+Restoring the Kootenai: <https://www.restoringthekootenai.org/OtherFWProjects/Caribou/>
  
-Idaho Conservation League: https://www.idahoconservation.org/blog/keep-hope-alive-for-caribou/
+Idaho Conservation League: <https://www.idahoconservation.org/blog/keep-hope-alive-for-caribou/>
 
 
 

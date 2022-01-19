@@ -90,7 +90,7 @@ RANGIFER TARANDUS CARIBOU, | *binomial/International Code of Zoological Nomencla
 {% include feature/quote.md text="Montana’s deep timbered Kootenai country, plus a small slice of northern Idaho, is credited by the last fish and wildlife service report with having the nation’s only herd of caribou. The existence of caribou in Montana is a surprise to many sportsmen who think they are well informed on big game in the state, but the state’s outdoorsmen take pride in the diversity of big game within Montana’s borders. Just when these magnificent animals were first seen by white men isn’t recorded and probably never will be, but a number of old timers in the Yaak Valley of northern Lincoln county knew about the caribou. They had seen them sliding like big antlered ghosts among the trees, and some even mistook them for elk, unwilling to believe that there could be caribou in Montana." source="John Willard, *The Missoulian*, July 3rd, 1949. " %}
 
 
-{% include feature/figure-full-page.html objectid="upper-priest-lake-photograph" text=" " %}
+{% include feature/figure.html objectid="upper-priest-lake-photograph" text=" " %}
 
 
 {% include feature/quote.md text="Sometime during the 1954 deer season, Mr. Harold McNally of Bonners Ferry, told me he was certain that he had seen a caribou standing in the cemetery at Moravia, four miles south of Bonners Ferry. McNally, it should be remembered, has two mounted caribou head in his bank and should be familiar with what a caribou looks like." source="Paul Flinn, *Caribou of Idaho*, 1956." %}  

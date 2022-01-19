@@ -8,7 +8,7 @@ permalink: /about/acknowledgements.html
 
 # Acknowledgements & References
 
-{% include feature/jumbotron.html objectid="rangifer-tarandus-anselmus-boetius-de-boodt" position="top" %}
+{% include feature/jumbotron.html objectid="black-bear-gaze" position="bottom" %}
 
 
 

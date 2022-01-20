@@ -23,7 +23,7 @@ This project would not have been possible without the generous contributions fro
 - Mary Harding
 - Wayne Wakkinen
 - Greg Johnson
-- Greg Servheen
+- Gregg Servheen
 - Dave Boswell
 - Brad Smith
 - Craig Anderson

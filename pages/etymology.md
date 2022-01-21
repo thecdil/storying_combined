@@ -84,9 +84,9 @@ RANGIFER TARANDUS CARIBOU, | *binomial/International Code of Zoological Nomencla
 
 {% include feature/figure.html objectid="white_caribou_historic" %}
 
-
+{% include feature/marginnote-image.html id="daily-inter-lake-caribou" image="daily-inter-lake-caribou" %}
 {% include feature/quote.md text="The caribou or American Reindeer is very scarce in the United States and is in more imminent danger of becoming extinct than any of our other game animals. I only know of one herd in our country and that herd is located in Northwest Montana. The Caribou here illustrated is sometimes known as the Woodland Caribou and is about the size of our Elk. This animal has a large head upon which grows irregular antlers, which they shed in the Springtime. A 'shovel horn' grows out of one antler down from between the eyes toward the nose, and the Caribou uses this 'shovel horn' to push snow off the moss upon which he feeds. This animal is a 'trotter' like the Moose, and while not as swift on foot as the Moose, yet he is a fast traveler. Not being as wary or possessed of the same animal smartness as the Virgin Deer or the Moose, he more easily becomes the victim of hunters and wild animals than they, and consequently has entirely disappeared from much of his one-time range." source="Jim Whilt, *Daily Inter Lake*, December 2nd, 1933." %} 
-{% include feature/marginnote-image.html id="daily-inter-lake-caribou" image="daily-inter-lake-caribou"  %}	  
+
 	
 {% include feature/quote.md text="Montana’s deep timbered Kootenai country, plus a small slice of northern Idaho, is credited by the last fish and wildlife service report with having the nation’s only herd of caribou. The existence of caribou in Montana is a surprise to many sportsmen who think they are well informed on big game in the state, but the state’s outdoorsmen take pride in the diversity of big game within Montana’s borders. Just when these magnificent animals were first seen by white men isn’t recorded and probably never will be, but a number of old timers in the Yaak Valley of northern Lincoln county knew about the caribou. They had seen them sliding like big antlered ghosts among the trees, and some even mistook them for elk, unwilling to believe that there could be caribou in Montana." source="John Willard, *The Missoulian*, July 3rd, 1949. " %}
 

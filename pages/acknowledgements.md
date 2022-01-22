@@ -33,11 +33,13 @@ This project would not have been possible without the generous contributions fro
 - Ray Kresek
 - Ernie Johnson & Whitney Palmer
 
-This project would be unthinkable without the encouragement, professional support, and critical guidance--all of it depthless and ongoing--from Jennifer Ladino and Scott Slovic of the University of Idaho's Department of English. We are also grateful to the Confluence Lab (Jennifer Ladino, Erin James, and Teresa Cohn) for buying us the game cameras to document what isn't there. 
+We'd like to extend a special thanks for the encouragement, professional support, and critical guidance--all of it depthless and ongoing--from Jennifer Ladino and Scott Slovic of the University of Idaho's Department of English. We are also grateful to the Confluence Lab (Jennifer Ladino, Erin James, and Teresa Cohn) for buying us the game cameras to document what isn't there. 
+
+Our hearts go out to our unoffical yet integral research partner, Michael Decker, for keeping us on track and inspired in the wild Selkirks.
  
 A special and spatial thanks to our Fall 2021 nonfiction workshop (Scott Slovic, Michael "Frosty Diamonds" Bishop, Big Deck) for love, community, and revision in the time of COVID-19.
  
-We are also grateful to my old Jeep, War Pig, the Rocinante of this mad quest, for getting us safely into and out of the mountains without issue.
+We are also grateful to Jack's old Jeep, War Pig, the Rocinante of this mad quest, for getting us safely into and out of the mountains without issue.
  
 Finally, to the Gray Ghost who is now with Animal Master at Caribou House. 
 

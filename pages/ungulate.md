@@ -52,7 +52,7 @@ Until the mid-nineteenth century, woodland caribou, a boreal forest-dwelling sub
 
 The mountain group was able to outlast its woodland relatives by, in a sense, migrating annually to the arctic; a migration not to colder latitudes of the Far North, but to colder altitudes in the South Selkirks of Idaho and Washington. Here and in other ranges where they were historically found—the Purcells and Cabinets, to some extent the Bitterroots—mountain caribou adapted to a life of wintry high-country solitude, relying on the spatial separation that such inhospitable country provides from predators—humans or otherwise. And now, due to a combination of factors including historic 20th century fires, extractive industries (logging, mining) and their infrastructures, development, and an increased load of winter recreation, the arctic oasis of the South Selkirk mountains had shrunk to the point of no return, and with it went the mountain caribou.
 
-{% include feature/youtube-clip.html objectid="greg-servheen-on-ecology" %}
+{% include feature/youtube-clip.html objectid="gregg-servheen-on-ecology" %}
 
 In the Spring of 2019 news broke that the remaining three individuals of the South Selkirk herd had been airlifted to a captive breeding facility in southern British Columbia, leaving them functionally extinct. That fall I entered grad school at the University of Idaho where I began asking myself a set of questions: What was their story, I wondered, and how does one even begin to the tell the story of extinction? What does their extinction mean to us? What does it mean to the people who knew them through their encounters?
 
@@ -194,11 +194,11 @@ We lose the light and decide to film the same session again in the morning. We m
 
 "Hey," says Dave, "You guys wanna see the Jeannot caribou?"
 
-Phil yanked open the cellar door and gestured for us to enter like a maître d' pointing to our table. I see Chris hesitate at the foot of the bulkhead. Ducking his head under a crossbeam, Dave senses the hold up and says, "Come on man! If I go in here alone there might be a fuckin' angry bobcat or something!" Then Phil comes down the stairs. The basement is illuminated by a single overhead light which casts an orange hue on everything. We're all standing in front of a washer and dryer. On top of the washer sits a mount-sized object covered in a black trash bag.
+Phil yanked open the cellar door and gestured for us to enter like a maître d' pointing to our table. I see Chris hesitate at the foot of the bulkhead. Ducking his head under a crossbeam, Dave senses the hold up and says, "Come on man! If I go in here alone there might be a fuckin' angry bobcat or something!" Then Phil comes down the stairs. The basement is illuminated by a single overhead light which casts an orange hue on everything. We're all standing in front of a washer and dryer. On top of the washer sits a caribou shoulder mount-sized object covered by a black trash bag.
 
 "Phil, why you don't you go ahead…"
 
-And then we saw the Jeannot caribou. I don't know how to describe the scene that followed except to say we encountered the Jeannot caribou. It was worst example of taxidermy I had ever seen. It was a hay-stuffed sock puppet caribou with gouges in its head where the antlers had been hacked off. Instead of the dark and depthless shadow cast by old growth canopy, the Jeannot caribou was the color of a Ritz Cracker. The frayed skin flap of the lower jaw had completely detached, and Phil was using it to make the caribou talk like some profane and dilapidated Muppet.
+And then we saw the Jeannot caribou. I don't know how to describe the scene that followed except to say we encountered the Jeannot caribou. It was the worst example of taxidermy I had ever seen. It was a hay-stuffed sock puppet caribou with gouges in its head where the antlers had been hacked off by juvenile delinquents. Instead of the dark and depthless shadow cast by old growth canopy, the Jeannot caribou was the color of a Ritz Cracker. The frayed skin flap of the lower jaw had completely detached, and Phil was using it to make the caribou talk like some profane and dilapidated Muppet.
 
 "You guys want some caribou hair? It's hollow. It's so buoyant they used it to make life jackets in the first world war."
 

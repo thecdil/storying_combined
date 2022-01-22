@@ -33,7 +33,7 @@ This project would not have been possible without the generous contributions fro
 - Ray Kresek
 - Ernie Johnson & Whitney Palmer
 
-We'd like to extend a special thanks for the encouragement, professional support, and critical guidance--all of it depthless and ongoing--from Jennifer Ladino and Scott Slovic of the University of Idaho's Department of English. We are also grateful to the Confluence Lab (Jennifer Ladino, Erin James, and Teresa Cohn) for buying us the game cameras to document what isn't there. 
+We'd like to extend our gratitude for the encouragement, professional support, and critical guidance--all of it depthless and ongoing--from Jennifer Ladino and Scott Slovic of the University of Idaho's Department of English. We are also grateful to the Confluence Lab (Jennifer Ladino, Erin James, and Teresa Cohn) for buying us the game cameras to document what isn't there. 
 
 Our hearts go out to our unoffical yet integral research partner, Michael Decker, for keeping us on track and inspired in the wild Selkirks.
  

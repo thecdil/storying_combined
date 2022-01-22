@@ -24,8 +24,8 @@ The British novelist L.P. Hartley once famously wrote: "The past is a foreign co
  
 In contrast to the commonly thought of barren ground caribou of the Arctic—animals that migrate across vast distances and in large herds, mountain caribou migrate vertically, between different mountain elevation bands, in small groups averaging 5.7 animals (B.N. McLellan 2017). And unlike other cervids that move to lower elevations for the winter (deer or elk, for example), mountain caribou follow a unique late-season migration pattern that takes them higher in elevation: Beginning in mid-elevation (4,500 feet) cedar-hemlock forests in fall and early winter, they feed on residual summer forbs and lichen-heavy deadfall until the snowpack deepens and solidifies. At this point, they use their large, snowshoe-like hooves to climb to subalpine ridgelines (6,000 feet). With the snowpack forming an access barrier against predators, mountain caribou stay and feed in the high country for the duration of winter and early spring, subsisting exclusively on bryoria fremontii and alectoria sarmentosa—lichens commonly found on old growth Englemann spruce and subalpine fir trees. Here they remain mostly stationary until the spring warm-up triggers a downward migration that follows green-up back to the mountain summits for summer. In what is also likely a predator avoidance strategy, calving cow caribou make a second migration to the snow-covered ridgelines in early summer to give birth.
   
-*Former IDFG wildlife biologist Gregg Servheen on Southern mountain caribou ecology:*
-{% include feature/youtube-clip.html objectid="greg-servheen-on-ecology" %}
+*Former IDFG wildlife biologist Gregg Servheen on southern mountain caribou ecology:*
+{% include feature/youtube-clip.html objectid="gregg-servheen-on-ecology" %}
 
 
 **CONSERVATION**

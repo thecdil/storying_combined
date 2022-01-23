@@ -93,7 +93,7 @@ RANGIFER TARANDUS CARIBOU, | *binomial/International Code of Zoological Nomencla
 
 {% include feature/figure.html objectid="upper-priest-lake-photograph" text=" " %}
 
-
+{% include feature/marginnote-image.html id="moravia-cemetery" image="moravia-cemetery" %}
 {% include feature/quote.md text="Sometime during the 1954 deer season, Mr. Harold McNally of Bonners Ferry, told me he was certain that he had seen a caribou standing in the cemetery at Moravia, four miles south of Bonners Ferry. McNally, it should be remembered, has two mounted caribou head in his bank and should be familiar with what a caribou looks like." source="Paul Flinn, *Caribou of Idaho*, 1956." %}  
 
 
@@ -114,6 +114,8 @@ RANGIFER TARANDUS CARIBOU, | *binomial/International Code of Zoological Nomencla
 
 {% include feature/quote.md text="Rare trophy antlers from a mountain caribou shot by an Idaho hunter in 1892 have been stolen from a cabin north of Priest River. Vandals who accessed the cabin by snowmobile in December smashed the old head mount and packed off the antlers, which had been considered special enough to tour in the Idaho exhibit to the 1893 Chicago World’s Fair. Selkirk Mountain’s caribou are the nation’s rarest mammal. The handful that still exist are protected by the Endangered Species Act. In the 1800s, however, they were fair game, although they were a virtually inaccessible trophy for anyone but the most determined hunters in this region. J.M. Jeannot, a businessman in Hope, teamed with a friend in October 1892 and vowed to explore high in the Pack River drainage until they found the elusive caribou. They went as far as possible by horse, and then even higher by foot until they found an area he described in a newspaper story as pounded by so many tracks it 'looked like a Texas roundup.' He eventually shot two bulls, the largest of which he estimated at 600 pounds. He had the head mounted and showed it off on the walls of his Hotel Office Saloon in Hope [Idaho]. When it came to a Spokane sport shop on Riverside Avenue, a newspaper clipping dubbed it 'one of the largest pair of caribou antlers ever seen in Spokane.' While the antlers were likely the biggest from a caribou ever taken by a hunter in Idaho, Western caribou were never given a trophy category by the Boone and Crockett Club because their antlers don’t grow to the trophy proportions of their eastern Canada cousins..." source="Rich Landers, *The Spokesman*, February, 2006." %}
 
+
+{% include feature/figure-full-page.html objectid="jeannotnewsarticle" text=" " %}
 	
   
 {% include feature/quote.md text="In short, if my argument is valid, then true woodland caribou are only the very few, dark, small-manned caribou scattered across the south of caribou distribution. They need the most urgent of attention." source="Valerius Geist, *Rangifer*, Special Issue No. 17, 2007." %} 

@@ -186,7 +186,7 @@ We move to a larger cabin built by Dave and his brothers. The interior is dusky,
 
 Dave tells the story of how for ten years he tried and failed to see a black caribou in the wild. I will not relate his story here because it is too long, but also because the timbre and eloquence of Dave voice, like Bob's, deserves to be heard rather than read—and can be heard, on our digital map. Suffice to say: A decade of going up and down the gnashing serrated teeth of the Selkirk crest on snowshoes. But to no avail. He saw tracks but never the ghost itself. Chris asks him what he thinks it would have been like to see a caribou. Dave smiles.
 
-"That's a good question but I know the answer: the face of god."
+"What it would have been like to see a black caribou in the old growth spruce forest on top of the Selkrik crest? If you were agnostic you'd reconsider because God has just exposed his face to you...or a glimpse of his face."
 
 {% include feature/youtube-clip.html objectid="dave-boswell-and-the-face-of-god" %}
 

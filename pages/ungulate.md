@@ -108,7 +108,7 @@ _And I realized then, with an amazement I have not been able to lessen since: "I
 
 While sitting face to face with an interview subject, I often think how I am looking at eyes onto whose retina appeared, inverted, the image of a real mountain caribou, a physical trace of which now exists in their brain as the encounter's dendritic signature. And as they talk, I feel the image of the mountain caribou migrating (or maybe it _is_ the mountain caribou) from their brain to my own, from their solitude to mine. Barthes's line about "little touches of solitude" has always resonated with me, hauntingly at times. I take Barthes to mean that, often, we are unable to communicate or share the very thing that moves and defines us in our core being with other people. Chris has many "little touches of solitude" about him, and I feel we are drawn to each other because of a mutual familiarity with the solitude of being unable to share something. While different from my own kind of solitude, Chris, a former professional ski jumper, has spent most of life dedicated to the pursuit of a sublime kind of solitude—the perfection of human flight—which, like my need to feel the presence of giant squid, is also difficult to make others understand. And maybe I enjoy his company because he is part animal—part bird.
 
-{% include feature/figure.html objectid="chrislamb-partbird-nolettering-closer" text=" " %}
+{% include feature/figure.html objectid="chrislamb-partbird-nolettering-closer" caption=false %}
 
 A few days after meeting up with Bob Case we received an email from a man named Dave Boswell. Like Bob's, the message was circumspect but pointed. I half expected it to self-destruct after reading:
 

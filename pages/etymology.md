@@ -82,7 +82,7 @@ RANGIFER TARANDUS CARIBOU, | *binomial/International Code of Zoological Nomencla
 {% include feature/quote.md text="Oliver Hall and John Lloyd returned Sunday from a hunting trip to the almost inaccessible mountain country at the head of Sullivan Creek, in the extreme northeastern corner of the state of Washington, into what is known as the Caribou country. The weather was too warm and bright for good hunting, snow, which was needed, being still in the sky. They were well repaid, however, by the killing of two caribou, both falling to the prowess of Mr. Lloyd. One or two deer were secured. The head and horns of the caribou were brought out and are being mounted. So rough are the trails that the valuable trophies could not be trusted to pack horses, as they often 'rolled' in bad places and would smash them. It was necessary to carry them man-back the entire 45 miles to the Pend d’Orielle river at Hall’s ranch." source="*Colfax Gazette*, Colfax, Washington, November 8th, 1901." %} 
 
 
-{% include feature/figure.html objectid="white_caribou_historic" %}
+{% include feature/figure.html objectid="white_caribou_historic" caption=false %}
 
 {% include feature/marginnote-image.html id="daily-inter-lake-caribou" image="daily-inter-lake-caribou" %}
 {% include feature/quote.md text="The caribou or American Reindeer is very scarce in the United States and is in more imminent danger of becoming extinct than any of our other game animals. I only know of one herd in our country and that herd is located in Northwest Montana. The Caribou here illustrated is sometimes known as the Woodland Caribou and is about the size of our Elk. This animal has a large head upon which grows irregular antlers, which they shed in the Springtime. A 'shovel horn' grows out of one antler down from between the eyes toward the nose, and the Caribou uses this 'shovel horn' to push snow off the moss upon which he feeds. This animal is a 'trotter' like the Moose, and while not as swift on foot as the Moose, yet he is a fast traveler. Not being as wary or possessed of the same animal smartness as the Virgin Deer or the Moose, he more easily becomes the victim of hunters and wild animals than they, and consequently has entirely disappeared from much of his one-time range." source="Jim Whilt, *Daily Inter Lake*, December 2nd, 1933." %} 
@@ -93,7 +93,7 @@ RANGIFER TARANDUS CARIBOU, | *binomial/International Code of Zoological Nomencla
 
 {% include feature/figure.html objectid="upper-priest-lake-photograph" text=" " %}
 
-{% include feature/marginnote-image.html id="moravia-cemetery" image="moravia-cemetery" %}
+
 {% include feature/quote.md text="Sometime during the 1954 deer season, Mr. Harold McNally of Bonners Ferry, told me he was certain that he had seen a caribou standing in the cemetery at Moravia, four miles south of Bonners Ferry. McNally, it should be remembered, has two mounted caribou head in his bank and should be familiar with what a caribou looks like." source="Paul Flinn, *Caribou of Idaho*, 1956." %}  
 
 
@@ -117,7 +117,8 @@ RANGIFER TARANDUS CARIBOU, | *binomial/International Code of Zoological Nomencla
 
 {% include feature/figure-full-page.html objectid="jeannotnewsarticle" text=" " %}
 	
-  
+
+
 {% include feature/quote.md text="In short, if my argument is valid, then true woodland caribou are only the very few, dark, small-manned caribou scattered across the south of caribou distribution. They need the most urgent of attention." source="Valerius Geist, *Rangifer*, Special Issue No. 17, 2007." %} 
  
 	

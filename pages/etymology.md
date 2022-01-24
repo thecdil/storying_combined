@@ -82,7 +82,7 @@ RANGIFER TARANDUS CARIBOU, | *binomial/International Code of Zoological Nomencla
 {% include feature/quote.md text="Oliver Hall and John Lloyd returned Sunday from a hunting trip to the almost inaccessible mountain country at the head of Sullivan Creek, in the extreme northeastern corner of the state of Washington, into what is known as the Caribou country. The weather was too warm and bright for good hunting, snow, which was needed, being still in the sky. They were well repaid, however, by the killing of two caribou, both falling to the prowess of Mr. Lloyd. One or two deer were secured. The head and horns of the caribou were brought out and are being mounted. So rough are the trails that the valuable trophies could not be trusted to pack horses, as they often 'rolled' in bad places and would smash them. It was necessary to carry them man-back the entire 45 miles to the Pend d’Orielle river at Hall’s ranch." source="*Colfax Gazette*, Colfax, Washington, November 8th, 1901." %} 
 
 
-{% include feature/marginnote.html id="dev" text="<q>Fred Fisher opened the bar, which featured the iconic Bonners Ferry white caribou, on Main Street in 1905, and ran it until it closed four years later in 1909.</q> *Boundary County Historical Society*" %}
+{% include feature/marginnote.html id="dev" text="<q>Fred Fisher opened the bar, which featured the iconic Bonners Ferry white caribou, on Main Street in 1905, and ran it until it closed four years later in 1909.</q> Boundary County Historical Society" %}
 {% include feature/figure.html objectid="white_caribou_historic" caption=false %}
 
 

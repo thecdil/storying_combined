@@ -6,7 +6,7 @@ permalink: /etymology_extracts.html
 ---
 <style>table tr td:first-child{width:400px}</style>
 
-# Extracts & Etymologies
+# Etymology & Extracts
 
 {% include feature/jumbotron.html objectid="salmopriest-criticalhabitat-salmodivide535rim-imag0105" position="bottom" %}
 

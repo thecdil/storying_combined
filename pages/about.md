@@ -9,7 +9,7 @@ permalink: /about.html
 
 {% include about/jumbotron.html objectid="salmopriest-criticalhabitat-criticalhabitatridgelinesouth-imag0006" %}{% include feature/marginnote.html id="dev" text="The site and project are currently being developed by Jack Kredell, Christopher Lamb, and Devin Becker @ [the CDIL](https://cdil.lib.uidaho.edu/), with the full site expected to be released in February of 2022." %} 
 
-***Storying Extinction: Responding to the Loss of North Idaho’s Mountain Caribou*** is a multidisciplinary digital humanities project that represents community response to the recent extirpation (2019) of Southern mountain caribou from the South Selkirk mountains of North Idaho—the last caribou to inhabit the coterminous United States.
+***Storying Extinction: Responding to the Loss of North Idaho’s Mountain Caribou*** is a multidisciplinary digital humanities project that represents community response to the recent extirpation (2019) of southern mountain caribou from the South Selkirk mountains of North Idaho—the last caribou to inhabit the coterminous United States.
 
 The local extinction served as the exigence for a GIS-based deep map, or spatial narrative, which documents the interaction of human and more-than-human communities in North Idaho through geolocated oral histories{% include feature/marginnote-image.html id="oh2" image="two-mouth-lakes-encounter" text="Debbie Ackley Encounter at Two Mouth Lakes <br> 1 of 33 oral histories" image-width="100" %} of [caribou encounters]({{ 'browse.html#encounter' | relative_url }}), [game camera]({{ 'browse.html#game camera' | relative_url }}) footage of species currently inhabiting former caribou habitat, and various historical documents about caribou existence in the South Selkirks. 
 

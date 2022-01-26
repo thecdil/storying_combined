@@ -208,7 +208,7 @@ We emerge to twilit skies. I feel the bowl of the meadow and its million buzzing
 
 Later that night, in the star-studded vortex of our drunkenness, we spot a curious object in the heavens. It was like a star except blurry and more massive in size, and this blurriness, we had established, was not our fault but in fact due to the object being covered in a kind of luminous mold, making it brighter than any other in the sky. Strangest of all, it had a tail. Then it dawned on me: it was the comet from my Instagram feed—Comet NEOWISE. Looking back now, I realize: If only we had been able to snatch the comet's tail and bury it, still twitching, in my father's rose garden high up on Little Snowy Top where the last caribou in the South Selkirk mountains made its home, they would come back for us. But I was too drunk to stand on Chris's shoulders and the opportunity was missed.
 
-Are there mountain caribou alive in the United States right now?
+Are there mountain caribou in the South Selkirk mountains of Idaho right now?
 
 Arise Lazarus.
 

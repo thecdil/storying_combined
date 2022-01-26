@@ -7,7 +7,7 @@ permalink: /about.html
 
 # About the Project
 
-{% include about/jumbotron.html objectid="salmopriest-criticalhabitat-criticalhabitatridgelinesouth-imag0006" %}{% include feature/marginnote.html id="dev" text="The site and project are currently being developed by Jack Kredell, Christopher Lamb, and Devin Becker @ [the CDIL](https://cdil.lib.uidaho.edu/), with the full site expected to be released in February of 2022." %} 
+{% include about/jumbotron.html objectid="salmopriest-criticalhabitat-criticalhabitatridgelinesouth-imag0006" %}{% include feature/marginnote.html id="dev" text="The site and project was created by Jack Kredell, Christopher Lamb, and Devin Becker @ [the CDIL](https://cdil.lib.uidaho.edu/) over the course of two years (June 2020 - February 2022)." %} 
 
 ***Storying Extinction: Responding to the Loss of North Idaho’s Mountain Caribou*** is a multidisciplinary digital humanities project that represents community response to the recent extirpation (2019) of southern mountain caribou from the South Selkirk mountains of North Idaho—the last caribou to inhabit the coterminous United States.
 
@@ -23,3 +23,9 @@ A deep map is a multidimensional, interactive map that offers an alternative to 
 ## Future Development
  
 *Storying Extinction* is an ongoing and open-ended project. In our effort to recognize the process of extinction as an ongoing event extending into both the past and the future, the project will be kept open for contributions indefinitely. If you would like to share a story or other media related to Idaho mountain caribou, please email jkredell@uidaho.edu or chrstopherlmb@gmail.com.
+
+## Project Support & Technical Information
+
+This project is supported by the [University of Idaho Library](https://www.lib.uidaho.edu/) via its [Center for Digital Inquiry and Learning](https://cdil.lib.uidaho.edu/) (CDIL). Ongoing preservation and hosting are also managed by CDIL. 
+
+The website is built on a customized [CollectionBuilder](https://collectionbuilder.github.io/) framework that uses an interactive [Leaflet](https://leafletjs.com) map as background and mechanism for viewing collection items and [Tufte CSS](https://edwardtufte.github.io/tufte-css/) to style its interpretive and informational content. These and other customizations can be viewed in the project's [Github repository](https://github.com/thecdil/storying_combined).

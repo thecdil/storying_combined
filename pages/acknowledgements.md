@@ -37,7 +37,7 @@ We'd like to extend our gratitude for the encouragement, professional support, a
 
 Our hearts go out to our unoffical yet integral research partner, Michael Decker, for keeping us on track and inspired in the wild Selkirks.
 
-We wish to thank the expert staff of the Center for Digital Inquiry and Learning (CDIL)—Kevin Dobbins, Kit Stokes, Olivia Wikle, and Evan Williamson—for helping us achieve our digital dreams. 
+We are grateful to the expert staff of the Center for Digital Inquiry and Learning (CDIL)—Kevin Dobbins, Kit Stokes, Olivia Wikle, and Evan Williamson—for helping us achieve our digital dreams. 
  
 Special and spatial thanks to our Fall 2021 nonfiction workshop (Scott Slovic, Michael "Frosty Diamonds" Bishop, Big Deck) for love, community, and revision in the time of COVID-19.
  

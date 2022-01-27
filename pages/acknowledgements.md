@@ -36,8 +36,10 @@ This project would not have been possible without the generous contributions fro
 We'd like to extend our gratitude for the encouragement, professional support, and critical guidance--all of it depthless and ongoing--from Jennifer Ladino and Scott Slovic of the University of Idaho's Department of English. We are also grateful to the Confluence Lab (Jennifer Ladino, Erin James, and Teresa Cohn) for buying us the game cameras to document what isn't there. 
 
 Our hearts go out to our unoffical yet integral research partner, Michael Decker, for keeping us on track and inspired in the wild Selkirks.
+
+We wish to thank the expert staff of the Center for Digital Inquiry and Learning (CDIL)—Kevin Dobbins, Kit Stokes, Olivia Wikle, and Evan Williamson—for helping us achieve our digital dreams. 
  
-A special and spatial thanks to our Fall 2021 nonfiction workshop (Scott Slovic, Michael "Frosty Diamonds" Bishop, Big Deck) for love, community, and revision in the time of COVID-19.
+Special and spatial thanks to our Fall 2021 nonfiction workshop (Scott Slovic, Michael "Frosty Diamonds" Bishop, Big Deck) for love, community, and revision in the time of COVID-19.
  
 We are also grateful to Jack's old Jeep, War Pig, the Rocinante of this mad quest, for getting us safely into and out of the mountains without issue.
  

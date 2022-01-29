@@ -96,7 +96,7 @@ RANGIFER TARANDUS CARIBOU, | *binomial/International Code of Zoological Nomencla
 {% include feature/quote.md text="Montana’s deep timbered Kootenai country, plus a small slice of northern Idaho, is credited by the last fish and wildlife service report with having the nation’s only herd of caribou. The existence of caribou in Montana is a surprise to many sportsmen who think they are well informed on big game in the state, but the state’s outdoorsmen take pride in the diversity of big game within Montana’s borders. Just when these magnificent animals were first seen by white men isn’t recorded and probably never will be, but a number of old timers in the Yaak Valley of northern Lincoln county knew about the caribou. They had seen them sliding like big antlered ghosts among the trees, and some even mistook them for elk, unwilling to believe that there could be caribou in Montana." source="John Willard, *The Missoulian*, July 3rd, 1949. " %}
 
 
-{% include feature/marginnote.html id="dev" text="First known photograph of Upper Priest Lake from *The Diary of our Trip to E-Soc-Quet by One of the Party* (1887). Shedroof Mountain and the future South Selkirk caribou critical habitat loom in the distant background." %}
+{% include feature/marginnote.html id="dev" text="First known photograph of Upper Priest Lake from *The Diary of our Trip to E-Soc-Quet by One of the Party* (1887). [Shedroof Mountain](https://storying.onrender.com/mountains/tosleep.html#gargoyle) and the future South Selkirk caribou critical habitat loom in the distant background." %}
 {% include feature/figure.html objectid="upper-priest-lake-photograph" caption=false %}
 
 

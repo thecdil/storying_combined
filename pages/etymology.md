@@ -85,7 +85,7 @@ RANGIFER TARANDUS CARIBOU, | *binomial/International Code of Zoological Nomencla
 {% include feature/marginnote.html id="dev" text="<q>Fred Fisher opened the bar, which featured the iconic Bonners Ferry white caribou, on Main Street in 1905, and ran it until it closed four years later in 1909.</q> Boundary County Historical Society" %}
 {% include feature/figure.html objectid="white_caribou_historic" caption=false %}
 
-
+{% include feature/marginnote-image.html id="seton-art-001" image="seton-art-001" %}
 {% include feature/quote.md text="The Mountain Caribou, with its races, is easily distinguished by its great size, and dark or even black general colour. Otherwise, it is of Caribou style and pattern.<br/><br/>Size. It stands 46 1/2 in. (1179 mm.) high at the withers; is 95 in. (2409 mm.) from tip of the nose to root of the tail; the tail is 5 in. (127 mm.) long; the head from nose to occiput is 19 3/4 in. (500 mm.); the hind foot, 26 in. (659 mm); the ear, 7 1/2 in. (190 mm.).<br/><br/>Weight. There are no exact figures available, but all hunters agree that it is nearly double the weight of the Woodland species, the bulls reaching commonly 500 to 600 lbs. alive.<br/><br/>Colour. The general colour is a deep umber brown, very glossy, and darkening nearly to black on the lower parts of the legs. The neck is dull grayish white, also the underside of the tail, the buttocks, lips, and belly. Along the ribs on each side is a grayish patch a little lighter than the surrounding brown. The white fringe above each hoof is shining white, and very narrow." source="Ernst Thompson Seton, *Lives of Game Animals* Volume III: Hoofed Animals, 1928." %}
 
 
@@ -141,3 +141,5 @@ RANGIFER TARANDUS CARIBOU, | *binomial/International Code of Zoological Nomencla
 	
 {% include feature/quote.md text="They’re shadows." source="Dave Boswell, *Storying Extinction*, 2020." %}  
  
+ 
+{% include feature/figure.html objectid="seton-art-008" text=" " %}

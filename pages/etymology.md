@@ -85,7 +85,7 @@ RANGIFER TARANDUS CARIBOU, | *binomial/International Code of Zoological Nomencla
 {% include feature/marginnote.html id="dev" text="<q>Fred Fisher opened the bar, which featured the iconic Bonners Ferry white caribou, on Main Street in 1905, and ran it until it closed four years later in 1909.</q> Boundary County Historical Society" %}
 {% include feature/figure.html objectid="white_caribou_historic" caption=false %}
 
-{% include feature/marginnote-image.html id="seton-art-001" image="seton-art-001" %}
+{% include feature/marginnote-image.html id="seton-art-005" image="seton-art-005" %}
 {% include feature/quote.md text="The Mountain Caribou, with its races, is easily distinguished by its great size, and dark or even black general colour. Otherwise, it is of Caribou style and pattern.<br/><br/>Size. It stands 46 1/2 in. (1179 mm.) high at the withers; is 95 in. (2409 mm.) from tip of the nose to root of the tail; the tail is 5 in. (127 mm.) long; the head from nose to occiput is 19 3/4 in. (500 mm.); the hind foot, 26 in. (659 mm); the ear, 7 1/2 in. (190 mm.).<br/><br/>Weight. There are no exact figures available, but all hunters agree that it is nearly double the weight of the Woodland species, the bulls reaching commonly 500 to 600 lbs. alive.<br/><br/>Colour. The general colour is a deep umber brown, very glossy, and darkening nearly to black on the lower parts of the legs. The neck is dull grayish white, also the underside of the tail, the buttocks, lips, and belly. Along the ribs on each side is a grayish patch a little lighter than the surrounding brown. The white fringe above each hoof is shining white, and very narrow." source="Ernst Thompson Seton, *Lives of Game Animals* Volume III: Hoofed Animals, 1928." %}
 
 
@@ -118,16 +118,18 @@ RANGIFER TARANDUS CARIBOU, | *binomial/International Code of Zoological Nomencla
 {% include feature/quote.md text="When a sacred animal was killed, its spirit went to a spirit house. For the Neskapi this was Caribou House. Caribou House was a real place. It lay in a mountain range west of Ungava Bay in present-day Quebec. The mountains there were white, not from ice or snow but from centuries of caribou hair falling on the ground. The caribou entered and left this place each year, passing through a valley between two high mountains. The caribou hair on the ground was several feet deep and for miles around the cast-off caribou antlers formed a layer as high as a man’s waist. The caribou paths were worn so deep a calf going along one would only show his head...The Animal Master lived at Caribou House, together with the living caribou and the spirits of slain caribou." source="Barry Lopez, *Of Wolves and Men*, 1979." %}
 
 
+{% include feature/figure.html objectid="seton-art-008" caption=false %}
+
+
 {% include feature/quote.md text="Rare trophy antlers from a mountain caribou shot by an Idaho hunter in 1892 have been stolen from a cabin north of Priest River. Vandals who accessed the cabin by snowmobile in December smashed the old head mount and packed off the antlers, which had been considered special enough to tour in the Idaho exhibit to the 1893 Chicago World’s Fair. Selkirk Mountain’s caribou are the nation’s rarest mammal. The handful that still exist are protected by the Endangered Species Act. In the 1800s, however, they were fair game, although they were a virtually inaccessible trophy for anyone but the most determined hunters in this region. J.M. Jeannot, a businessman in Hope, teamed with a friend in October 1892 and vowed to explore high in the Pack River drainage until they found the elusive caribou. They went as far as possible by horse, and then even higher by foot until they found an area he described in a newspaper story as pounded by so many tracks it 'looked like a Texas roundup.' He eventually shot two bulls, the largest of which he estimated at 600 pounds. He had the head mounted and showed it off on the walls of his Hotel Office Saloon in Hope [Idaho]. When it came to a Spokane sport shop on Riverside Avenue, a newspaper clipping dubbed it 'one of the largest pair of caribou antlers ever seen in Spokane.' While the antlers were likely the biggest from a caribou ever taken by a hunter in Idaho, Western caribou were never given a trophy category by the Boone and Crockett Club because their antlers don’t grow to the trophy proportions of their eastern Canada cousins..." source="Rich Landers, *The Spokesman*, February, 2006." %}
 
 
 {% include feature/figure-full-page.html objectid="jeannotnewsarticle" text=" " %}
 	
-
+	
 
 {% include feature/quote.md text="In short, if my argument is valid, then true woodland caribou are only the very few, dark, small-manned caribou scattered across the south of caribou distribution. They need the most urgent of attention." source="Valerius Geist, *Rangifer*, Special Issue No. 17, 2007." %} 
- 
-	
+ 	
   
 {% include feature/quote.md text="A reindeer engraved on the wall of a cave in south Wales has been confirmed as the oldest known rock art in Britain." source="BBC news article, 2012." %}
 
@@ -141,5 +143,3 @@ RANGIFER TARANDUS CARIBOU, | *binomial/International Code of Zoological Nomencla
 	
 {% include feature/quote.md text="They’re shadows." source="Dave Boswell, *Storying Extinction*, 2020." %}  
  
- 
-{% include feature/figure.html objectid="seton-art-008" text=" " %}

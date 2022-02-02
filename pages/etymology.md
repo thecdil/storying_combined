@@ -110,7 +110,7 @@ RANGIFER TARANDUS CARIBOU, | *binomial/International Code of Zoological Nomencla
 
 
 
-{% include feature/figure.html id="seton-art-005" image="seton-art-005" %}
+{% include feature/figure.html objectid="seton-art-005" text=" " %}
 
 
 {% include feature/quote.md text="The last remnants of a once great and magnificent wildlife herd, the rare Selkirk Mountain caribou, may now be in the fade-out chapter of their species history, their doom sealed because man did not take their needs into consideration in determining what he would do in the caribou’s natural environment. To a degree, we all share the guilt of destroying the migrating caribou’s habitat. Concern about the survival of this particular species of caribou is due to the threat of construction of logging roads, logging itself, road kills, illegal hunting, human harassment and fires...Now the Selkirk Mountain caribou, called one of the 'most fragile members of wilderness environments,' is being studied through a University of Idaho research project funded by several game management agencies and conservation organizations. Hopefully the study will provide information us professional land managers should have sought years ago and enable intelligent decisions that might help reverse the trend toward destruction of the species in the contiguous United States...At least two post-graduate students, David J. Freddy and Gary J. Schroeder, are expected to continue research on possible management options for the Selkirk Mountain caribou, probably through the fall." source="Dale A. Burk, *The Missoulian*, September 1st, 1972." %}

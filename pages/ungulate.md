@@ -177,7 +177,7 @@ It was gone by the time I got my binoculars out. Nothing else to do, we turned t
 
 The ranch was actually a small cluster of hand-hewn log cabins and outbuildings, some very old, nestled on the lip of a wet and slightly concave meadow edged in by low mountains. Holding the meadow's chest high grasses at bay was an old split-rail fence; inside its perimeter the grasses were kept mowed. Unseen beneath folded tufts of bluejoint and cattail, the bright trickle of a creek could be heard. At the far end of the meadow, an aspen stand glowed white under the deepening shadow of mountains. Birdsong filled the air.
 
-{% include feature/figure.html objectid="boswell-split-rail" text=" " %}
+{% include feature/figure.html objectid="boswell-split-rail" caption=false %}
 
 Dave, holding a glass of wine filled beyond decorum, and his neighbor, Phil, came out to greet us. Dave's voice is booming and sonorous, its intonation flecked with a pleasing grit; when he speaks, which is often, his backwoodsman's penchant for profanity-laced tirade is executed with the flair and verbal resources of an urbane lawyer (Dave practices at a small firm in Spokane). He wears blue jeans with suspenders and a white linen shirt, the front beginning to untuck itself. The shoulders are still broad, presenting an imposing figure despite being well into his seventies. Pale blue eyes deep set under white eyebrows. Phil is younger by a decade, mild-mannered, and soft spoken. Phil's t-shirt has the name of a conservation organization on it and features a tableau of African wildlife—zebras, rhinos, wildebeest, impalas, giraffes and elephants. His long hair is kept in a ponytail which has a beautiful sheen to it. He's just been through a divorce. I immediately like him.
 

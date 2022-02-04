@@ -28,14 +28,14 @@ But the recent wildfire has exposed this ridgeline and provided an expansive vie
 We're camped on the Idaho side of this line, at about 6000 feet and roughly two miles shy of the Canadian border, on the protruding cretaceous granite of the [Idaho Batholith's Kaniksu lobe](http://geology.isu.edu/Digital_Geology_Idaho/Module6/mod6.htm)—a sixty five million year old rock that rested, in its infancy, beneath the depths of the Pacific Ocean. My two friends and (for the purposes of this trip) colleagues, Jack Kredell and Michael Decker, are asleep in the tents about twenty yards behind me, in a small grove of subalpine fir and Englemann spruce trees. They've been there since we retired last night after an exhausting ten-mile hike in. We arrived just before dark and had barely enough time to set up camp, light a fire, and cook a freeze-dried meal. At that point the weather was fair and the scene I'm observing right now was under mostly clear skies, punctuated at dusk by a gilded horizon. The wind picked up after sundown and we heard thunder and saw flickers of lightning in the distance. But as far as I know, no storm passed over our site. 
 
 
-{% include feature/figure.html objectid="distant_lightning" %}
+{% include feature/figure.html objectid="distant_lightning" caption=false %}
 
 This is our second of what will be many trips into these mountains this summer. We've been drawn here primarily by the recent extirpation of the South Selkirk mountain caribou, an animal that was specific to the rocky alpine ridges and the old growth, lichen-heavy forests that a decade ago would've surrounded me. 
 
 The caribou inhabited these mountains, residing mainly at the highest elevations—to avoid predators—except for early winter, when they collected beneath the dense canopy of the cedar-hemlock forests lower down. There, they would feed on lichen-bearing deadfall and remaining summer forbs until the snow piled high and dense enough for them to reach arboreal lichens in the sub-alpine zone—where they would spend winters feeding in the thick silence of snow-draped spruce and subalpine fir. Unlike the barren ground caribou of Alaska and other arctic regions that migrate long distances and in large numbers, the mountain—or black caribou as some refer to them—have evolved to migrate vertically and in smaller herds. They are an ecotype of woodland caribou (_Rangifer Tarandus),_ a subspecies of the North American caribou, that at one time inhabited most northern regions of the United States, including parts of Maine, New Hampshire, and Minnesota. While the majority of woodland caribou vanished from the lower-48 by the late nineteenth century, Idaho's mountain caribou were able to outlast their relatives by, as Jack puts it, ["migrating annually to the arctic; a migration not to colder latitudes of the Far North, but to colder altitudes in the Selkirks"](https://storying.onrender.com/para/jack/jack/ungulate.html) (Kredell 5). That is, until January of 2019 when the last two were captured in a net and airlifted to a captive breeding program in BC.
 
 
-{% include feature/figure.html objectid="BRW2C6FC95F0646_000312" %}
+{% include feature/figure.html objectid="BRW2C6FC95F0646_000312" caption=false %}
 
 The plight of Idaho's South Selkirk caribou population is a familiar story. With their survival relying so heavily on predator avoidance strategies, caribou existence depended on the preservation of a unique spatial arrangement that promised seclusion. For years, the deep snow and harsh conditions of the alpine zone were enough to maintain limited contact with animals that posed a threat to their world. But over time, habitat fragmentation due to anthropogenic forces such as logging, road building, recreational snowmobile use, and climate change (wildfires and snowmelt included), slowly chipped away at this protective layer, puncturing, incrementally, the caribou's evolutionary line of defense.
 
@@ -46,14 +46,14 @@ The shadow of winter is still present at 6000 feet in the Selkirks this time of 
 Our hike yesterday was impeded significantly by this enduring snowpack. We arrived via the Shedroof Divide trail, which begins northeast of the Lake Sullivan Ranger District outside of Metaline Falls, in northeastern Washington, and cuts through the Salmo-Priest into Idaho. The weather was pleasant and the ground clear for the first few miles of our hike, but when we reached the summit of Shedroof Mountain, which just now rests in the corner of my left eye, the trail withdrew beneath the heavy, wet remains of winter. From then on, it was only intermittently visible, revealing itself on the sunny, southerly facing slopes and disappearing again in the shaded spaces and northern aspects. This created obvious navigational challenges, leading us to rely almost entirely on our GPS systems to stay on track. It also demanded much of our bodies, as we were persistently punching through soft layers and struggling to stay on our feet.
 
 
-{% include feature/figure.html objectid="shedroof_cliff" %}
+{% include feature/figure.html objectid="shedroof_cliff" caption=false %}
 
 At the top of Shedroof, the trail-less ridgeline led us to a steep, rocky face on the northwest side of the peak. Because of the snow and the grade of the mountain, there were few options for descending safely. We scoped several alternative routes but each one came with its own risk, the most likely being a wet, spring avalanche. So, we opted eventually to climb carefully down the face, clinging to stunted subalpine firs and exposed granite to avoid falling and potentially triggering a slide. The snow was over my head in places, peeling away from the radiant warmth of boulders and tree trunks, leaving large glide cracks on the surface. From my experience skiing in the backcountry and my basic understanding of snow science, I was aware that these were less than optimal conditions for scaling a mountain face. And the added weight of our packs contributed to my insecurities about the rotten, sun-cooked snow—its layers ready to shed like the snows of deep winter from the broad backs of bedded caribou.
 
 After about seven hours of hiking, and four with soaking feet, we still hadn't made it to where we'd hoped to camp, which was on a saddle about two hundred feet below the summit of Little Snowy Top—the last stronghold for mountain caribou in this region. So, with the day dimming we set up camp here, about two miles shy, in this open grove of standing dead trees, in what typically, this time of year, would've been prime calving grounds for female caribou.
 
 
-{% include feature/figure.html objectid="calving-grounds" %}
+{% include feature/figure.html objectid="calving-grounds" caption=false %}
 
 Though inconvenient, I do appreciate the snow. It carries with it, in some capacity, the spirit of the caribou whose lives were inextricably linked to its presence here. This is the first snowfall in many hundreds of years that will turn to runoff and become a major part of this watershed without carrying with it the tracks of these animals. Somehow, being here on the edge of this patch of slowly melting ground is like witnessing the first traces of caribou absence—not as a singular event instantiated by their forced removal, but as a process that began long ago, one that will continue to permeate this landscape in ways both visible and invisible.
 
@@ -93,7 +93,7 @@ For almost a century, this 14X14' wood frame cabin held windows that provided a 
 In the thirty years of its operation as a Forest Service fire lookout, and the fifty or so years following, the people who visited this windowed watch witnessed a history that, cumulatively, would've told the story of extinction—the slow, almost silent, whimper of a world on its way out. Surely the sightings were fewer and fewer as the years progressed, and what was likely a typical occurrence in the early part of the century became, toward the end, an unexpected encounter.
 
 
-{% include feature/figure.html objectid="blackbear-through-binos" %}
+{% include feature/figure.html objectid="blackbear-through-binos" caption=false %}
 
 As we prepare to make our way down the mountain and back to camp, we pause for a moment in the remains of the tower. The glass and nails and metal crunch beneath our boot soles as we investigate the wreckage. 
 
@@ -171,7 +171,7 @@ We discuss this for some time—the ethics of a potential clean up—and the inh
 And this is true. At first, the ruins are an eye sore. They impede the otherwise pristine experience of the mountain summit. The one where we are the only sign of human encroachment. They prevent us from walking freely over the ancient granite of the Idaho batholith, from taking an untainted panoramic photograph. From feeling like we're somehow alone out there, both in time and in space.
 
 
-{% include feature/figure.html objectid="jmc_on_ridgeline" %}
+{% include feature/figure.html objectid="jmc_on_ridgeline" caption=false %}
 
 But I keep returning to Rebecca Solnit and the idea that ruins are somehow necessary. Without the ruins of the fire tower, the memory of a particular human presence in this landscape would be erased, and with it a deeper, more textured sense of time and space. The metal and glass and nails, the blue door, all hold the memory of a passion for the remote and wild landscape. They are traces of an idea inhabited by men and women who longed to be in the solitude of the mountains, to, in their own way, make contact with a world that preexisted European settlement, industrialization, and the denigration of intact ecosystems. Embedded within this idea, somewhat ironically, is the continuation and perpetuation of a colonialist mindset. The fire tower represents the presence of a watchful eye over an imagined, tamed, and pure wilderness, and the suppression and control of fires that were for centuries fundamental to the health of this landscape. And by extension the control over indigenous peoples whose histories are inseparable from these fires, this landscape, and the violence of colonialist policies. The idea of a landscape without history, an atavistic space that fuels the spatial amnesia that is in many ways foundational to the American imagination is preserved, somehow, in the ruble there.
 

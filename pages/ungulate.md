@@ -26,7 +26,7 @@ When I discovered giant squid in a picture book about sharks and whales, I asked
 
 "Yes, right at this very moment," she said.
 
-Astonished and pleased by the very fact of their existence, I disappeared into my room to play with my dinosaur figurines or plunge into a volume from the complete _Illustrated Encyclopedia of the Animal Kingdom_.{% include feature/sidenote.html id="note2" text="[_Illustrated Encyclopedia of the Animal Kingdom_](https://www.ebay.com/itm/The-Illustrated-Encyclopedia-of-the-Animal-Kingdom-1972-19-Vols-missing-vol-9/133668688662?hash=item1f1f465316:g:0yMAAOSw9j5gLo1a)."%} The only books I cared for at the time, the volume about scorpions had become so tattered by my abusive, grasping style of reading that the binding had disintegrated and I was left with a bundle of loose pages, never to know their true pagination again. If too much time had passed since the confirmation of the existence of giant squid, I would locate my mom and ask her once again:
+Astonished and pleased by the very fact of their existence, I disappeared into my room to play with my dinosaur figurines or plunge into a volume from the complete _Illustrated Encyclopedia of the Animal Kingdom_.{% include feature/sidenote.html id="note2" text="[_Illustrated Encyclopedia of the Animal Kingdom_](https://www.ebay.com/itm/The-Illustrated-Encyclopedia-of-the-Animal-Kingdom-1972-19-Vols-missing-vol-9/133668688662?hash=item1f1f465316:g:0yMAAOSw9j5gLo1a)."%} The only books I cared for at the time, the volume about scorpions had become so tattered by my abusive, grasping style of reading that the binding had disintegrated and I was left with a disordered bundle of loose pages, never to know their true pagination again. If too much time had passed since the confirmation of the existence of giant squid, I would locate my mom and ask her once again:
 
 "Are there giant squid in the ocean right now?"
 
@@ -34,7 +34,7 @@ Astonished and pleased by the very fact of their existence, I disappeared into m
 
 But my fascination with nonhumans, in particular with those who are extinct or out of reach—dinosaurs or abyss-dwelling giant squid—reached a formative fever pitch when I encountered a being who, until that moment, was known to me only from the pages of my encyclopedia and the museum. Early one morning I was awoken by my dad who carried me, still half asleep, to the bay window in the living room and whispered, "Look."
 
-All I saw was a blur of glaring light as I wiped the sleep from my eyes. The grass yard, drenched earlier by my dad's ritual watering before dawn, shimmered in the early morning sun. Slowly, the front yard took on its familiar shapes—the two sycamores with their fuzzy leaves and pastel trunks, the hedge with its white clusters of minute, bee-charming flowers. Then I froze (in some far-off world, I am still holding that breath): a long tawny neck bent gracefully toward an island of dandelions. An animal—a deer. A deer was standing in the front yard of our suburban San Fernando Valley home. 
+All I saw was a blur of glaring light as I wiped the sleep from my eyes. The grass yard, drenched earlier in my dad's ritual of watering before dawn, shimmered in the early morning sun. Slowly, the front yard took on its familiar shapes—the two sycamores with their fuzzy leaves and pastel trunks, the hedge with its white clusters of minute, bee-charming flowers. Then I froze (in some far-off world, I am still holding that breath): a long tawny neck bent gracefully toward an island of dandelions. An animal—a deer. A deer was standing in the front yard of our suburban San Fernando Valley home. 
 
 It was my first time seeing a deer—real megafauna—outside the articulated skeletons dredged up from the La Brea Tar Pits on display at the Natural History Museum of Los Angeles County. My pulse quickened and the body ached to get closer. Wanting to see it without the dark-tinted mesh of the window screen, I ran to the front door and stuck a hand through the mail slot to lift the faux-brass door, but as I did, the hinge creaked and the deer bobbed its head, spun, and bounded away up the street. As much of me died in that instant of departure as was made alive by the arrival—my earliest memory. 
 
@@ -70,13 +70,13 @@ _If you have a story about a caribou encounter (or anything pertaining to the fo
 
 It was the moment of truth, a wordy one at that: We were about to find out if stories of mountain caribou encounters—the "key component" of our grant-funded project—exist in any collectible number to begin with (if they exist at all). It hadn't really occurred to us until now, with the publication of our notice in the _Spokane Spokesman Review_, that the idea behind project was an educated guess: 20-30 individuals with mountain caribou stories from the 1990s or earlier, before the herd's complete collapse. Their stories won't be out there like apples on a tree, ripe for the picking; caribou stories are out there running around as people—busy, bothersome people. Most of our subjects will be older. Many of our would-be subjects (most, in fact) are already dead, leaving behind caribou stories I can only dream of. The reality of it was nauseating.
 
-I hear the chime of sent email and my colleague and partner on the project, Chris Lamb, looks up from his laptop and announces that it is "done." An intrinsic part of the project was now out of our control, possibly forever. I think about telling him this, but I already know what he'll say: it never was in our control. Mountain caribou were exposed to the world, too, and now they're becoming _never was_.
+I hear the chime of sent email and my colleague and partner on the project, Chris Lamb, looks up from his laptop to announce that it is "done." An intrinsic part of the project is now out of our control, possibly forever. I think about telling him this, but I already know what he'll say: it never was in our control. Mountain caribou were exposed to the world, too, and now they're becoming _never was_.
 
 "But suppose nobody emails us—what then?"
 
 "Well then we're fucked."
 
-But we were not fucked: Shortly after publishing our call for caribou stories in the Spokesman-Review we receive a terse email from somebody named Bob Case:
+But we were not fucked: A week after publishing our call for caribou stories in the Spokesman-Review we received a terse email from somebody named Bob Case:
 
 On June 14, 2020, at 2:56 PM, Bob Case wrote:
 
@@ -84,7 +84,7 @@ _I have pictures of a caribou encounter._
 
 _Sent from my Samsung Galaxy , an AT&amp;T LTE smartphone_
 
-We had already received several emails from people who had photographs of caribou which turned out to be press clippings from the herd augmentation efforts of 1980s. These were interesting in themselves but not the encounter stories we hoped to solicit. Intrigued as we were by Bob's email, the phrasing made us uncertain as to whether the photos were of his own encounter or somebody else's. Still, we figure it is worth the 90-minute drive to Spokane to find out and offer to meet the following Monday morning. At worst we'd get more press clippings. But then, two days later, we get a strange email from Bob in which he admits to driving to Moscow from Spokane earlier the same day, seemingly for pleasure, and without advance warning:
+We had already received several emails from people who had photographs of caribou which turned out to be press clippings from the herd augmentation efforts of 1980s. These were interesting in themselves but not the encounter stories we hoped to solicit. Intrigued as we were by Bob's email, the phrasing made us uncertain as to whether the photos were of his own encounter or somebody else's. Still, we figure it is worth the 90-minute drive to Spokane to find out and offer to meet the following Monday morning. At worst we'd get more press clippings. But then, two days later, we get a strange email from Bob in which he admits to driving to Moscow from Spokane earlier in the day, seemingly for pleasure, and without advance warning:
 
 On Jun 16, 2020, at 9:43 PM, Bob Case wrote:
 
@@ -92,7 +92,7 @@ _I should have told you I work nights. Early hours are hard for me.I usually get
 
 _Sent from my Samsung Galaxy , an AT&amp;T LTE smartphone_
 
-We're beginning to lose faith in Bob but decide to reschedule for the 29th in Moscow at the University of Idaho rec center parking lot. About an hour before the interview Bob calls to tell us he's an hour away. During the phone conversation between Bob and Chris, I sense there might yet be another wrinkle in the saga based on how Chris is having to strain to understand Bob. I ask him what's wrong, but Chris says he doesn't know. "His voice," he says. 
+We were beginning to lose faith in Bob but decide to reschedule for the 29th in Moscow at the University of Idaho rec center parking lot. About an hour before the interview Bob calls to tell us he's an hour away. During the phone conversation between Bob and Chris, I sense there might yet be another wrinkle in the saga based on how Chris is having to strain to understand Bob. I ask him what's wrong, but Chris says he doesn't know. "His voice," he says. 
 
 It's beginning to drizzle when Bob pulls up in a navy-blue Subaru Baja. He's short, middle-aged, and wearing a pair of dark sunglasses though the day is thoroughly overcast. He greets us in a strained, screechy kind of whisper, painful seeming, which he informs us is due to a chronic condition called laryngeal dystonia in which muscle spasm prevents the voice box from operating properly. In order to speak, Bob has to consciously manipulate his lower diaphragm and abdominal muscles via contraction to produce the hoarse whisper that carries speech where over-tightened vocal cords cannot. But it's apparent right away that Bob loves to chat; in fact, he's something of a virtuoso of diaphragmic ventriloquism, conversing in a way that is as dexterous as it seems painful.
 

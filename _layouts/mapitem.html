@@ -91,10 +91,22 @@ custom-foot: js/mapitem-js.html
     </div>
 
     {%- if site.data.theme.browse-buttons == true -%}
-    <div class="text-center">
-        <a id="prev-button" class="btn btn-outline-light text-white">&laquo; Previous</a>
-        <a class="btn btn-outline-light text-white" href="#" data-toggle="modal" data-target="#nav-modal">How to Navigate</a>
-        <a id="for-button" class="btn btn-outline-light text-white">Next &raquo;</a>
+    <div class="text-center row">
+        <div class="col-12 justify-content-center">
+            
+                <a id="prev-button" type="button" class="btn btn-outline-light text-white">&laquo; Previous</a>
+        
+                <a type="button" class="btn btn-outline-light text-white" href="{{ '/browse.html' | relative_url }}">Back to browse</a>
+           
+                <a id="for-button" type="button" class="btn btn-outline-light text-white">Next &raquo;</a>
+                
+             
+              <br>
+              <a class="btn btn-outline-light btn-sm mt-3 text-white align-self-center ml-4" href="#" data-toggle="modal" data-target="#nav-modal">How to Navigate</a>
+
+           
+    </div>
+   
     </div>
  
     <div id="item-nav">

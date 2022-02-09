@@ -12,7 +12,9 @@ permalink: /trails/index.html
 <div class="trail border-left border-dark pl-4 my-5"><a href="{{t.trailid}}.html?id={{t.objectid}}" class="h3 text-dark">{{t.trail}}</a> <br/>
 <div class="row ml-4">
 <div class="col-md-4">{% include feature/trails-gallery.html trail=t.trailid %}</div>
-<div class="col-md-8"><p>{{t.desc}}</p></div>
+<div class="col-md-8"><p>{{t.desc}}</p>
+<a class="btn btn-outline-dark my-4" href="{{ t.first | relative_url}}">Go to Trailhead</a>
+</div>
 <div class="col-12 my-4 d-none d-md-block">
 {% include feature/trails-elevation.html trail=t.trailid %}
 </div>

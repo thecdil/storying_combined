@@ -86,10 +86,9 @@ custom-foot: js/trail-mapitem-js.html
         </div> 
     </div>
 
-    {%- if site.data.theme.browse-buttons == true -%}
     <div class="text-center">
         <a id="prev-button" class="btn btn-outline-light text-white">&laquo; Previous</a>
-        <a class="btn btn-outline-light text-white" href="{{ '/browse.html' | relative_url }}">Back to browse</a>
+        <a class="btn btn-outline-light text-white" href="{{ '/trails/' | relative_url }}">Back to Trails</a>
         <a id="for-button" class="btn btn-outline-light text-white">Next &raquo;</a>
     </div>
 
@@ -99,11 +98,7 @@ custom-foot: js/trail-mapitem-js.html
             <a id="next-button" class="next btn btn-lg btn-outline-light text-white">&raquo;</a>
         </div>
     </div>
-    {% else %}
-    <div class="text-center">
-        <a class="btn btn-outline-primary" href="{{ '/browse.html' | relative_url }}">&laquo; Back to Collection Browse</a>
-    </div>
-    {% endif %}
+   
 </div>
 
 <script>

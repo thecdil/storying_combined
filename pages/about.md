@@ -25,12 +25,13 @@ A deep map is a multidimensional, interactive map that offers an alternative to 
  
 *Storying Extinction* is an ongoing and open-ended project. In our effort to recognize the process of extinction as an ongoing event extending into both the past and the future, the project will be kept open for contributions indefinitely. If you would like to share a story or other media related to Idaho mountain caribou, please email jkredell@uidaho.edu or chrstopherlmb@gmail.com.
 
-## Project Support & Technical Information
+## Project Support 
 
 This project is supported by the [University of Idaho Library](https://www.lib.uidaho.edu/) via its [Center for Digital Inquiry and Learning (CDIL)](https://cdil.lib.uidaho.edu/). Ongoing preservation and hosting is managed by CDIL. 
 
-Support for the project also comes from the the [Confluence Lab](https://www.uidaho.edu/class/english/confluence) and its directors, the [College of Letters, Arts, and Social Sciences (CLASS)](https://www.uidaho.edu/class), the [English Department](https://www.uidaho.edu/class/english), and the [Environmental Science Program](https://www.uidaho.edu/cnr/departments/environmental-science-program). 
+Many people and organizations contributed to and supported this project. Please see [our acknowledgements page]({{'/about/acknowledgements.html' | relative_url}}) for a full list of contributors and supporters.
 
-### Technical Information
+## Technical Information
+
 The website is built on a customized [CollectionBuilder](https://collectionbuilder.github.io/) framework that uses an interactive [Leaflet](https://leafletjs.com) map as background and mechanism for viewing collection items and [Tufte CSS](https://edwardtufte.github.io/tufte-css/) to style its interpretive and informational content. These and other customizations can be viewed in the project's [Github repository](https://github.com/thecdil/storying_combined).
 

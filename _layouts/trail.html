@@ -3,6 +3,7 @@ layout: default
 map-on: true
 custom-foot: js/trail-mapitem-js.html
 ---
+{% assign trail = site.data.config-trails | where_exp: 'item', 'page.url contains item.trailid' %}
 <style>
     #map {
     width: 100%;
@@ -31,9 +32,10 @@ custom-foot: js/trail-mapitem-js.html
     </div>
 <div id="map" style="z-index:-100;"></div>
 <div class="container pt-5" id="contents-container" >
-    <ul class="breadcrumb h5 bg-transparent" >
+    <ul class="breadcrumb h5 bg-transparent text-white" >
         <li class="breadcrumb-item"><a class="text-white" href="{{ '/about.html' | relative_url}}">{{ site.title }}</a></li>
         <li class="breadcrumb-item text-secondary"><a class="text-white" href="{{ '/trails/index.html' | relative_url }}">Trails</a></li>
+        <li class="breadcrumb-item text-white"><a id="bc-trail" class="text-white" href=""></a></li>
         <li id="bc-title" class="breadcrumb-item active text-white"></li>
     </ul>
 
@@ -57,8 +59,8 @@ custom-foot: js/trail-mapitem-js.html
            
     </div>
         <div class="row mt-3">
-            <div class="col-md-6 offset-md-3" >
-                <div class="text-center mb-5">
+            <div class="col-12" >
+                <div class="text-center mb-4">
                 <button class="btn btn-lg btn-outline-light" type="button" data-toggle="modal"  data-target="#metadataModal" aria-expanded="false" aria-controls="metadataModal">
                     More Item Info 
                   </button>
@@ -86,10 +88,23 @@ custom-foot: js/trail-mapitem-js.html
         </div> 
     </div>
 
-    <div class="text-center">
-        <a id="prev-button" class="btn btn-outline-light text-white">&laquo; Previous</a>
-        <a class="btn btn-outline-light text-white" href="{{ '/trails/' | relative_url }}">Back to Trails</a>
-        <a id="for-button" class="btn btn-outline-light text-white">Next &raquo;</a>
+    <div class="text-center row">
+        <div class="col-4 text-right">
+    
+            <a id="prev-button" type="button" class="btn btn-outline-light text-white">&laquo; Previous</a>
+        </div>
+        <div class="col-4 text-center">
+            <a type="button" class="btn btn-outline-light text-white" href="{{ '/trails/' | relative_url }}">Back to Trails</a>
+        </div>
+        <div class="col-4 text-left">
+            <a id="for-button" type="button" class="btn btn-outline-light text-white">Next &raquo;</a>
+        </div>
+    
+        <div class="col-12 mt-4 text-center">
+    
+            <a class="btn btn-outline-light btn-sm text-white align-self-center " href="#" data-toggle="modal" data-target="#nav-modal">How to Navigate</a>
+        </div>
+    
     </div>
 
     <div id="item-nav">
@@ -111,3 +126,5 @@ custom-foot: js/trail-mapitem-js.html
     //    location.href = "www.yoursite.com";
 //    };
 </script>
+
+{% include nav-modal-for-map.html %}

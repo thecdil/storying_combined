@@ -7,7 +7,7 @@
  /* mapitem-js.html */
 var items = { 
         {%- for mapitem in mapitems -%}{% assign navpage = site.data.trails | where_exp: 'item', 'item.objectid == mapitem.objectid and item.trail == page.trail' | first %}
-        {{ mapitem.objectid | default: navpage.title | jsonify }} : { {% for f in fields %}{% if mapitem[f.field] %}{{ f.field | escape | jsonify }}: {{ mapitem[f.field] | escape | jsonify }}, {% endif %}{% endfor %}{% if navpage.prevobjectid %} "prevobjectid": {{ navpage.prevobjectid | jsonify }},{% else %} "prevlink": {{ navpage.prevlink | relative_url | jsonify }},{% endif %}{% if navpage.nextobjectid %} "nextobjectid": {{ navpage.nextobjectid | jsonify }}, {% else %} "nextlink": {{ navpage.nextlink | relative_url | jsonify }},{% endif %}{% if mapitem.youtubeid %} "youtube": {{ mapitem.youtubeid | jsonify }}, {% endif %}"image_small": {{ mapitem.image_small | jsonify }}, "latlong": "{{ mapitem.latitude }},{{ mapitem.longitude }}" , "filename": {{ mapitem.object_download | jsonify }} }{% unless forloop.last %}, {% endunless %}{% endfor %}
+        {{ mapitem.objectid | default: navpage.title | jsonify }} : { {% for f in fields %}{% if mapitem[f.field] %}{{ f.field | escape | jsonify }}: {{ mapitem[f.field] | escape | jsonify }}, {% endif %}{% endfor %}{% if navpage.prevobjectid %} "prevobjectid": {{ navpage.prevobjectid | jsonify }},{% else %} "prevlink": {{ navpage.prevlink | relative_url | jsonify }},{% endif %}{% if navpage.nextobjectid %} "nextobjectid": {{ navpage.nextobjectid | jsonify }}, {% else %} "nextlink": {{ navpage.nextlink | relative_url | jsonify }},{% endif %}{% if mapitem.youtubeid %} "youtube": {{ mapitem.youtubeid | jsonify }}, {% endif %}"trail": {{navpage.trail | jsonify }},"trailurl": {{navpage.trailurl | jsonify }},"image_small": {{ mapitem.image_small | jsonify }}, "latlong": "{{ mapitem.latitude }},{{ mapitem.longitude }}" , "filename": {{ mapitem.object_download | jsonify }} }{% unless forloop.last %}, {% endunless %}{% endfor %}
     };
     /* get query id from URL */
     var queryString = window.location.search.substring(1).split("id=")[1];
@@ -19,7 +19,14 @@ var items = {
     if (record) {
         /* add item title */
         var objectTitle = record.title;
+        var objectTrail = record.trail;
+        var objectTrailURL = 'index.html#' + record.trailurl;
+
+
         document.getElementById("bc-title").innerHTML = objectTitle;
+        document.getElementById("bc-trail").innerHTML = objectTrail;
+        document.getElementById("bc-trail").href = objectTrailURL;
+
         document.getElementById("item-title").innerHTML = objectTitle;
         /* add object */ 
         var format = record.format;

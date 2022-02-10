@@ -2,6 +2,7 @@
 title: About the Project
 layout: para
 permalink: /about.html
+credits: false
 # Edit the markdown on in this file to describe your collection
 ---
 
@@ -26,6 +27,10 @@ A deep map is a multidimensional, interactive map that offers an alternative to 
 
 ## Project Support & Technical Information
 
-This project is supported by the [University of Idaho Library](https://www.lib.uidaho.edu/) via its [Center for Digital Inquiry and Learning](https://cdil.lib.uidaho.edu/) (CDIL). Ongoing preservation and hosting are also managed by CDIL. 
+This project is supported by the [University of Idaho Library](https://www.lib.uidaho.edu/) via its [Center for Digital Inquiry and Learning (CDIL)](https://cdil.lib.uidaho.edu/). Ongoing preservation and hosting is managed by CDIL. 
 
+Support for the project also comes from the the [Confluence Lab](https://www.uidaho.edu/class/english/confluence) and its directors, the [College of Letters, Arts, and Social Sciences (CLASS)](https://www.uidaho.edu/class), the [English Department](https://www.uidaho.edu/class/english), and the [Environmental Science Program](https://www.uidaho.edu/cnr/departments/environmental-science-program). 
+
+### Technical Information
 The website is built on a customized [CollectionBuilder](https://collectionbuilder.github.io/) framework that uses an interactive [Leaflet](https://leafletjs.com) map as background and mechanism for viewing collection items and [Tufte CSS](https://edwardtufte.github.io/tufte-css/) to style its interpretive and informational content. These and other customizations can be viewed in the project's [Github repository](https://github.com/thecdil/storying_combined).
+

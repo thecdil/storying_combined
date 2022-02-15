@@ -33,21 +33,21 @@ z-index:1000;
 </style>
 <div id="item-nav" class="d-none d-md-block">
         <!-- {{navpage.prevtitle}} {{page.objectid}} {{navpage.title}}-->
-     {% if navpage.prevtitle %} <a id="back-button" onclick="newRecord(back);" href="{{navpage.prevlink | relative_url }}" alt="{{navpage.prevtitle}}" data-toggle="tooltip" data-placement="top"  title="{{navpage.prevtitle}}" alt="{{navpage.nexttitle}}" class="previous btn btn-lg {% unless page.layout contains 'map' or page.layout contains 'trail' %}btn-outline-info{% else %}btn-outline-light{% endunless%}" style="z-index:100"  >&laquo;</a>{% endif %}
-        <a id="next-button" onclick="newRecord(forward);" href="{{navpage.nextlink | relative_url }}" alt="{{navpage.nexttitle}}" data-toggle="tooltip" data-placement="top" title="{{navpage.nexttitle}}" alt="{{navpage.nexttitle}}" class="next btn btn-lg {% unless page.layout contains 'map' or page.layout contains 'trail' %}btn-outline-info{% else %}btn-outline-light{% endunless%}" style="z-index:100">&raquo;</a>
+     {% if navpage.prevtitle %} <a id="back-button" onclick="newRecord(back);" href="{{navpage.prevlink | relative_url }}" data-toggle="tooltip" data-placement="top"  title="{{navpage.prevtitle}}" class="previous btn btn-lg {% unless page.layout contains 'map' or page.layout contains 'trail' %}btn-outline-info{% else %}btn-outline-light{% endunless%}" style="z-index:100"  >&laquo;</a>{% endif %}
+        <a id="next-button" onclick="newRecord(forward);" href="{{navpage.nextlink | relative_url }}" data-toggle="tooltip" data-placement="top" title="{{navpage.nexttitle}}" class="next btn btn-lg {% unless page.layout contains 'map' or page.layout contains 'trail' %}btn-outline-info{% else %}btn-outline-light{% endunless%}" style="z-index:100">&raquo;</a>
 </div>
 
 <div id="mobile-nav" class="d-md-none row mx-0">
     <div class="col mr-0">
     <!-- {{navpage.prevtitle}} {{page.objectid}} {{navpage.title}}-->
- {% if navpage.prevtitle %} <a id="back-button" onclick="newRecord(back);" href="{{navpage.prevlink | relative_url }}" alt="{{navpage.prevtitle}}" data-toggle="tooltip" data-placement="top"  title="{{navpage.prevtitle}}" alt="{{navpage.nexttitle}}" class="previous btn btn-lg mt-1 float-right {% if page.layout contains 'map' or page.layout contains 'trail' %}btn-outline-light{% else %}btn-outline-dark{% endif %}"   >&laquo;</a>{% endif %}
+ {% if navpage.prevtitle %} <a id="back-button" onclick="newRecord(back);" href="{{navpage.prevlink | relative_url }}" data-toggle="tooltip" data-placement="top"  title="{{navpage.prevtitle}}"  class="previous btn btn-lg mt-1 float-right {% if page.layout contains 'map' or page.layout contains 'trail' %}btn-outline-light{% else %}btn-outline-dark{% endif %}"   >&laquo;</a>{% endif %}
 </div>
 {% unless page.layout == "home-default" or page.layout == "error" %}
 <div class="col ">
  <a class="{% if page.layout contains "map" or page.layout contains "trail" %}text-white{% else %}text-dark{% endif %}"  aria-label="navigation information button" data-toggle="modal" data-target="#nav-modal" style="cursor: pointer;" alt="navigation modal button"><svg xmlns="http://www.w3.org/2000/svg"  width="60" height="50" class="bi bi-compass" viewBox="0 -3 15 20"><path d="M8 16.016a7.5 7.5 0 0 0 1.962-14.74A1 1 0 0 0 9 0H7a1 1 0 0 0-.962 1.276A7.5 7.5 0 0 0 8 16.016zm6.5-7.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/><path d="m6.94 7.44 4.95-2.83-2.83 4.95-4.949 2.83 2.828-4.95z"/></svg><span class="sr-only">Compass icon</span></a>
 </div>{% endunless %}
 <div class="col ml-0">
- <a id="next-button" onclick="newRecord(forward);" href="{{navpage.nextlink | relative_url }}" alt="{{navpage.nexttitle}}" data-toggle="tooltip" data-placement="top" title="{{navpage.nexttitle}}" alt="{{navpage.nexttitle}}" class="next btn btn-lg float-left mt-1 {% if page.layout contains "map" or page.layout contains "trail" %}btn-outline-light{% else %}btn-outline-dark{% endif %}" >&raquo;</a>
+ <a id="next-button" onclick="newRecord(forward);" href="{{navpage.nextlink | relative_url }}" data-toggle="tooltip" data-placement="top" title="{{navpage.nexttitle}}"  class="next btn btn-lg float-left mt-1 {% if page.layout contains "map" or page.layout contains "trail" %}btn-outline-light{% else %}btn-outline-dark{% endif %}" >&raquo;</a>
 </div>
 </div>
 
@@ -165,8 +165,8 @@ fill: #fff;
             </div>
             <div class="modal-footer">
                 <div class="text-center">
-                    {% if navpage.prevtitle %} <a id="back-button" onclick="newRecord(back);" href="{{navpage.prevlink | relative_url }}" alt="{{navpage.prevtitle}}" data-toggle="tooltip" data-placement="top"  title="{{navpage.prevtitle}}" alt="{{navpage.nexttitle}}" class="previous btn btn-outline-dark" style="z-index:100"  >Go to Previous Page</a>{% endif %}
-        <a id="next-button" onclick="newRecord(forward);" href="{{navpage.nextlink | relative_url }}" alt="{{navpage.nexttitle}}" data-toggle="tooltip" data-placement="top" title="{{navpage.nexttitle}}" alt="{{navpage.nexttitle}}" class="next btn btn-outline-dark" style="z-index:100">Go to Next Page</a>
+                    {% if navpage.prevtitle %} <a id="back-button" onclick="newRecord(back);" href="{{navpage.prevlink | relative_url }}"  data-toggle="tooltip" data-placement="top"  title="{{navpage.prevtitle}}"  class="previous btn btn-outline-dark" style="z-index:100"  >Go to Previous Page</a>{% endif %}
+        <a id="next-button" onclick="newRecord(forward);" href="{{navpage.nextlink | relative_url }}" data-toggle="tooltip" data-placement="top" title="{{navpage.nexttitle}}"  class="next btn btn-outline-dark" style="z-index:100">Go to Next Page</a>
         </div>
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
             </div>

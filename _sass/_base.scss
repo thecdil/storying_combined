@@ -81,10 +81,26 @@ a {
     max-height: 1.5em;
 }
 
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+    color: rgba(0,0,0,.99);
+    border-bottom: 1px black solid;
+    padding-bottom: 2px;
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,.8);
+  }
+
 /* footer */
 #footer-credits {
     img { height: 40px; }
 }
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    border: #fff solid 1px;
+    background-color: transparent;
+  }
 
 /* scroll to top */
 #scroll-to-top {

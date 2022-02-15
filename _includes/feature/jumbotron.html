@@ -48,10 +48,10 @@
 <div class="jumbotron feature px-0 border mb-1" id="jumbo-feature">
     <div id="home-title-box">
         <div class=" px-2 pb-3 text-center" style="padding-top: 13rem!important;">
-            <a href="{{ include.objectid | prepend: '/mapitem.html?id=' | relative_url }}" > </a>
+            <a href="{{ include.objectid | prepend: '/mapitem.html?id=' | relative_url }}" title="{{include.title}}"> </a>
          </div>
     </div>
 </div>
 <div class="col-12 text-right mt-0">
-    <a href="{{ include.objectid | prepend: '/mapitem.html?id=' | relative_url }}" ><span class="small">{{ include.caption | default: "View Featured Image" }}</span></a>
+    <a href="{{ include.objectid | prepend: '/mapitem.html?id=' | relative_url }}" title="{{include.title}}"><span class="small">{{ include.caption | default: "View Featured Image" }}</span></a>
 </div>

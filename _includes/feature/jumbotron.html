@@ -39,19 +39,19 @@
     background-position: {{ include.position | default: 'center' }};
 }
 {% if include.padding %}
-#home-title-box {
+#jumbotron-box {
     padding-top: {{ include.padding }};
     padding-bottom: {{ include.padding }};
 }
 {%- endif -%}
 </style>
 <div class="jumbotron feature px-0 border mb-1" id="jumbo-feature">
-    <div id="home-title-box">
+    <div id="jumbotron-box" style="position:relative">
         <div class=" px-2 pb-3 text-center" style="padding-top: 13rem!important;">
-            <a href="{{ include.objectid | prepend: '/mapitem.html?id=' | relative_url }}" title="{{item.title}}"> </a>
+            <a href="{{ include.objectid | prepend: '/mapitem.html?id=' | relative_url }}" title="View the featured image, {{item.title}}, on a map" class="stretched-link" ></a>
          </div>
     </div>
 </div>
 <div class="col-12 text-right mt-0">
-    <a href="{{ include.objectid | prepend: '/mapitem.html?id=' | relative_url }}" title="Link to {{item.title}}"><span class="small">{% if item.title %}Featured Image:  {{ item.title }}{% else %}View Featured Image{% endif %}</span></a>
+    <a href="{{ include.objectid | prepend: '/mapitem.html?id=' | relative_url }}" title="View the featured image, {{item.title}}, on a map"><span class="small">{% if item.title %}{{ item.title }}{% else %}View Featured Image{% endif %}</span></a>
 </div>

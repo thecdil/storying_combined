@@ -1,21 +1,11 @@
 <!doctype html>
 <html lang="en">
-  <head prefix="og: http://ogp.me/ns#">
-    {% include head/head.html %}
-  </head>
-  <body>
-    <div id="skip-to-content"><a href="#maincontent">Skip to main content</a></div>
-    {% include collection-banner.html %}
-    {% include collection-nav.html %}
-    {% include icons-embed.html %}
-
-    <main id="maincontent" role="main">
-      {{ content }}
-    </main>
-    
-    {% include footer.html %}
-    {% include foot.html %}
-    {% include scroll-to-top.html %}
-{% unless page.url contains "mapitem.html" or page.layout contains "trail" %}    {% include navigation-features.html %}  {% endunless %}
-  </body>
+    <head>
+      <meta http-equiv="Refresh" content="0; URL={{page.url | absolute_url }}">
+        <title>{% if page.title %}{{ page.title }} - {% endif %}Page moved</title>
+        <meta name="robots" content="noindex" />
+    </head>
+    <body>
+        <p>This page has moved: <a href="{{ page.url | absolute_url }}">{{ page.url | absolute_url }}</a>.<br>Please update your bookmarks!</p>
+    </body>
 </html>

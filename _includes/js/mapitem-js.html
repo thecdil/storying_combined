@@ -171,6 +171,13 @@ function newRecord(nextRecord){
     /* Change URL parameter, i.e. id= */
     var nextRecordurl = location.pathname + '?id=' + nextRecord;
     window.history.replaceState({}, '', location.pathname + '?id=' + nextRecord );
+    var currentRecordurl = window.location.href;
+    document.title = objectTitle;
+    document.querySelector('meta[property="og:title"]').setAttribute("content", objectTitle);
+    _paq.push(['setCustomUrl', currentRecordurl]);
+    _paq.push(['setDocumentTitle', objectTitle]);
+    _paq.push(['trackPageView',]);
+    
         /* add object */ 
         var format = record.format;
         var objectLink = record.image_small;

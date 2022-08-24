@@ -22,6 +22,8 @@ A deep map is a multidimensional, interactive map that offers an alternative to 
 
 
 ## Future Development
+
+We’d like to acknowledge that this project is incomplete without the voices and perspectives of Indigenous communities whose lives are and have been inextricably intertwined with those of mountain caribou, and who have been instrumental in efforts to protect them. Our efforts to collect these perspectives continue, and we welcome any assistance in the process. 
  
 *Storying Extinction* is an ongoing and open-ended project. In our effort to recognize the process of extinction as an ongoing event extending into both the past and the future, the project will be kept open for contributions indefinitely. If you would like to share a story or other media related to Idaho mountain caribou, please email jkredell@uidaho.edu or chrstopherlmb@gmail.com.
 

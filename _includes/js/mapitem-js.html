@@ -173,6 +173,7 @@ function newRecord(nextRecord){
     window.history.replaceState({}, '', location.pathname + '?id=' + nextRecord );
     var currentRecordurl = window.location.href;
     document.title = objectTitle;
+    /* This is Matomo code to make sure and capture each visit to a new refreshed item on the map and if Matomo is not turned on, it will break the feature!! */
     document.querySelector('meta[property="og:title"]').setAttribute("content", objectTitle);
     _paq.push(['setCustomUrl', currentRecordurl]);
     _paq.push(['setDocumentTitle', objectTitle]);

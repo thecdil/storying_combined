@@ -788,7 +788,8 @@ shedroof_cliff,Looking back on the shedroof mt. cliff,mapitem.html?id=shedroof_c
 jmc_on_ridgeline,"Jack, Michael, and Chris caught on camera with Selkirk Crest behind",mapitem.html?id=jmc_on_ridgeline,The King & The King of the King,seton-art-001,mapitem.html?id=seton-art-001,Looking back on the shedroof mt. cliff,shedroof_cliff,mapitem.html?id=shedroof_cliff
 seton-art-001,The King & The King of the King,mapitem.html?id=seton-art-001,Plate XXIV.—Antlers of Mountain Caribou,seton-art-005,mapitem.html?id=seton-art-005,"Jack, Michael, and Chris caught on camera with Selkirk Crest behind",jmc_on_ridgeline,mapitem.html?id=jmc_on_ridgeline
 seton-art-005,Plate XXIV.—Antlers of Mountain Caribou,mapitem.html?id=seton-art-005,The Last of the Race,seton-art-008,mapitem.html?id=seton-art-008,The King & The King of the King,seton-art-001,mapitem.html?id=seton-art-001
-seton-art-008,The Last of the Race,mapitem.html?id=seton-art-008,Collection,,/browse.html,Plate XXIV.—Antlers of Mountain Caribou,seton-art-005,mapitem.html?id=seton-art-005
-,Collection,/browse.html,Data Page,,/data.html,The Last of the Race,seton-art-008,mapitem.html?id=seton-art-008
+seton-art-008,The Last of the Race,mapitem.html?id=seton-art-008,Gary Koehler Mountain Caribou Sighting ,gary-koehler-trapper,mapitem.html?id=gary-koehler-trapper,Plate XXIV.—Antlers of Mountain Caribou,seton-art-005,mapitem.html?id=seton-art-005
+gary-koehler-trapper,Gary Koehler Mountain Caribou Sighting ,mapitem.html?id=gary-koehler-trapper,Collection,,/browse.html,The Last of the Race,seton-art-008,mapitem.html?id=seton-art-008
+,Collection,/browse.html,Data Page,,/data.html,Gary Koehler Mountain Caribou Sighting ,gary-koehler-trapper,mapitem.html?id=gary-koehler-trapper
 ,Data Page,/data.html,Home,,/index.html,Collection,,/browse.html
 ,Home,/index.html,,,,Data Page,,/data.html

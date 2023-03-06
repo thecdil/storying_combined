@@ -3,3 +3,32 @@ layout: cloud
 ---
 
 {{ content }}
+
+
+
+{%- assign raw-items = site.data[site.metadata] -%}
+{%- assign locations = raw-items | map: 'location' | compact | uniq -%}
+
+<div class="dropdown" id="year-nav">
+    <button class="btn btn-info dropdown-toggle col-md-4 col-8 my-3" type="button" id="yearButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Jump to a Location
+    </button>
+    <div class="dropdown-menu" aria-labelledby="yearButton">
+        {% for y in locations %}
+        <a class="dropdown-item" href="#{{ y | slugify }}">{{ y }}</a>{% endfor %}
+    </div>
+</div>
+
+
+{% for location in locations %}
+
+{%- assign items = site.data[site.metadata] | where_exp: 'item','item.format contains "image" or item.format contains "video"' -%}
+{%- assign items = items | where: 'location',location -%}
+<h3 id="{{location | slugify }}"> {{location | upcase}} </h3>
+<div class="row mb-5">
+    {% for item in items %}
+    <div class="col-5 col-md-2 m-3"><div class="d-none d-md-block"><a href="{{ '/mapitem.html' | relative_url | append: '?id=' | append: item.objectid }}"><img class="w-100" alt="{{ item.description | escape }}" src="{{ item.image_thumb }}" alt="{{ item.title | escape }}" data-toggle="tooltip" data-placement="bottom" title="{{ item.title | escape }}" /></a></div>
+    <div class="d-md-none"><a class="small"  href="{{ '/mapitem.html' | relative_url | append: '?id=' | append: item.objectid }}"><img alt="{{ item.description | escape }}" class="img-fluid w-100" src="{{ item.image_thumb }}" alt="{{ item.title | escape }}" title="{{ item.title | escape }}" />{{ item.title | truncatewords: 2}}</a></div></div>
+    {% endfor %}
+</div>
+{% endfor %}

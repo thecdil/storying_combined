@@ -49,26 +49,8 @@ var items = {
             itemLink= '<a href="' + objectLink + '" target="_blank" class="btn btn-outline-light" title="Object download">Download Object</a>';
         }
 
-        {% if stubs contains "timeline" %}
-        /* add link to view on timeline */
-        if (record.date) {
-            var itemYear;
-            if (record.date.includes('-')) {
-                itemYear = record.date.split('-')[0];
-            } else if (record.date.includes('/')) {
-                itemYear = record.date.split('/').pop();
-            } else {
-                itemYear = record.date;
-            }
-            itemLink += '<a href="{{ "/timeline.html" | relative_url }}#' + itemYear + '" class="ml-2 btn btn-outline-light">View on Timeline</a>';
-        }
-        {%- endif -%}
-        {% if stubs contains "map" %}
-        /* add link to view on map */ 
-        if (record.latitude && record.longitude) {
-            itemLink += '<a href="{{ '/map.html' | relative_url }}#' + record.latitude + ',' + record.longitude + '" class="ml-2 btn btn-outline-light">View on Map</a>';
-        }
-        {%- endif -%}
+       
+        
 
         /* add content to item display area */
         document.getElementById("item-image").innerHTML = itemImage;
@@ -105,23 +87,10 @@ var items = {
         var itemKeys = Object.keys(items);
         var current = itemKeys.indexOf(queryString);
        
-        if (record.prevobjectid && record.nextobjectid) {
+        
                 var backUrl = "newRecord('" + record.prevobjectid + "');";
                 var forwardUrl = "newRecord('" + record.nextobjectid + "');";
-            }
-            else if (record.prevlink && record.nextlink) {
-                var backUrl = "window.location.assign('" + record.prevlink +"')";
-                var forwardUrl = "window.location.assign('" + record.nextlink +"')";
-            }
-          else if (record.nextlink && record.prevobjectid ) {
-            var forwardUrl = "window.location.assign('" + record.nextlink +"')";
-                var backUrl = "newRecord('" + record.prevobjectid + "');";
-               
-            }
-            else {
-                var forwardUrl = "newRecord('" + record.nextobjectid + "');";
-                var backUrl = "window.location.assign('" + record.prevlink +"')";
-            }
+           
         
         /* add side buttons to page */
         document.getElementById("back-button").setAttribute("onclick", backUrl);
@@ -279,23 +248,10 @@ function newRecord(nextRecord){
             forward = itemKeys[current + 1];
         }
       
-        if (record.prevobjectid && record.nextobjectid) {
+        
                 var newbackUrl = "newRecord('" + record.prevobjectid + "');";
                 var newforwardUrl = "newRecord('" + record.nextobjectid + "');";
-            }
-            else if (record.prevlink && record.nextlink) {
-                var newbackUrl = "window.location.assign('" + record.prevlink +"')";
-                var newforwardUrl = "window.location.assign('" + record.nextlink +"')";
-            }
-          else if (record.nextlink && record.prevobjectid ) {
-            var newforwardUrl = "window.location.assign('" + record.nextlink +"')";
-                var newbackUrl = "newRecord('" + back + "');";
-               
-            }
-            else {
-                var newforwardUrl = "newRecord('" + forward + "');";
-                var newbackUrl = "window.location.assign('" + record.prevlink +"')";
-            }
+           
         
         /* add side buttons to page */
         document.getElementById("back-button").setAttribute("onclick", newbackUrl);
@@ -465,10 +421,13 @@ function newRecord(nextRecord){
 function clickNextButtonEvery20Seconds() {
   setInterval(function() {
     var nextButton = document.getElementById('next-button');
-    if (nextButton) {
+    var youtubeVideo = document.querySelector('iframe[src*="youtube-nocookie.com"]');
+    var mp4Video = document.querySelector('video[src$=".mp4"]');
+
+    if (!youtubeVideo && !mp4Video && nextButton) {
       nextButton.click();
     }
-  }, 1000);
+  }, 20000);
 }
 
 clickNextButtonEvery20Seconds();

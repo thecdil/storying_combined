@@ -37,10 +37,10 @@ var items = {
             itemLink= '<a href="' + record.filename + '" target="_blank" class="btn btn-outline-light" title="Object download">Download Audio File</a>';
         } else if (format.includes('video')) {
             if (record.youtube){
-            itemImage= '<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/' + record.youtube + '?rel=0&modestbranding=1" allowfullscreen></iframe></div>';
+            itemImage= '<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/' + record.youtube + '?rel=0&modestbranding=1&autoplay=1" allowfullscreen></iframe></div>';
             itemLink= '<a href="https://youtu.be/' + record.youtube + '" target="_blank" class="btn btn-outline-light" title="Object download">View on YouTube</a>';}
             else {
-            itemImage= '<div class="embed-responsive embed-responsive-16by9"><video class="embed-responsive-item" width="320" height="240" controls><source src="'+ record.filename +'" type="video/mp4">Your browser does not support the video tag.</video></div>'
+            itemImage= '<div class="embed-responsive embed-responsive-16by9"><video class="embed-responsive-item" width="320" height="240" controls autoplay><source src="'+ record.filename +'" type="video/mp4">Your browser does not support the video tag.</video></div>'
             itemLink= '<a href="' + record.filename + '" target="_blank" class="btn btn-outline-light" title="Object download">Download Video</a>';    
             }  
         } else {
@@ -143,13 +143,6 @@ function newRecord(nextRecord){
     var currentRecordurl = window.location.href;
     document.title = objectTitle;
 
-    {% if jekyll.environment == "production" %}
-    /* This is Matomo code to make sure and capture each visit to a new refreshed item on the map and if Matomo is not turned on, it will break the feature!! */
-    document.querySelector('meta[property="og:title"]').setAttribute("content", objectTitle);
-    _paq.push(['setCustomUrl', currentRecordurl]);
-    _paq.push(['setDocumentTitle', objectTitle]);
-    _paq.push(['trackPageView',]);
-    {% endif %}
 
 
         /* add object */ 
@@ -421,11 +414,9 @@ function newRecord(nextRecord){
 function clickNextButtonEvery20Seconds() {
   setInterval(function() {
     var nextButton = document.getElementById('next-button');
-    var youtubeVideo = document.querySelector('iframe[src*="youtube-nocookie.com"]');
-    var mp4Video = document.querySelector('video[src$=".mp4"]');
-    var mapOffElement = document.getElementById('map-off');
+        var mapOffElement = document.getElementById('map-off');
     
-    if (!youtubeVideo && !mp4Video && nextButton && mapOffElement && !mapOffElement.classList.contains('d-none')) {
+    if (nextButton && mapOffElement && !mapOffElement.classList.contains('d-none')) {
       nextButton.click();
     }
   }, 20000);

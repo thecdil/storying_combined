@@ -423,8 +423,9 @@ function clickNextButtonEvery20Seconds() {
     var nextButton = document.getElementById('next-button');
     var youtubeVideo = document.querySelector('iframe[src*="youtube-nocookie.com"]');
     var mp4Video = document.querySelector('video[src$=".mp4"]');
-
-    if (!youtubeVideo && !mp4Video && nextButton) {
+    var mapOffElement = document.getElementById('map-off');
+    
+    if (!youtubeVideo && !mp4Video && nextButton && mapOffElement && !mapOffElement.classList.contains('d-none')) {
       nextButton.click();
     }
   }, 20000);

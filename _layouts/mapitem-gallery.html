@@ -37,7 +37,7 @@ custom-foot: js/mapitem-gallery-js.html
 <div class="container pt-5" id="contents-container" >
     <ul class="breadcrumb h5 bg-transparent" >
         <li class="breadcrumb-item text-secondary">Storying Extinction</li>
-        <li class="breadcrumb-item text-secondary"><a class="text-white" href="{{ 'mapitem-gallery.html' | absolute_url }}">Map</a></li>
+        <li class="breadcrumb-item text-secondary"><a class="text-white" onclick="mapToggle()" style="cursor: pointer;">Map</a></li>
         <li id="bc-title" class="breadcrumb-item active text-white"></li>
     </ul>
 
@@ -97,7 +97,7 @@ custom-foot: js/mapitem-gallery-js.html
             <a id="prev-button" type="button" class="btn btn-outline-light text-white">&laquo; Previous</a>
         </div>
         <div class="col-4 text-center">
-            <a type="button" class="btn btn-outline-light text-white" href="{{ '/map.html' | relative_url }}">Back to Map</a>
+            <a type="button" class="btn btn-outline-light text-white" onclick="mapToggle()" style="cursor: pointer;">Back to Map</a>
         </div>
         <div class="col-4 text-left">
             <a id="for-button" type="button" class="btn btn-outline-light text-white">Next &raquo;</a>

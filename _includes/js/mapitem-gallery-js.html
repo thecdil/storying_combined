@@ -40,7 +40,7 @@ var items = {
             itemImage= '<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/' + record.youtube + '?rel=0&modestbranding=1&autoplay=1" allowfullscreen></iframe></div>';
             itemLink= '<a href="https://youtu.be/' + record.youtube + '" target="_blank" class="btn btn-outline-light" title="Object download">View on YouTube</a>';}
             else {
-            itemImage= '<div class="embed-responsive embed-responsive-16by9"><video class="embed-responsive-item" width="320" height="240" controls autoplay><source src="'+ record.filename +'" type="video/mp4">Your browser does not support the video tag.</video></div>'
+            itemImage= '<div class="embed-responsive embed-responsive-16by9"><video class="embed-responsive-item" width="320" height="240" controls autoplay="1"><source src="'+ record.filename +'" type="video/mp4">Your browser does not support the video tag.</video></div>'
             itemLink= '<a href="' + record.filename + '" target="_blank" class="btn btn-outline-light" title="Object download">Download Video</a>';    
             }  
         } else {
@@ -443,7 +443,7 @@ function clickNextButtonEvery20Seconds() {
 
   function resetInterval() {
     clearInterval(intervalId);
-    intervalId = setInterval(clickNextButton, 5000);
+    intervalId = setInterval(clickNextButton, 20000);
   }
 
   function clickNextButton() {
@@ -458,7 +458,7 @@ function clickNextButtonEvery20Seconds() {
       var youtubePlayer = youtubePlayerElements[i];
       var youtubePlayerSrc = youtubePlayer.getAttribute('src');
 
-      if (youtubePlayerSrc && youtubePlayerSrc.includes('youtube.com') && youtubePlayer.contentWindow && youtubePlayer.contentWindow.postMessage) {
+      if (youtubePlayerSrc && youtubePlayerSrc.includes('youtube') && youtubePlayer.contentWindow && youtubePlayer.contentWindow.postMessage) {
         youtubePlayer.contentWindow.postMessage('{"event":"command","func":"isPlaying","args":""}', '*');
         youtubeVideoPlaying = true;
         break;
@@ -474,7 +474,7 @@ function clickNextButtonEvery20Seconds() {
     }
   }
 
-  intervalId = setInterval(clickNextButton, 5000);
+  intervalId = setInterval(clickNextButton, 20000);
 
   document.getElementById('next-button').addEventListener('click', resetInterval);
   document.getElementById('prev-button').addEventListener('click', resetInterval);
@@ -485,6 +485,31 @@ console.log('next~');
 
 
 clickNextButtonEvery20Seconds();
+
+
+  // YouTube video end event listener
+function setupYouTubeVideoEndListener() {
+  var youtubePlayerElements = document.getElementsByTagName('iframe');
+  var nextButton = document.getElementById('for-button');
+  for (var i = 0; i < youtubePlayerElements.length; i++) {
+    var youtubePlayer = youtubePlayerElements[i];
+    var youtubePlayerSrc = youtubePlayer.getAttribute('src');
+
+    if (youtubePlayerSrc && youtubePlayerSrc.includes('youtube') && youtubePlayer.contentWindow && youtubePlayer.contentWindow.postMessage) {
+      youtubePlayer.contentWindow.postMessage('{"event":"listening","id":"youtube-video-end-listener"}', '*');
+    }
+  }
+}
+
+window.addEventListener('message', function(event) {
+  if (event.data === 'youtube-video-end-listener') {
+    nextButton.click();
+    console.log('youtube-done');
+  }
+});
+
+// Call the setupYouTubeVideoEndListener function to set up the event listener for YouTube videos
+setupYouTubeVideoEndListener();
 
 
 </script>

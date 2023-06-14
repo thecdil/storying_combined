@@ -70,6 +70,6 @@ a{height 100%;width: 100%;}}
 </div>
 </div>
 {%- else -%}
-{% unless page.layout == 'mapitem' %}{% include cdiltop.html %}{% endunless %}
+{% unless page.layout == 'mapitem' %}{% if page.layout == 'mapitem-gallery' %}{% include cdiltop-gallery.html %}{% else %}{% include cdiltop.html %}{% endif %}{% endunless %}
     
 {%- endif -%}

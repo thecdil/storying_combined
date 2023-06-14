@@ -105,7 +105,7 @@ custom-foot: js/mapitem-gallery-js.html
     
         <div class="col-12 mt-4 text-center">
     
-            <a class="btn btn-outline-light btn-sm text-white align-self-center " href="#" data-toggle="modal" data-target="#nav-modal">How to Navigate</a>
+            <a class="btn btn-outline-light btn-sm text-white align-self-center " href="#" data-toggle="modal" data-target="#gallery-modal">About the Project</a>
         </div>
     
     </div>
@@ -133,4 +133,4 @@ custom-foot: js/mapitem-gallery-js.html
 </script>
 {% assign navpage = site.data.pages | where_exp: 'item', 'item.relative_link == page.url' | first %}
 
-{% include nav-modal-for-map.html %}
+{% include gallery-modal.html %}

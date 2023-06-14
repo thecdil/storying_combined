@@ -1,0 +1,48 @@
+<!-- Modal -->
+
+<div class="modal fade" id="gallery-modal" tabindex="-1" role="dialog" aria-labelledby="NavigationModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title h3 text-center w-100" id="{{ include.button | slugify }}ModalLabel">About Storying Extinction</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row justify-content-center">
+                    <div class="col-md-8">
+                        <h2>About the Project</h2>
+                        <p><b><em>Storying Extinction: Responding to the Loss of North Idaho's Mountain Caribou</em></b> is a multidisciplinary digital humanities project that represents community response to the recent extirpation (2019) of southern mountain caribou from the South Selkirk mountains of North Idaho—the last caribou to inhabit the coterminous United States.</p>
+                        <p>The local extinction served as the exigence for a GIS-based deep map, or spatial narrative, which documents the interaction of human and more-than-human communities in North Idaho through geolocated oral histories Debby Ackley describes seeing a caribou on her hike to Two Mouth Lakes Debbie Ackley Encounter at Two Mouth Lakes 1 of 33 oral histories of caribou encounters, game camera footage of species currently inhabiting former caribou habitat, and various historical documents about caribou existence in the South Selkirks. </p>
+
+                       <h2>About the Exhibit</h2>
+                        <p>This exhibit features the entirety of the Storying Extinction digital collection. Each item is represented above its geographical location as represented via this Leaflet (a Javascript mapping library) application. By clicking on the buttons to the right or left of the screen, a user moves through the collection and across the map. For the exhibit, we also added a feature where the map will move onto a new object every 20 seconds.</p>
+                       
+
+
+                        <p>For more information and to see the entire digital exhibit, please visit https://cdil.lib.uidaho.edu/storying-extinction/about.html or use the QR code below. The website features several interpretive essays and features that supplements and contextualizes the material featured on the map.</p>
+
+                        <img src="{{ '/assets/img/qr-code.png' | relative_url }}" alt="a QR code that takes one to the about page of the STorying Extinction project." class="img-fluid" />
+
+                        <h2>Credits and Support</h2>
+
+                        <p>
+                            This site and project were created by Jack Kredell, Christopher Lamb, and Devin Becker @ the Center for Digital Inquiry & Learning (CDIL) over the course of two years (June 2020 - February 2022). Support for the project was furnished by the University of Idaho Library via a CDIL Graduate Student Fellowship. 
+                        </p>
+                        <img src="{{ '/assets/img/uidaholibrary.png' | relative_url }}" alt="Univerity of Idaho Library Logo" class="img-fluid" />
+                        <img src="{{ '/assets/img/cdil.png' | relative_url }}" alt="Center for Digital Inquiry and Learning Logo" class="img-fluid" />
+</div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="modal-footer">
+                <div class="text-center">
+
+                </div>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>

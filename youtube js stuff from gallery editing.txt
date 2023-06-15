@@ -1,6 +1,6 @@
 {%- assign fields = site.data.config-metadata -%}
 {%- assign stubs = site.data.config-nav | map: 'stub' | join: ';' -%}
-{%- assign mapitems = site.data.gallery-storying | where_exp: 'item','item.latitude != nil and item.longitude != nil and item.filename != nil' -%}
+{%- assign mapitems = site.data[site.metadata] | where_exp: 'item','item.latitude != nil and item.longitude != nil and item.filename != nil' -%}
 <script src="{{ '/assets/lib/lightgallery/js/lightgallery-all.min.js' | relative_url }}"></script>
 <script>
 /* add item data */
@@ -37,7 +37,7 @@ var items = {
             itemLink= '<a href="' + record.filename + '" target="_blank" class="btn btn-outline-light" title="Object download">Download Audio File</a>';
         } else if (format.includes('video')) {
             if (record.youtube){
-            itemImage= '<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/' + record.youtube + '?rel=0&modestbranding=1&autoplay=1" allowfullscreen></iframe></div>';
+            itemImage= '<div class="embed-responsive embed-responsive-16by9"><iframe id="youtube-iframe" class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/' + record.youtube + '?rel=0&modestbranding=1&enablejsapi=1" allowfullscreen  ></iframe></div>';
             itemLink= '<a href="https://youtu.be/' + record.youtube + '" target="_blank" class="btn btn-outline-light" title="Object download">View on YouTube</a>';}
             else {
             itemImage= '<div class="embed-responsive embed-responsive-16by9"><video class="embed-responsive-item" width="320" height="240" controls autoplay="1"><source src="'+ record.filename +'" type="video/mp4">Your browser does not support the video tag.</video></div>'
@@ -161,7 +161,7 @@ function newRecord(nextRecord){
             itemLink= '<a href="' + objectLink + '" target="_blank" class="btn btn-outline-light" title="Object download">Download Audio File</a>';
         } else if (format.includes('video')) {
             if (record.youtube){
-            itemImage= '<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/' + record.youtube + '?rel=0&modestbranding=1" allowfullscreen></iframe></div>';
+            itemImage= '<div class="embed-responsive embed-responsive-16by9"><iframe id="youtube-iframe" class="embed-responsive-item" src="https://www.youtube.com/embed/' + record.youtube + '?rel=0&modestbranding=1&enablejsapi=1" allowfullscreen  ></iframe></div>';
             itemLink= '<a href="https://youtu.be/' + record.youtube + '" target="_blank" class="btn btn-outline-light" title="Object download">View on YouTube</a>';}
             else {
             itemImage= '<div class="embed-responsive embed-responsive-16by9"><video class="embed-responsive-item" width="320" height="240" controls autoplay><source src="'+ record.filename +'" type="video/mp4">Your browser does not support the video tag.</video></div>'
@@ -278,7 +278,7 @@ function newRecord(nextRecord){
 };
 
 </script>
-{%- assign items = site.data.gallery-storying | where_exp: 'item','item.latitude' -%}
+{%- assign items = site.data[site.metadata] | where_exp: 'item','item.latitude' -%}
 {%- assign mapfields = site.data.config-map -%}
 <!-- load leaflet dependencies -->
 <script src="{{ '/assets/lib/leaflet/leaflet.js' | relative_url }}"></script>
@@ -443,26 +443,37 @@ function clickNextButtonEvery20Seconds() {
 
   function resetInterval() {
     clearInterval(intervalId);
-    intervalId = setInterval(clickNextButton, 15000);
+    intervalId = setInterval(clickNextButton, 20000);
   }
 
   function clickNextButton() {
     var nextButton = document.getElementById('next-button');
-    var mp4Video = document.querySelector('video[src$=".mp4"]');
-    var mapOffElement = document.getElementById('map-off');
+    var youtubeVideoPlaying = false;
+    var youtubePlayerElements = document.getElementsByTagName('iframe');
+        var mapOffElement = document.getElementById('map-off');
     var videoElements = document.querySelectorAll('video');
 
-    
+    for (var i = 0; i < youtubePlayerElements.length; i++) {
+      var youtubePlayer = youtubePlayerElements[i];
+      var youtubePlayerSrc = youtubePlayer.getAttribute('src');
+
+      if (youtubePlayerSrc && youtubePlayerSrc.includes('youtube') && youtubePlayer.contentWindow && youtubePlayer.contentWindow.postMessage) {
+        youtubePlayer.contentWindow.postMessage('{"event":"command","func":"isPlaying","args":""}', '*');
+        youtubeVideoPlaying = true;
+        break;
+      }
+    }
+
     var videoPlaying = Array.from(videoElements).some(function(videoElement) {
       return !videoElement.paused;
     });
 
-    if (!videoPlaying  && nextButton && mapOffElement && !mapOffElement.classList.contains('d-none')) {
+    if (!youtubeVideoPlaying && !videoPlaying && nextButton && mapOffElement && !mapOffElement.classList.contains('d-none')) {
       nextButton.click();
     }
   }
 
-  intervalId = setInterval(clickNextButton, 15000);
+  intervalId = setInterval(clickNextButton, 20000);
 
   document.getElementById('next-button').addEventListener('click', resetInterval);
   document.getElementById('prev-button').addEventListener('click', resetInterval);
@@ -474,4 +485,76 @@ console.log('next~');
 
 clickNextButtonEvery20Seconds();
 
+
+  // OPEn AI Chat GPT -->YouTube video end event listener
+/*
+function setupYouTubeVideoEndListener() {
+  var youtubePlayerElements = document.getElementsByTagName('iframe');
+  var nextButton = document.getElementById('for-button');
+  for (var i = 0; i < youtubePlayerElements.length; i++) {
+    var youtubePlayer = youtubePlayerElements[i];
+    var youtubePlayerSrc = youtubePlayer.getAttribute('src');
+
+    if (youtubePlayerSrc && youtubePlayerSrc.includes('youtube') && youtubePlayer.contentWindow && youtubePlayer.contentWindow.postMessage) {
+      youtubePlayer.contentWindow.postMessage('{"event":"listening","id":"youtube-video-end-listener"}', '*');
+    }
+  }
+}
+
+window.addEventListener('message', function(event) {
+  if (event.data === 'youtube-video-end-listener') {
+    nextButton.click();
+    console.log('youtube-done');
+  }
+});
+
+// Call the setupYouTubeVideoEndListener function to set up the event listener for YouTube videos
+setupYouTubeVideoEndListener();
+
+// Bard --> YouTube listener ...
+var player = document.querySelector('iframe');
+
+// Add an event listener for the ended event
+player.addEventListener('ended', function() {
+
+  // Get the "next-button" element
+  var nextButton = document.getElementById('next-button');
+
+  // Click the button
+  nextButton.click();
+});
+*/
+var tag = document.createElement('script');
+    tag.id = 'iframe-demo';
+    tag.src = 'https://www.youtube.com/iframe_api';
+    var firstScriptTag = document.getElementsByTagName('script')[0];
+    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+  
+    var player;
+    function onYouTubeIframeAPIReady() {
+      player = new YT.Player('youtube-iframe', {
+          events: {
+            'onReady': onPlayerReady,
+            'onStateChange': onPlayerStateChange
+          }
+      });
+    }
+    function onPlayerReady(event) {
+        clickNextButtonEvery20Seconds();
+        console.log("ready");
+    }
+    function goOntothenextone(playerStatus) {
+        var nextButton = document.getElementById('next-button');
+
+      if (playerStatus == 0) {
+        nextButton.click();
+      } 
+    }
+    function onPlayerStateChange(event) {
+        goOntothenextone(event.data);
+    }
 </script>
+<script type="text/javascript">
+    
+  </script>
+  

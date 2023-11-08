@@ -19,20 +19,19 @@ permalink: /etymology_extracts.html
 {:.my-4 .table-striped}
 ---|---      
 :---|---:
-NAXNI, | *Ktunaxa/Kootenai*.                                         
-TIPITÉUISIN, (male), TATÁPAI (female), | *Nimipuutímt/Nez Perce*.
-VADZAIH, | *Vuntut Gwich’in*.
-TUKTU, | *Inuktitut*.
-MAKA·LIPOWA ("it shovels snow"), | *Proto-Algonquin*.
-QUALIPU, | *Mi'kmaq*.
-CARIBOU, | *French*.
-CARIBOU, | *English*.
-KARIBU, |  *German*.
-BOAZU (domesticated), GODDI (wild), | *Northern Sámi*.
+naxni, | *Ktunaxa/Kootenai*.                                         
+vadzaih, | *Vuntut Gwich’in*.
+tuktu, | *Inuktitut*.
+maka·lipowa ("it shovels snow"), | *Proto-Algonquin*.
+qualipu, | *Mi'kmaq*.
+caribou, | *French*.
+caribou, | *English*.
+karibu, |  *German*.
+boazu (domesticated), goddi (wild), | *Northern Sámi*.
 се́верный оле́нь, | *Russian*.
-HREINN, | *Old Norse*.
-HRÁN, | *Anglo-Saxon*.
-RANGIFER TARANDUS CARIBOU, | *binomial/International Code of Zoological Nomenclature*.
+hreinn, | *Old Norse*.
+hrán, | *Anglo-Saxon*.
+rangifer tarandus caribou, | *binomial/International Code of Zoological Nomenclature*.
 
 
 

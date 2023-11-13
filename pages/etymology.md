@@ -19,7 +19,7 @@ permalink: /etymology_extracts.html
 {:.my-4 .table-striped}
 ---|---      
 :---|---:
-naxni, | *Ktunaxa/Kootenai*.                                         
+naxni, | *Ktunaxa/Kootenai*. {% include feature/marginnote.html id="dev" text="The Indigenous names for caribou listed here are sourced from The First Peoples’ Cultural Council (FPCCA.ca) through <www.firstvoices.com>. All further uses must acknowledge this source and provide the link to the FirstVoices homepage." %}                                       
 vadzaih, | *Vuntut Gwich’in*.
 tuktu, | *Inuktitut*.
 maka·lipowa ("it shovels snow"), | *Proto-Algonquin*.

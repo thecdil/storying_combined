@@ -16,10 +16,10 @@ permalink: /etymology_extracts.html
 {:.my-4 .pb-4}
 **caribou, n.** A reindeer belonging to any of several subspecies found in North America; esp. the migratory Rangifer tarandus groenlandicus. {% include feature/marginnote.html id="dev" text="The world's Caribou and Reindeer are classified as a single species *Rangifer tarandus*. Reindeer is the European name for the species while in North America, the species is known as Caribou (IUCN 2021)." %} etymology: <French caribou (1609) < Micmac *qaripu*, earlier form of qalipu (pronounced /xalibu/, cognate with Maliseet-Passamaquoddy mokalip caribou: see maccarib n.), reflecting an agent noun of an Algonquian verb with the sense ‘to shovel snow, to clear away snow’ (compare Ojibwa mangaanibii he shovels snow), so called on account of the animal's habit of scraping away snow to feed on the vegetation underneath. "Caribou." *Oxford English Dictionary*
 
-{:.my-4 .table-striped}
+{:.my-4 .table-striped}{% include feature/marginnote.html id="dev" text="The Indigenous names for caribou listed here are sourced from The First Peoples’ Cultural Council (FPCCA.ca) through <www.firstvoices.com>. All further uses must acknowledge this source and provide the link to the FirstVoices homepage." %}
 ---|---      
 :---|---:
-naxni, | *Ktunaxa/Kootenai*. {% include feature/marginnote.html id="dev" text="The Indigenous names for caribou listed here are sourced from The First Peoples’ Cultural Council (FPCCA.ca) through <www.firstvoices.com>. All further uses must acknowledge this source and provide the link to the FirstVoices homepage." %}                                       
+naxni, | *Ktunaxa/Kootenai*.                                       
 vadzaih, | *Vuntut Gwich’in*.
 tuktu, | *Inuktitut*.
 maka·lipowa ("it shovels snow"), | *Proto-Algonquin*.

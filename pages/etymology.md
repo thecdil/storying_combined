@@ -16,14 +16,13 @@ permalink: /etymology_extracts.html
 {:.my-4 .pb-4}
 **caribou, n.** A reindeer belonging to any of several subspecies found in North America; esp. the migratory Rangifer tarandus groenlandicus. {% include feature/marginnote.html id="dev" text="The world's Caribou and Reindeer are classified as a single species *Rangifer tarandus*. Reindeer is the European name for the species while in North America, the species is known as Caribou (IUCN 2021)." %} etymology: <French caribou (1609) < Micmac *qaripu*, earlier form of qalipu (pronounced /xalibu/, cognate with Maliseet-Passamaquoddy mokalip caribou: see maccarib n.), reflecting an agent noun of an Algonquian verb with the sense ‘to shovel snow, to clear away snow’ (compare Ojibwa mangaanibii he shovels snow), so called on account of the animal's habit of scraping away snow to feed on the vegetation underneath. "Caribou." *Oxford English Dictionary*
 
-{:.my-4 .table-striped}{% include feature/marginnote.html id="dev" text="The Indigenous names for caribou listed here are sourced from The First Peoples’ Cultural Council (FPCCA.ca) through <www.firstvoices.com>. All further uses must acknowledge this source and provide the link to the FirstVoices homepage." %}
+{:.my-4 .table-striped}
 ---|---      
 :---|---:
-naxni, | *Ktunaxa/Kootenai*.                                       
-vadzaih, | *Vuntut Gwich’in*.
-tuktu, | *Inuktitut*.
-maka·lipowa ("it shovels snow"), | *Proto-Algonquin*.
-qualipu, | *Mi'kmaq*.
+naxni,^1^ | *Ktunaxa/Kootenai*.                                       
+vadzaih,^2^ | *Vuntut Gwich’in*.
+tuktu,^3^ | *Inuktitut*.
+qualipu,^4^ | *Mi'kmaq*.
 caribou, | *French*.
 caribou, | *English*.
 karibu, |  *German*.
@@ -32,7 +31,9 @@ boazu (domesticated), goddi (wild), | *Northern Sámi*.
 hreinn, | *Old Norse*.
 hrán, | *Anglo-Saxon*.
 rangifer tarandus caribou, | *binomial/International Code of Zoological Nomenclature*.
-
+{% include feature/marginnote.html id="dev" text="^1^^,^^2^The Indigenous names for caribou listed here are sourced from The First Peoples’ Cultural Council through <www.firstvoices.com>." %}
+{% include feature/marginnote.html id="dev" text="^3^uqausiit: THE INUKTUT GRAMMAR DICTIONARY <https://uqausiit.ca/>." %}
+{% include feature/marginnote.html id="dev" text="^4^<www.mikmaqonline.org>." %}
 
 
 **EXTRACTS.**

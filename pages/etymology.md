@@ -20,7 +20,7 @@ permalink: /etymology_extracts.html
 {% include feature/marginnote.html id="onetwo" text="<sup>1 2</sup> The Indigenous names for caribou listed here are sourced from The First Peoples’ Cultural Council through <a href='www.firstvoices.com'>www.firstvoices.com</a>." %}
 
 {% include feature/marginnote.html id="three" text="
-<sup>3</sup><em>THE INUKTUT GRAMMAR DICTIONARY</em>, [https://uqausiit.ca/](https://uqausiit.ca/)." %}
+<sup>3</sup><em>uqausiit: The Inuktut Grammar Dictionary</em>, [https://uqausiit.ca/](https://uqausiit.ca/)." %}
 
 {% include feature/marginnote.html id="four" text="<sup>4</sup>[www.mikmaqonline.org](www.mikmaqonline.org)." %}
 
@@ -42,7 +42,7 @@ rangifer tarandus caribou, | *binomial/International Code of Zoological Nomencla
 
 {:.d-md-none .small .mb-5}
 - <sup>1 2 </sup>The Indigenous names for caribou listed here are sourced from The First Peoples’ Cultural Council through [www.firstvoices.com](www.firstvoices.com)."
-- <sup>3</sup><em>THE INUKTUT GRAMMAR DICTIONARY</em>, [https://uqausiit.ca/](https://uqausiit.ca/).
+- <sup>3</sup><em>uqausiit: The Inuktut Grammar Dictionary</em>, [https://uqausiit.ca/](https://uqausiit.ca/).
 - <sup>4</sup>[www.mikmaqonline.org](www.mikmaqonline.org)."
 
 

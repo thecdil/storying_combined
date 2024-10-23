@@ -52,7 +52,7 @@ rangifer tarandus caribou, | *binomial/International Code of Zoological Nomencla
 {% include feature/marginnote-image.html id="david-thompson" image="david-thompson"  %}
 {% include feature/quote.md text="In the afternoon on one of the dry shoals of the River [near present day Revelstoke] we came to a herd of eight Rein Deer, they were not shy, and we shot a good Doe, and might have killed two, or three more. The hunters often mentioned to me that they had seen Rein Deer, but I doubted if they were of the same species that is found around Hudson's Bay and the interior country; upon examination I found no difference: the question is from whence do they come, as they are not known in any part of these countries except in the vicinity of the Canoe River, by the head of which they probably have a pass to the east side of the Mountains." source="*David Thompson’s Narrative*, 1810." %}
 
-{% include feature/marginnote.html id="dev" text="<q>Tarandus Furcifer, Agassiz. Caribou Or American Rein-Deer. Males. 1. Summer pelage. 2. Winter pelage.</q> James Audobon and John Bachman, *The Viviparous Quadrupeds of North America* (1847)" %}
+{% include feature/marginnote.html id="dev" text="<q>Tarandus Furcifer, Agassiz. Caribou Or American Rein-Deer. Males. 1. Summer pelage. 2. Winter pelage.</q> James Audubon and John Bachman, *The Viviparous Quadrupeds of North America* (1847)" %}
 {% include feature/figure.html objectid="caribou_audubon" caption=false %}
 
 

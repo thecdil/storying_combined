@@ -7,7 +7,6 @@
     - "objectid" = the given object (photo or youtube) will create a card cap image
     - "width" will use Bootstrap sizing to set the % size, choose from "25", "50", "75", or "100"
     - "float" will use Bootstrap float utility to add float, choose from "left" or "right"
-{% endcapture %}
 {%- endcomment -%}
 
 {%- assign items = site.data[site.metadata] | where_exp: 'item','item.format contains "image" or item.format contains "video"' -%}

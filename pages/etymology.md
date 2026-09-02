@@ -152,6 +152,13 @@ rangifer tarandus caribou, | *binomial/International Code of Zoological Nomencla
 {% include feature/quote.md text="My girlfriend and I, meanwhile, were out trying to forge a path to Harrison peak. I had heard you can make your way there from the Two Mouth lakes, though there seemed to be no trails. It ended up being farther than it seemed, and we climbed a closer one which we at first thought was Harrison peak. A warning if you attempt this, the brush is tall, ranging from knee to chest height. Coming up the side of the peak, we got to a small unnamed lake (which you can see on google maps) that has another granite peak directly behind it. Beautiful. Ate lunch there and climbed our original goal, the slightly smaller peak to the right, yielding an excellent view of the two mouth lakes and the stream that connects them. I will say it definitely felt more wild somehow, than down by the Two Mouth lakes. I thought I glimpsed and heard an animal when we first approached the unnamed lake, and when we went out of sight ascending the peak, we both clearly heard something large and probably hooved stomping about in the lake. This is the last forest in the continental US with caribou, I wonder if it was one of those." source="Nick Broce, AllTrails.com, Oct. 1st, 2020. " %}
 
 
-	
+
 {% include feature/quote.md text="They’re shadows." source="Dave Boswell, *Storying Extinction*, 2020." %}  
  
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kZp7UHop3VI?si=osS_6RtB2zSQ26y-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+
+{% include feature/quote.md text="If you ever find yourself in northern Idaho, look up toward the highest snowiest peaks. You might not see them. They are called the gray ghosts for a reason, but they are there. They are pruning the lichen, gardening the wildflowers, and guarding the water. They are the silent architects of the Idaho peaks. And they are proof that even when a species seems gone, its spirit remains in the land, waiting for the right hand to bring it back to life.." source="AI-generated *Idaho Released 800 Caribou Into Empty Mountains — What Returned 15 Years Later Stunned Biologists*, 2026." %}  
+
